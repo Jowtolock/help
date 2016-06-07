@@ -12,7 +12,7 @@
   * [云锁是否具有杀毒功能？](chang_jian_wen_ti/yun_suo_shi_fou_ju_you_sha_du_gong_neng_ff1f.md)
   * [云锁会否拦截爬虫？](chang_jian_wen_ti/yun_suo_hui_fou_lan_jie_pa_chong_ff1f.md)
   * [登录云锁客户端提示“服务端连接失败”可能导致的原因](chang_jian_wen_ti/deng_lu_yun_suo_ke_hu_duan_ti_shi_201c_fu_wu_duan_.md)
-  * [CC触发条件的含义](chang_jian_wen_ti/cchong_fa_tiao_jian_de_han_yi.md)
+  * [CC基本设置的含义](chang_jian_wen_ti/CC基本设置的含义.md)
   * [云锁安装失败，无法再次安装或卸载失败时的解决方法](chang_jian_wen_ti/yun_suo_an_zhuang_shi_bai_ff0c_wu_fa_zai_ci_an_zhu.md)
   * [云锁升级的问题](chang_jian_wen_ti/yun_suo_sheng_ji_de_wen_ti.md)
   * [云锁升级会影响以前的配置么？](chang_jian_wen_ti/yun_suo_sheng_ji_hui_ying_xiang_yi_qian_de_pei_zhi.md)
