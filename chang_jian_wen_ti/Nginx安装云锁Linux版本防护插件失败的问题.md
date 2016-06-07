@@ -17,4 +17,5 @@
 3.“checking nginx”提示“ls: cannot access…”
 
 <center>![](/assets/cannot access.png)
+
 通常因为当前系统Nginx本身异常或Nginx进程异常，重新调试或者重新安装Nginx后再次安装云锁。
