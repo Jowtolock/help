@@ -35,7 +35,7 @@
   * [Linux服务器信息的操作系统显示UNKNOW的问题](chang_jian_wen_ti/linuxfu_wu_qi_xin_xi_de_cao_zuo_xi_tong_xian_shi_u.md)
   * [WDCP卸载云锁后，后台登录失败的问题](chang_jian_wen_ti/wdcpxie_zai_yun_suo_hou_ff0c_hou_tai_deng_lu_shi_b.md)
   * [PC端提示“命令被撤销”的问题](chang_jian_wen_ti/pcduan_ti_shi_201c_ming_ling_bei_che_xiao_201d_de_.md)
-  * [PC端操作提示“请求被过滤”的问题](chang_jian_wen_ti/pcduan_cao_zuo_ti_shi_201c_qing_qiu_bei_guo_lv_201.md)
+  * [PC端操作提示“请求被过滤”的问题](chang_jian_wen_ti/PC端操作提示“请求被过滤的”问题.md)
   * [关闭防盗链功能，网页文件的图片还是无法显示的问题](chang_jian_wen_ti/guan_bi_fang_dao_lian_gong_neng_ff0c_wang_ye_wen_j.md)
   * [云锁忘记九宫格密码怎么办？](chang_jian_wen_ti/yun_suo_wang_ji_jiu_gong_ge_mi_ma_zen_yao_ban_ff1f.md)
   * [Linux安装云锁提示Detected SElinux opening,close and then install的问题](chang_jian_wen_ti/linuxan_zhuang_yun_suo_ti_shi_detected_selinux_ope.md)
