@@ -1,4 +1,4 @@
-## CC触发条件的含义
+## CC基本设置的含义
 
 <center>![](/assets/CC基本设置.jpg)
 
