@@ -7,4 +7,4 @@
  <br>\# /usr/local/yunsuo_agent/uninstall_driver
  <br>\# rm -rf /usr/local/yunsuo_agent/update
  <br>\# ps -ef | grep YSUpdate
- <br>\# kilalll YSUpdate
+ <br>\# killall YSUpdate
