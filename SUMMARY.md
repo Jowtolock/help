@@ -50,7 +50,7 @@
   * [多机版提示“通道选择器没有找到指定通道”的问题](chang_jian_wen_ti/duo_ji_ban_ti_shi_201c_tong_dao_xuan_ze_qi_mei_you.md)
   * [云锁一直提示“正在升级”的问题](chang_jian_wen_ti/云锁一直提示“正在升级”的问题.md)
   * [CC攻击设置高级首次访问验证通过后，以后访问还需要输入验证么？](chang_jian_wen_ti/CC攻击设置高级首次访问验证通过后，以后访问还需要输入验证么.md)
-  * [Linux驱动未加载的问题](chang_jian_wen_ti/linuxqu_dong_wei_jia_zai_de_wen_ti.md)
+  * [Linux驱动未加载的问题](chang_jian_wen_ti/Linux驱动未加载的问题.md)
   * [安装云锁Linux版本时停在“Prepare Files”无法继续安装的问题](chang_jian_wen_ti/an_zhuang_yun_suo_linux_ban_ben_shi_ting_zai_201c_.md)
   * [安装Linux版本时，停在“extract compression package”无法继续安装的问题](chang_jian_wen_ti/an_zhuang_linux_ban_ben_shi_ff0c_ting_zai_201c_ext.md)
   * [Nginx安装云锁Linux版本防护插件失败的问题](chang_jian_wen_ti/nginxan_zhuang_yun_suo_linux_ban_ben_fang_hu_cha_j.md)
