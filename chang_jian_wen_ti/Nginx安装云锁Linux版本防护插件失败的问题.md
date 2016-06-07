@@ -4,7 +4,7 @@
 
 <center>![](/assets/nginx not found.png)
 
-一般造成这个提示的原因主要有2个，一种是安装云锁Linux版本时Nginx未正常运行；另一种是Nginx加载了第三方模块。通过命令“# nginx -V”查看是否有加载第三方模块。
+一般造成这个提示的原因主要有2个，一种是安装云锁Linux版本时Nginx未正常运行；另一种是Nginx加载了第三方模块。通过命令“nginx -V”查看是否有加载第三方模块。
 
 2.“checking nginx”提示“Configure nginx failed,May this version is not supported”
 
