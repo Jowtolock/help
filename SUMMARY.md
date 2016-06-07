@@ -18,7 +18,7 @@
   * [云锁升级会影响以前的配置么？](chang_jian_wen_ti/yun_suo_sheng_ji_hui_ying_xiang_yi_qian_de_pei_zhi.md)
   * [云锁安装后会影响服务器、网站性能么？](chang_jian_wen_ti/yun_suo_an_zhuang_hou_hui_ying_xiang_fu_wu_qi_3001.md)
   * [安装时弹出提示“正在为此硬件安装的软件”的问题](chang_jian_wen_ti/an_zhuang_shi_dan_chu_ti_shi_201c_zheng_zai_wei_ci.md)
-  * [VPS共享IP为什么登录服务器端失败？](chang_jian_wen_ti/vpsgong_xiang_ip_wei_shi_yao_deng_lu_fu_wu_qi_duan.md)
+  * [VPS共享IP为什么登录服务器端失败？](chang_jian_wen_ti/VPS共享IP为什么登录服务器端失败.md)
   * [安装完云锁服务器端和客户端，还需要重启系统么?](chang_jian_wen_ti/an_zhuang_wan_yun_suo_fu_wu_qi_duan_he_ke_hu_duan_.md)
   * [云锁PC端关闭后，服务器端还会继续运行么？](chang_jian_wen_ti/yun_suo_pc_duan_guan_bi_hou_ff0c_fu_wu_qi_duan_hua.md)
   * [云锁支持虚拟空间么？](chang_jian_wen_ti/yun_suo_zhi_chi_xu_ni_kong_jian_yao_ff1f.md)
