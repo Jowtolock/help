@@ -9,7 +9,7 @@
   * [云锁收费么？](chang_jian_wen_ti/云锁收费么.md)
   * [什么是云锁的服务端和客户端？](chang_jian_wen_ti/什么是云锁的服务器端和客户端.md)
   * [安装云锁时被杀毒软件误报的问题](chang_jian_wen_ti/安装云锁时被杀毒软件误报的问题.md)
-  * [云锁是否具有杀毒功能？](chang_jian_wen_ti/yun_suo_shi_fou_ju_you_sha_du_gong_neng_ff1f.md)
+  * [云锁是否具有杀毒功能？](chang_jian_wen_ti/云锁是否具有杀毒功能.md)
   * [云锁会否拦截爬虫？](chang_jian_wen_ti/yun_suo_hui_fou_lan_jie_pa_chong_ff1f.md)
   * [登录云锁客户端提示“服务端连接失败”可能导致的原因](chang_jian_wen_ti/deng_lu_yun_suo_ke_hu_duan_ti_shi_201c_fu_wu_duan_.md)
   * [CC基本设置的含义](chang_jian_wen_ti/CC基本设置的含义.md)
