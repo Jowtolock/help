@@ -9,11 +9,11 @@
 
 <font color="#0000FF">**Linux:**</font>
 <br>RedHat 5.0~RedHat 5.11（x86/x64）
-<br>RedHat 6.0~RedHat 6.6（x86/x64）
-<br>RedHat 7.0
+<br>RedHat 6.0~RedHat 6.7（x86/x64）
+<br>RedHat 7.0~RedHat 7.2
 <br>CentOS 5.0~CentOS 5.11（x86/x64）
-<br>CentOS 6.0~CentOS 6.6（x86/x64）
-<br>CentOS 7.0
+<br>CentOS 6.0~CentOS 6.7（x86/x64）
+<br>CentOS 7.0~CentOS 7.2
 
 **PC客户端**
 <br>Windows XP SP3 及以上
