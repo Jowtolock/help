@@ -21,7 +21,6 @@
    * [云锁PC端关闭后，服务器端还会继续运行么？](chang_jian_wen_ti/云锁PC端关闭后，服务器端还会继续运行么.md)
    * [云锁支持虚拟空间么？](chang_jian_wen_ti/云锁支持虚拟空间么.md)
    * [云锁可以管理多个服务器么？](chang_jian_wen_ti/云锁可以管理多个服务器么.md)
-   * [安装提示“无法找到入口”的问题](chang_jian_wen_ti/安装提示“无法找到入口”的问题.md)
    * [设置“暗链挂马防护”网站无法访问或无法进行修改的问题](chang_jian_wen_ti/she_zhi_201c_an_lian_gua_ma_fang_hu_201d_wang_zhan.md)
    * [卸载云锁网站无法访问的问题](chang_jian_wen_ti/xie_zai_yun_suo_wang_zhan_wu_fa_fang_wen_de_wen_ti.md)
    * [云锁安装后部分功能未生效的问题](chang_jian_wen_ti/yun_suo_an_zhuang_hou_bu_fen_gong_neng_wei_sheng_x.md)
