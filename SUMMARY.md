@@ -3,7 +3,7 @@
 * [常见问题](README.md)
 * [目录](mu_lu.md)
 * [常见问题](chang_jian_wen_ti/README.md)
-  * [云锁支持哪些系统？](chang_jian_wen_ti/yun_suo_zhi_chi_na_xie_xi_tong_ff1f.md)
+  * [云锁支持哪些系统？](chang_jian_wen_ti/云锁支持哪些系统.md)
   * [云锁支持哪些Web中间件？](chang_jian_wen_ti/云锁支持哪些Web中间件.md)
   * [云锁Linux版本支持的面板](chang_jian_wen_ti/yun_suo_linux_ban_ben_zhi_chi_de_mian_ban.md)
   * [云锁收费么？](chang_jian_wen_ti/yun_suo_shou_fei_yao_ff1f.md)
