@@ -5,7 +5,7 @@
 * [常见问题](chang_jian_wen_ti/README.md)
   * [云锁支持哪些系统？](chang_jian_wen_ti/云锁支持哪些系统.md)
   * [云锁支持哪些Web中间件？](chang_jian_wen_ti/云锁支持哪些Web中间件.md)
-  * [云锁Linux版本支持的面板](chang_jian_wen_ti/yun_suo_linux_ban_ben_zhi_chi_de_mian_ban.md)
+  * [云锁Linux版本支持的面板](chang_jian_wen_ti/云锁Linux版本支持的面板.md)
   * [云锁收费么？](chang_jian_wen_ti/yun_suo_shou_fei_yao_ff1f.md)
   * [什么是云锁的服务端和客户端？](chang_jian_wen_ti/shi_yao_shi_yun_suo_de_fu_wu_duan_he_ke_hu_duan_ff.md)
   * [安装云锁时被杀毒软件误报的问题](chang_jian_wen_ti/an_zhuang_yun_suo_shi_bei_sha_du_ruan_jian_wu_bao_.md)
