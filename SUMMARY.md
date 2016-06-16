@@ -14,7 +14,7 @@
   * [登录云锁客户端提示“服务端连接失败”可能导致的原因](chang_jian_wen_ti/服务器端连接失败.md)
   * [CC基本设置的含义](chang_jian_wen_ti/CC基本设置的含义.md)
   * [云锁安装失败，无法再次安装或卸载失败时的解决方法](chang_jian_wen_ti/Windows手工卸载云锁的方法.md)
-  * [云锁升级的问题](chang_jian_wen_ti/yun_suo_sheng_ji_de_wen_ti.md)
+  * [云锁升级的问题](chang_jian_wen_ti/云锁升级的问题.md)
   * [云锁升级会影响以前的配置么？](chang_jian_wen_ti/云锁升级会影响以前的配置么.md)
   * [云锁安装后会影响服务器、网站性能么？](chang_jian_wen_ti/yun_suo_an_zhuang_hou_hui_ying_xiang_fu_wu_qi_3001.md)
   * [安装时弹出提示“正在为此硬件安装的软件”的问题](chang_jian_wen_ti/an_zhuang_shi_dan_chu_ti_shi_201c_zheng_zai_wei_ci.md)
