@@ -31,7 +31,7 @@
     * [PC端操作提示“请求被过滤”的问题](chang_jian_wen_ti/PC端操作提示“请求被过滤的”问题.md)
     * [关闭防盗链功能，网页文件的图片还是无法显示的问题](chang_jian_wen_ti/guan_bi_fang_dao_lian_gong_neng_ff0c_wang_ye_wen_j.md)
     * [云锁忘记九宫格密码怎么办？](chang_jian_wen_ti/yun_suo_wang_ji_jiu_gong_ge_mi_ma_zen_yao_ban_ff1f.md)
-    * [Linux安装云锁提示Detected SElinux opening,close and then install的问题](chang_jian_wen_ti/linuxan_zhuang_yun_suo_ti_shi_detected_selinux_ope.md)
+    * [Linux安装云锁提示"Detected SElinux opening,close and then install"的问题](chang_jian_wen_ti/Linux安装云锁提示"Detected SElinux opening,close and then install"的问题.md)
     * [识别未知CDN的流程](chang_jian_wen_ti/shi_bie_wei_zhi_cdn_de_liu_cheng.md)
     * [服务器连接被断开解决方法](chang_jian_wen_ti/fu_wu_qi_lian_jie_bei_duan_kai_jie_jue_fang_fa.md)
     * [将云锁的5555端口添加到防火墙的方法](chang_jian_wen_ti/jiang_yun_suo_de_5555_duan_kou_tian_jia_dao_fang_h.md)
