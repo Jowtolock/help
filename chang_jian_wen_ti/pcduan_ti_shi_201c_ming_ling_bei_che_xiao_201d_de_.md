@@ -1,5 +1,4 @@
 ## PC端提示“命令被撤销”的问题
 
-![C:\Users\Tian\Documents\Tencent Files\1011094267\Image\Group\J66Z%}8BA{WEAPH%XL_M(54.png](assets/cuserstiandocumentstencent_fil.png)
 
-命令被撤销是由于网络环境不稳定导致突然中断，而在中断的同时有指令继续发送，发送未成功弹出的提示信息。出现该问题关闭PC端重新连接即可。
+&emsp;&emsp;命令被撤销是由于网络环境不稳定导致突然中断，而在中断的同时有指令继续发送，发送未成功弹出的提示信息。出现该问题关闭PC端重新连接即可。
