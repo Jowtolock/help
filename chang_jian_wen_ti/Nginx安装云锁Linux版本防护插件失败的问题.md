@@ -12,7 +12,7 @@
 
 &emsp;&emsp;产生该提示原因也有2个，一种为Nginx进行过二次开发；另一种是网络不稳定，导致Nginx防护插件下载失败，可以通过查看/usr/local/yunsuo_agent/runlog/update.log查看。
 
-如果加载了第三方模块或者进行过二次编译，可以通过自编译带有yunsuo的模块来支持这2种情况。
+&emsp;&emsp;如果加载了第三方模块或者进行过二次编译，可以通过自编译带有yunsuo的模块来支持这2种情况。
 
 3.“checking nginx”提示“ls: cannot access…”
 
