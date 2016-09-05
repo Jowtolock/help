@@ -1,17 +1,14 @@
-## Linux密钥登录怎样登录云锁的PC端
+## Linux密钥登录怎样登录云锁的PC端?
 
 大部分用户管理Linux服务器时，为了安全都会使用密钥进行登录，而不是使用root密码登录，但是云锁登录却需要使用root密码进行登录管理。遇到这种情况可以先设置root密码，再修改ssh禁止使用密码登录系统，这样既可以登录云锁，也解决了ssh登录安全的问题。
 
 WDCP用户可以登录wdcp面板，进入“安全管理”-“ssh管理”，修改私钥密码。修改私钥密码后再关闭“密码验证登录”，这样既不影响ssh的密钥登录也不影响云锁使用root密码登录。
-
+![](/assets/wdcp密钥.png)
 非wdcp的用户，可以通过密钥方式登录系统，通过命令修改设置root登录密码。
-
-# passwd
-
-编辑ssh配置文件，将PasswordAuthentication 的yes改为no后:wq保存。
-
-# vi /etc/ssh/sshd_config
+<pre># passwd</pre>
+ 编辑ssh配置文件，将PasswordAuthentication 的yes改为no后:wq保存。
+<pre># vi /etc/ssh/sshd_config</pre>
+![](/assets/ssh密钥.png)
 
 重启ssh服务
-
-/etc/init.d/sshd restart 或 service sshd restart
+<pre>/etc/init.d/sshd restart 或 service sshd restart</pre>
