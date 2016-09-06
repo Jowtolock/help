@@ -55,19 +55,13 @@
 
 [27. 网站性能监控下为什么多了其它的域名？](chang_jian_wen_ti/网站性能监控下为什么多了其它的域名？.md)
 
-[47. Linux密钥登录怎样登录云锁的PC端](chang_jian_wen_ti/linuxmi_yao_deng_lu_zen_yang_deng_lu_yun_suo_de_pc.md)
+[28. Linux密钥方式怎样登录云锁的PC端](chang_jian_wen_ti/Linux密钥方式怎样登录云锁的PC端.md)
 
-[48. 云锁一直提示“正在升级”的问题](#)
+[29. Linux驱动未加载的问题](chang_jian_wen_ti/Linux驱动未加载的问题.md)
 
-[49. 多机版提示“通道选择器没有找到指定通道”的问题](#)
+[30. CC攻击设置高级首次访问验证通过后，以后访问还需要输入验证么？](chang_jian_wen_ti/CC攻击设置高级首次访问验证通过后，以后访问还需要输入验证么.md)
 
-[50. Linux驱动未加载的问题](chang_jian_wen_ti/linuxqu_dong_wei_jia_zai_de_wen_ti.md)
-
-[51. CC攻击设置高级首次访问验证通过后，以后访问还需要输入验证么？](chang_jian_wen_ti/yun_suo_kai_qi_201c_kang_cc_gong_ji_201d_hou_ff0c_.md)
-
-[52. 安装云锁Linux版本时停在“Prepare Files”无法继续安装的问题](chang_jian_wen_ti/an_zhuang_yun_suo_linux_ban_ben_shi_ting_zai_201c_.md)
-
-[53. 安装Linux版本时，停在“extract compression package”无法继续安装的问题](chang_jian_wen_ti/an_zhuang_linux_ban_ben_shi_ff0c_ting_zai_201c_ext.md)
+[31. 安装Linux版本时，停在“extract compression package”无法继续安装的问题](chang_jian_wen_ti/安装Linux版本时，停在“extract compression package”无法继续安装的问题.md)
 
 [54. Nginx安装云锁Linux版本防护插件失败的问题](chang_jian_wen_ti/nginxan_zhuang_yun_suo_linux_ban_ben_fang_hu_cha_j.md)
 
