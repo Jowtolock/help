@@ -1,4 +1,4 @@
-## 安装Linux版本时，停在“extract compression package”无法继续安装的问题
+#### 安装Linux版本时，停在“extract compression package”无法继续安装的问题
 
 &emsp;&emsp;在安装云锁Linux版本时，安装运行到“extract compression package”无法继续安装（如下图）。
 ![extract的问题](/assets/extract的问题.png)
