@@ -1,4 +1,4 @@
-## 怎样修改Linux服务器端的端口号？
+#### 怎样修改Linux服务器端的端口号？
 
 云锁的根目录/usr/local/yunsuo_agent/下有可执行脚本yunsuo_smart_tool.sh，执行该脚本即可修改Linux服务器端的端口号。通过参数h可以知道具体的修改方法。
 ![](/assets/修改端口号.png)
