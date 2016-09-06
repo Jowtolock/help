@@ -31,37 +31,27 @@
 
 [15. 云锁可以管理多个服务器么？](chang_jian_wen_ti/云锁可以管理多个服务器么.md)
 
-[27. PC端提示“请求被过滤”的问题](chang_jian_wen_ti/PC端提示“请求被过滤”的问题.md)
+[16. PC端提示“请求被过滤”的问题](chang_jian_wen_ti/PC端提示“请求被过滤”的问题.md)
 
-[28. 设置“暗链挂马防护”网站无法访问或无法进行修改的问题](#)
+[17. PC端提示“命令被撤销”的问题](chang_jian_wen_ti/PC端提示“命令被撤销”的问题.md)
 
-[29. 卸载云锁网站无法访问的问题](#)
+[18. PC端提示“通道选择器没有找到指定通道”的问题](chang_jian_wen_ti/PC端提示“通道选择器没有找到指定通道”的问题.md)
 
-[30. 云锁安装后部分功能未生效的问题](#)
+[19. 卸载云锁网站无法访问的问题](chang_jian_wen_ti/卸载云锁网站无法访问的问题.md)
 
-[31. 安装云锁Linux版本后，ssh登录默认记录密码无法登录的问题](chang_jian_wen_ti/an_zhuang_yun_suo_linux_ban_ben_hou_ff0c_ssh_deng_.md)
+[20. 云锁安装后部分功能未生效的问题](chang_jian_wen_ti/云锁安装后部分功能未生效的问题.md)
 
-[32. 部分“敏感内容过滤”不生效的问题](#)
+[21. “敏感词过滤”出现不生效的问题](chang_jian_wen_ti/“敏感词过滤”出现不生效的问题.md)
 
-[33. 云锁通过卸载程序卸载失败时，手工卸载的方法](#)
+[22. WDCP卸载云锁后，后台登录失败的问题](chang_jian_wen_ti/WDCP卸载云锁后，后台登录失败的问题.md)
 
-[34. Linux服务器信息的操作系统显示UNKNOW的问题](chang_jian_wen_ti/linuxfu_wu_qi_xin_xi_de_cao_zuo_xi_tong_xian_shi_u.md)
+[23. 云锁忘记九宫格密码怎么办？](chang_jian_wen_ti/云锁忘记九宫格密码怎么办？.md)
 
-[35. WDCP卸载云锁后，后台登录失败的问题](chang_jian_wen_ti/wdcpxie_zai_yun_suo_hou_ff0c_hou_tai_deng_lu_shi_b.md)
+[24. Linux安装云锁提示"Detected SElinux opening,close and then install"的问题](chang_jian_wen_ti/Linux安装云锁提示“Detected SElinux opening,close and then install”的问题.md)
 
-[36. PC端提示“命令被撤销”的问题](chang_jian_wen_ti/yun_suo_he_fu_wu_qi_an_quan_gou_zhuang_zai_tong_yi.md)
+[25. 将云锁的5555端口添加到防火墙的方法](chang_jian_wen_ti/将云锁的5555端口添加到防火墙的方法.md)
 
-[38. 云锁忘记九宫格密码怎么办？](#)
-
-[40. Linux安装云锁提示"Detected SElinux opening,close and then install"的问题](chang_jian_wen_ti/linuxan_zhuang_yun_suo_ti_shi_detected_selinux_ope.md)
-
-[41. 服务器连接被断开解决方法](#)
-
-[42. 将云锁的5555端口添加到防火墙的方法](chang_jian_wen_ti/jiang_yun_suo_de_5555_duan_kou_tian_jia_dao_fang_h.md)
-
-[44. Wamp环境安装云锁报错的问题](chang_jian_wen_ti/wamphuan_jing_an_zhuang_yun_suo_bao_cuo_de_wen_ti.md)
-
-[45. 怎样修改Linux服务器端的端口号？](chang_jian_wen_ti/linuxqu_dong_wei_jia_zai_de_wen_ti.md)
+[45. 修改Linux服务器端的端口号的方法](chang_jian_wen_ti/linuxqu_dong_wei_jia_zai_de_wen_ti.md)
 
 [46. 网站性能监控下为什么多了其它的域名？](#)
 
