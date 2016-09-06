@@ -23,7 +23,7 @@
 
 [11. 云锁安装后会影响服务器、网站性能么？](chang_jian_wen_ti/云锁安装后会影响服务器、网站性能么.md)
 
-[12. PS共享IP用户登录失败的问题](chang_jian_wen_ti/VPS共享IP用户登录失败的问题.md)
+[12. VPS共享IP用户登录失败的问题](chang_jian_wen_ti/VPS共享IP用户登录失败的问题.md)
 
 [13. 云锁PC端关闭后，服务器端还会继续运行么？](chang_jian_wen_ti/云锁PC端关闭后，服务器端还会继续运行么.md)
 
