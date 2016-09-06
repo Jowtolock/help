@@ -63,6 +63,6 @@
 
 [31. 安装Linux版本时，停在“extract compression package”无法继续安装的问题](chang_jian_wen_ti/安装Linux版本时，停在“extract compression package”无法继续安装的问题.md)
 
-[54. Nginx安装云锁Linux版本防护插件失败的问题](chang_jian_wen_ti/nginxan_zhuang_yun_suo_linux_ban_ben_fang_hu_cha_j.md)
+[32. 云锁Linux版本Nginx防护插件安装失败的问题](chang_jian_wen_ti/云锁Linux版本Nginx防护插件安装失败的问题.md)
 
-[55. 云锁开启“抗CC攻击”后，网站访问一直跳转的问题](chang_jian_wen_ti/yun_suo_kai_qi_201c_kang_cc_gong_ji_201d_hou_ff0c_.md)
+[33. 云锁开启“抗CC攻击”后，网站访问一直跳转的问题](chang_jian_wen_ti/云锁开启“抗CC攻击”后，网站访问一直跳转的问题.md)
