@@ -51,9 +51,9 @@
 
 [25. 将云锁的5555端口添加到防火墙的方法](chang_jian_wen_ti/将云锁的5555端口添加到防火墙的方法.md)
 
-[45. 修改Linux服务器端的端口号的方法](chang_jian_wen_ti/linuxqu_dong_wei_jia_zai_de_wen_ti.md)
+[26. 修改Linux服务器端的端口号的方法](chang_jian_wen_ti/修改Linux服务器端的端口号的方法.md)
 
-[46. 网站性能监控下为什么多了其它的域名？](#)
+[27. 网站性能监控下为什么多了其它的域名？](chang_jian_wen_ti/网站性能监控下为什么多了其它的域名？.md)
 
 [47. Linux密钥登录怎样登录云锁的PC端](chang_jian_wen_ti/linuxmi_yao_deng_lu_zen_yang_deng_lu_yun_suo_de_pc.md)
 
