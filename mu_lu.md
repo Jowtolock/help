@@ -1,15 +1,9 @@
 # 目录
 
 
-[常见问题 ](#)
+[1. 云锁支持的作系统和Web中间件](chang_jian_wen_ti/云锁支持的作系统和Web中间件.md)
 
-[1. 云锁支持的作系统和Web中间件 ](chang_jian_wen_ti/云锁支持的作系统和Web中间件.md)
-
-[2. 云锁支持哪些Web中间件？ 1](chang_jian_wen_ti/yun_suo_zhi_chi_na_xie_web_zhong_jian_jian_ff1f.md)
-
-[3. 云锁Linux版本支持的面板 1](chang_jian_wen_ti/linuxqu_dong_wei_jia_zai_de_wen_ti.md)
-
-[4. 云锁收费么？ 1](#)
+[2. 云锁收费么？](chang_jian_wen_ti/云锁收费么.md)
 
 [5. 什么是云锁的服务端和客户端？ 1](#)
 
