@@ -3,7 +3,7 @@
 
 [常见问题 ](#)
 
-[1. 云锁支持哪些服务器系统和中间件？ ]()
+[1. 云锁支持的作系统和Web中间件 ](chang_jian_wen_ti/云锁支持的作系统和Web中间件.md)
 
 [2. 云锁支持哪些Web中间件？ 1](chang_jian_wen_ti/yun_suo_zhi_chi_na_xie_web_zhong_jian_jian_ff1f.md)
 
