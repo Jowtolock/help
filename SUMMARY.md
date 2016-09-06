@@ -1,7 +1,7 @@
 # Summary
 
 * [常见问题](chang_jian_wen_ti/README.md)
-    * [1. 云锁支持哪些系统？](chang_jian_wen_ti/云锁支持哪些系统.md)
+    * [1. 云锁支持哪些系统？](/chang_jian_wen_ti/云锁支持哪些系统.md)
     * [2. 云锁支持哪些Web中间件？](chang_jian_wen_ti/云锁支持哪些Web中间件.md)
     * [3. 云锁Linux版本支持的面板](chang_jian_wen_ti/云锁Linux版本支持的面板.md)
     * [4. 云锁收费么？](chang_jian_wen_ti/云锁收费么.md)
