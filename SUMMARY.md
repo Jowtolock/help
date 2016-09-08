@@ -1,7 +1,7 @@
 # Summary
 
 * [FAQ](README.md)
-    * [1. 云锁支持的操作系统和Web中间件](cFAQ/question_01.md)
+    * [1. 云锁支持的操作系统和Web中间件](FAQ/question_01.md)
     * [2. 云锁Linux版本支持的面板](FAQ/question_02.md)
     * [3. 云锁收费么？](FAQ/question_03.md)
     * [4. 什么是云锁的服务端和客户端？](FAQ/question_04.md)
