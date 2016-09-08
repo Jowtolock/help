@@ -7,11 +7,12 @@
  ①先从添加删除程序里卸载云锁
 
  ②然后cmd下执行
-<pre><code>sc stop yunsuoagent
-sc delete yunsuoagent
-sc stop yunsuodaemon
-sc delete yunsuodaemon
-sc delete resguard
-sc delete resguard2
-sc delete secmodel</code></pre>
+        
+        sc stop yunsuoagent
+        sc delete yunsuoagent
+        sc stop yunsuodaemon
+        sc delete yunsuodaemon
+        sc delete resguard
+        sc delete resguard2
+        sc delete secmodel
 ③执行后重启操作系统，然后再次安装云锁
