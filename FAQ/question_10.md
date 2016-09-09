@@ -1,7 +1,7 @@
 #### 云锁Windows服务端手动卸载的方法
-1. cmd下执行以下命令：
- 
-sc stop yunsuoagent
+1. cmd下执行以下命令： 
+
+    sc stop yunsuoagent
 sc delete yunsuoagent
 sc stop yunsuodaemon
 sc delete yunsuodaemon
