@@ -2,6 +2,7 @@
 
 在安装云锁Linux版本时，安装运行到“extract compression package”无法继续安装。
 ![extract的问题](/assets/q_32_1.png)
+
 主要是由于系统字符集设置导致的，此时将系统默认字符集临时改为C语言，再次执行安装即可。
 
 ```
