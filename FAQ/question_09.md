@@ -2,17 +2,4 @@
 
 1.  首次安装云锁，需判断是否安装其它类似安全软件，关闭注册表相关保护进行安装
 
-2.  曾经安装过云锁，则按照如下步骤操作
-
- ①先从添加删除程序里卸载云锁
-
- ②然后cmd下执行
-        
-        sc stop yunsuoagent
-        sc delete yunsuoagent
-        sc stop yunsuodaemon
-        sc delete yunsuodaemon
-        sc delete resguard
-        sc delete resguard2
-        sc delete secmodel
-③执行后重启操作系统，然后再次安装云锁
+2.  曾经安装过云锁，但在卸载时卸载失败，无法通过“添加删除程序”卸载，则需要手动进行卸载。具体卸载方法请查看“[云锁Windows服务器端手动卸载的方法](/FAQ/question_10.md)” 
