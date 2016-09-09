@@ -13,6 +13,7 @@
   # /usr/local/yunsuo_agent/YSUpdate 1    # 下载云锁驱动
   # service yunsuo restart    # 重启云锁服务
   ```
+
 2. 如有上述驱动文件则查看template目录下是有文件，如没有文件则为asve规则文件下载失败，重新下载该文件并加，成功加载后重启云锁服务加载驱动。
 
   ```
