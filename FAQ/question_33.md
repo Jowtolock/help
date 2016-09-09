@@ -7,7 +7,7 @@
 
 2.“checking nginx”提示“Configure nginx failed,May this version is not supported”
 
-![](/assets/q_33_2.png)
+ ![](/assets/q_33_2.png)
 
 产生该提示原因也有2个，一种为Nginx进行过二次开发；另一种是网络不稳定，导致Nginx防护插件下载失败，可以通过查看/usr/local/yunsuo_agent/runlog/update.log查看。
 
@@ -15,6 +15,6 @@
 
 3.“checking nginx”提示“ls: cannot access…”
 
-![](/assets/q_33_3.png)
+ ![](/assets/q_33_3.png)
 
 因为当前系统Nginx本身异常或Nginx进程异常，重新调试或者重新安装Nginx后再次安装云锁。
