@@ -30,7 +30,7 @@ Windows XP SP3 及以上
 ##### 云锁支持的Web中间件
 
 ```
-IIS 6/IIS 7/IIS 8
+IIS 6/IIS 7/IIS 7.5/IIS 8
 Apache 2.2/Apache 2.4（x86、x64）
 Nginx 1.0.*、Nginx 1.2.*、Nginx 1.4.*、Nginx 1.6.*~Nginx 1.11.*
 kangle
