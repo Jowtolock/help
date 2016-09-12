@@ -38,9 +38,8 @@
     service yunsuo start
     /etc/init.d/yunsuo start
 ###### 停止
-
     service yunsuo stop
-    /etc/init.d/yunsuo stop
+    /etc/init.d/yunsuo stop 
 ###### 重启
     service yunsuo restart
     /etc/init.d/yunsuo restart
