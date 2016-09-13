@@ -2,7 +2,7 @@
 
 * [安装说明](Installation Instruction/README.md)
     * 
-    * [Java插件安装]（Installation Instruction/Java_filter.md）
+    * [Java插件安装](Installation Instruction/Java_filter.md)
         * []
 
 * [FAQ](README.md)
