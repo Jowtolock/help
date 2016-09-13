@@ -16,4 +16,3 @@ JSPAgent 主要功能有两项：
     注意 ： 
     1、Web容器使用的Java(jdk或jre)的版本需1.6 及 以上。
     2、SQL注入防护目前支持的数据库包括：Mysql、 Oracle、 Sqlserver、 Postgresql 四种。
-##### 工作原理
