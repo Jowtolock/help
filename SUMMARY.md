@@ -2,6 +2,8 @@
 
 * [安装说明](Installation Instruction/README.md)
     * 
+    * [Java插件安装]（Installation Instruction/Java_filter.md）
+        * []
 
 * [FAQ](README.md)
     * [云锁支持的操作系统和Web中间件](FAQ/question_01.md)
