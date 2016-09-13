@@ -12,8 +12,7 @@
     检查selinux状态
     # getenforce    ##如果显示参数为enabled即为开启状态
     关闭selinux
-    修改/etc/sysconfig/selinux文件，将enforcing改为disabled，重启服务器。如下图所示：
-
+    修改/etc/sysconfig/selinux文件，将enforcing改为disabled，重启服务器。
 
 ![](/assets/Linux_install_1.png)
 
@@ -25,8 +24,7 @@
     # chmod +x install
 5.执行安装，直到提示“Install Yunsuo Success.”安装完成
 
-![](/assets/Linux_install_2.png)
-
+![](/assets/Linux_install_2.png) 
 
 ##### 查看云锁是否运行
     ps -ef | grep yunsuo_agent
