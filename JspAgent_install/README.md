@@ -1,34 +1,12 @@
 #### JspAgent使用说明
 
-##### 简介
+JSPAgent主要防护功能
 
-JSPAgent 主要功能有两项：
+Struts2漏洞（远程执行和文件上传）、WebLogic对象反序列化漏洞、命令执行漏洞、任意文件读取漏洞、文件上传漏洞、SQL注入漏洞和WebShell识别。
 
-1、 漏洞防护功能 ：
+安装时，云锁安装包会提供一个名为JspAgent的目录，目录结构为：
 
-```
-1） 针对 Struts2 远程命令执行和文件上传漏洞的防护。
-2） 针对 WebLogic 对象反序列化漏洞的防护。
-3） 针对命令执行漏洞的防护
-4） 针对任意文件读取漏洞的防护
-5） 针对文件上传漏洞的防护
-6） 针对SQL注入漏洞的防护
-```
-
-2、 动态（基于行为）识别JSP 类型的Webshell。
-
-```
-注意 ： 
-1、Web容器使用的Java(jdk或jre)的版本需1.6 及 以上。
-2、SQL注入防护目前支持的数据库包括：Mysql、 Oracle、 Sqlserver、 Postgresql 四种。
-```
-
-##### 工作原理 
-利用 JAVA 虚拟机 启动选项 ：-javaagent， 使 jspAgent.jar 可以跟踪处理 web 请求上下文， 并针对可疑行为， 做出相应的动作。
-##### 安装说明
-云锁安装包会提供一个名为JspAgent的目录，目录结构：
-
-    Windows 版：
+    Windows：
         /jspAgent/JSPAgent.jar
         /jspAgent/JSPAgent.dll
         /jspAgent/msvcp100.dll
@@ -39,7 +17,7 @@ JSPAgent 主要功能有两项：
         /jspAgent/x64/msvcr100.dll
         /jspAgent/x64/litexml.dll
 
-    Linux 版：
+    Linux：
         /jspAgent/JSPAgent.jar
         /jspAgent/libJSPAgent.so
         /jspAgent/liblitexml_linux.so
