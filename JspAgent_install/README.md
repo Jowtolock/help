@@ -6,21 +6,11 @@ Struts2漏洞（远程执行和文件上传）、WebLogic对象反序列化漏�
 
 安装时，云锁安装包会提供一个名为JspAgent的目录，目录结构为：
 
-    Windows：
-        /jspAgent/JSPAgent.jar
-        /jspAgent/JSPAgent.dll
-        /jspAgent/msvcp100.dll
-        /jspAgent/msvcr100.dll
-        /jspAgent/litexml.dll
-        /jspAgent/x64/JSPAgent.dll
-        /jspAgent/x64/msvcp100.dll
-        /jspAgent/x64/msvcr100.dll
-        /jspAgent/x64/litexml.dll
+Windows：
+`/jspAgent/JSPAgent.jar、/jspAgent/JSPAgent.dll、/jspAgent/msvcp100.dll、/jspAgent/msvcr100.dll、/jspAgent/litexml.dll、/jspAgent/x64/JSPAgent.dll、/jspAgent/x64/msvcp100.dll、/jspAgent/x64/msvcr100.dll、/jspAgent/x64/litexml.dll`
 
-    Linux：
-        /jspAgent/JSPAgent.jar
-        /jspAgent/libJSPAgent.so
-        /jspAgent/liblitexml_linux.so
+Linux：
+`/jspAgent/JSPAgent.jar、/jspAgent/libJSPAgent.so、/jspAgent/liblitexml_linux.so`
 
 
 
