@@ -2,7 +2,7 @@
 ##### 1. Tomcat/Tomee
 假设tomcat的工作目录为：CATALINA_HOME=/usr/local/tomcat/
 
-1）拷贝JspAgent 目录到 ${CATALINA_HOME} 下。
+1）拷贝jspAgent 目录到 ${CATALINA_HOME} 下。
 
 ![](/assets/Linux_Tomcat_1.png)
 
