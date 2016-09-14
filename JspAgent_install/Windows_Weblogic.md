@@ -7,5 +7,4 @@ set JAVA_OPTIONS=%SAVE_JAVA_OPTIONS%， 在其下追加一行：set JAVA_OPTION
 
 ![](/assets/Windows_Weblogic_1.png)
 
-
 3）重启 WebLogic。
