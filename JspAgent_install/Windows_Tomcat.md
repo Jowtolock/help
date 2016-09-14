@@ -22,7 +22,7 @@
     ------追加下面这一行---
     -javaagent:C:\Program Files\Apache Software Foundation\Tomcat 6.0\jspAgent\JSPAgent.jar
 
-![](/assets/JspAgent_install_1.png)
+![](/assets/Windows_Tomcat_1.png)
 
 3）重启 tomcat。
 
@@ -42,7 +42,7 @@
 
 "%EXECUTABLE%" //US//%SERVICE_NAME% ++JvmOptions "*-javaagent:%CATALINA_HOME%\jspAgent\JSPAgent.jar;*-Djava.io.tmpdir=%CATALINA_BASE%\temp;-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager;-Djava.util.logging.config.file=%CATALINA_BASE%\conf\logging.properties" --JvmMs 128 --JvmMx 512 --Startup=auto
 
-![](/assets/JspAgent_install_2.png)
+![](/assets/Windows_Tomcat_2.png)
 
 3）重启 tomcat 。
 
@@ -51,3 +51,5 @@
 观察tomcat的启动脚本，如果最终调用了%CATALINA_HOME% /bin/catalina.bat，那么可以在这个文件中修改，定位到：execCmd，在其下追加一行：
 
 `set JAVA_OPTS=-javaagent:%CATALINA_HOME%\jspAgent\JSPAgent.jar  %JAVA_OPTS%`
+
+![](/assets/Windows_Tomcat_3.png)
