@@ -1,4 +1,4 @@
-#### Windows服务器端安装
+#### Windows服务器端安装说明
 访问云锁官网[(http://www.yunsuo.com.cn)](http://www.yunsuo.com.cn)，进入下载页面将Windows服务器端下载到服务器上。下载完成后进行安装，在安装界面选择安装路径及云锁的监听端口，如不需要修改则以默认值进行安装。
 
  ![](/assets/Windows_install_1.png)
