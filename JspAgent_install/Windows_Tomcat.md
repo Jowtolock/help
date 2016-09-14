@@ -1,6 +1,5 @@
-#### JspAgent安装说明 
-##### Windows安装说明
-###### 1. Tomcat/Tomee
+#### Windows安装说明
+##### 1. Tomcat/Tomee
 **官网 Tomcat 版本**
 
 假设 tomcat 工作目录：CATALINA_HOME =C:\Program Files\Apache Software Foundation\Tomcat 6.0
