@@ -23,7 +23,26 @@ JSPAgent 主要功能有两项：
 2、SQL注入防护目前支持的数据库包括：Mysql、 Oracle、 Sqlserver、 Postgresql 四种。
 ```
 
-##### 工作原理
-
+##### 工作原理 
 利用 JAVA 虚拟机 启动选项 ：-javaagent， 使 jspAgent.jar 可以跟踪处理 web 请求上下文， 并针对可疑行为， 做出相应的动作。
+##### 安装说明
+云锁安装包会提供一个名为JspAgent的目录，目录结构：
+
+    Windows 版：
+        /jspAgent/JSPAgent.jar
+        /jspAgent/JSPAgent.dll
+        /jspAgent/msvcp100.dll
+        /jspAgent/msvcr100.dll
+        /jspAgent/litexml.dll
+        /jspAgent/x64/JSPAgent.dll
+        /jspAgent/x64/msvcp100.dll
+        /jspAgent/x64/msvcr100.dll
+        /jspAgent/x64/litexml.dll
+
+    Linux 版：
+        /jspAgent/JSPAgent.jar
+        /jspAgent/libJSPAgent.so
+        /jspAgent/liblitexml_linux.so
+
+
 
