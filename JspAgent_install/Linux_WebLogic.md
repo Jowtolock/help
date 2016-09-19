@@ -17,5 +17,4 @@
 
 ![](/assets/Linux_Weblogic_2.png)
 
-
 4）重启weblogic。

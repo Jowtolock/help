@@ -10,6 +10,7 @@
 ![](/assets/Windows_Glassfish_1.png)
 
 3）重启 Glassfish。
+
 ##### Linux 安装说明
 假设Glassfish的工作目录：GLASSFISH_HOME= /usr/local/glassfish/glassfish
 
