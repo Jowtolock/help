@@ -1,4 +1,4 @@
-#### 6. Jetty 
+#### Jetty 
 ##### Windows 安装说明
 假定Jetty的工作目录：JETTY_HOME= C:/Program Files (x86)/jetty-distribution-8.1.17/jetty-distribution-8.1.17.v20150415
 

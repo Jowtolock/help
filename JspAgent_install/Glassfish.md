@@ -1,4 +1,4 @@
-#### 4. Glassfish
+#### Glassfish
 ##### Windows 安装说明
 假设Glassfish的工作目录：GLASSFISH_HOME= C:\glassfish4
 

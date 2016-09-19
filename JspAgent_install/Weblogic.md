@@ -1,4 +1,4 @@
-#### 2. Weblogic
+#### Weblogic
 ##### Windows 安装说明
 1）拷贝 jspAgent 目录到 %DOMAIN_HOME% 下。
 

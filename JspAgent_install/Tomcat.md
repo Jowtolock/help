@@ -1,4 +1,4 @@
-#### 1. Tomcat/Tomee
+#### Tomcat/Tomee
 ##### Windows 安装说明
 **官网 Tomcat 版本**
 

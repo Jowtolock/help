@@ -1,4 +1,4 @@
-#### 5. TongWeb
+#### TongWeb
 ##### Windows 安装说明
 假定 TongWeb 的工作目录 ： TWNS_HOME=C:\TongWeb5.0
 

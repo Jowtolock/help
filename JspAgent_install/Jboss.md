@@ -1,4 +1,4 @@
-#### 3. Jboss/wildfly 
+#### Jboss/wildfly 
 ##### Windows 安装说明
 1）拷贝 jspAgent 目录到 %JBOSS_HOME% 下。
 
