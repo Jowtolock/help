@@ -7,7 +7,7 @@
     * [PC端安装说明](Installation Instruction/PC_install.md)
 * [JspAgent使用说明](JspAgent_install/README.md) 
     * [Tomcat/Tomee](JspAgent_install/Tomcat.md)
-    * []()
+    * [Weblogic](JspAgent_install/Weblogic.md)
     * []()
     * []()
     * []()
