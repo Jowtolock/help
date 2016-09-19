@@ -1,5 +1,5 @@
-#### Windows安装说明
-##### 1. Tomcat/Tomee
+#### 1. Tomcat/Tomee
+##### Windows安装说明
 **官网 Tomcat 版本**
 
 假设 tomcat 工作目录：CATALINA_HOME =C:\Program Files\Apache Software Foundation\Tomcat 6.0
@@ -52,3 +52,15 @@
 `set JAVA_OPTS=-javaagent:%CATALINA_HOME%\jspAgent\JSPAgent.jar  %JAVA_OPTS%`
 
 ![](/assets/Windows_Tomcat_3.png)
+##### Linux安装说明
+假设tomcat的工作目录为：CATALINA_HOME=/usr/local/tomcat/
+
+1）拷贝jspAgent 目录到 ${CATALINA_HOME} 下。
+
+![](/assets/Linux_Tomcat_1.png)
+
+2）修改${CATALINA_HOME}/bin/catalina.sh中的JAVA启动参数，附加上 -javaagent选项。过程如下：定位到elif [ "$1" = "start" ] ; then，其下追加一行：JAVA_OPTS="-javaagent:${CATALINA_HOME}/jspAgent/JSPAgent.jar ${JAVA_OPTS}"
+
+![](/assets/Linux_Tomcat_2.png)
+
+3）重启tomcat。
