@@ -52,6 +52,7 @@
 `set JAVA_OPTS=-javaagent:%CATALINA_HOME%\jspAgent\JSPAgent.jar  %JAVA_OPTS%`
 
 ![](/assets/Windows_Tomcat_3.png)
+
 ##### Linux 安装说明
 
 假设tomcat的工作目录为：CATALINA_HOME=/usr/local/tomcat/
