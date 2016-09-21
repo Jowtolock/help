@@ -12,6 +12,8 @@
     * [Glassfish](JspAgent_install/Glassfish.md)
     * [TongWeb](JspAgent_install/TongWeb.md)
     * [Jetty](JspAgent_install/Jetty.md)
+* [Nginx防护插件自编译安装](Nginx filter install/README.md)
+
 * [FAQ](FAQ/README.md)
     * [云锁支持的操作系统和Web中间件](FAQ/question_01.md)
     * [云锁Linux版本支持的面板](FAQ/question_02.md)
