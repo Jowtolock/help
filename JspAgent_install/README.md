@@ -13,6 +13,6 @@ Linux：
 
 `/jspAgent/JSPAgent.jar、/jspAgent/libJSPAgent.so、/jspAgent/liblitexml_linux.so`
 
-**建议在安装防护插件前先重启一遍Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块。**
+**建议在安装防护插件前先重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块。**
 
 
