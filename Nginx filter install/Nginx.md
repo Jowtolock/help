@@ -47,12 +47,48 @@ if(ngx_http_yunsuo_post_in_handler(r)) {
        }
 
  ![](/assets/Nginx filter_4.png)
-5. 下载云锁防护插件压缩包
+5. 下载云锁防护模块压缩包
        # cd /root
        # wget https://codeload.github.com/yunsuo-open/nginx-plugin/zip/master -O nginx-plugin-master.zip
 
  ![](/assets/Nginx filter_5.png)
-6. 解压云锁防护插件压缩包nginx-plugin-master.zip
+6. 解压云锁防护模块压缩包nginx-plugin-master.zip
        # unzip nginx-plugin-master.zip
 
  ![](/assets/Nginx filter_6.png)
+7. 获取当前云锁模块所在目录的全路径
+       # nginx-plugin-master
+       # pwd
+
+ ![](/assets/Nginx filter_7.png)
+8. 查看当前nginx加载的模块，在编译加载云锁防护模块的时候仍需加载这些模块
+       # /usr/local/nginx/sbin/nginx –V
+
+ ![](/assets/Nginx filter_8.png)
+9. 进入nginx源码目录，对nginx进行编译；编译时添加云锁防护模块参数，参数路径为第7步获取的云锁防护模块源码全路径“/root/nginx-plugin-master”
+       # cd oneinstack/src/nginx-1.10.0/
+       # ./configure --prefix=/usr/local/nginx --user=www --group=www --with-http_stub_status_module --with-http_v2_module --with-http_ssl_module --with-ipv6 --with-http_gzip_static_module --with-http_realip_module --with-http_flv_module --with-pcre=../pcre-8.38 --with-pcre-jit --with-ld-opt='-ljemalloc' --add-module=/root/nginx-plugin-master
+
+ ![](/assets/Nginx filter_9.1.png) 
+
+ configure完成后进行make      
+       # make
+
+ ![](/assets/Nginx filter_9.2.png)
+10. 将系统中原有的nginx用重新编译生成的nginx文件替换，替换后重启nginx使新编译nginx生效
+        # rm -rf /usr/local/nginx/sbin/nginx
+        # cp objs/nginx /usr/local/nginx/sbin/
+        # service nginx restart
+
+ ![](/assets/Nginx filter_10.png)
+11.  让云锁识别新编译的nginx
+
+ 1) 安装云锁，如已经安装则忽略此步骤。
+
+ 2) 编译nginx路径，使云锁识别
+         # cd /usr/local/yunsuo_agent/nginx/
+         # ./configure_compile_nginx /usr/local/nginx/
+ 
+ ![](/assets/Nginx filter_11.png)
+
+到此通过PC端连接到服务器端，在PC端的界面上可以看到已识别nginx插件。
