@@ -48,7 +48,7 @@ if(ngx_http_yunsuo_post_in_handler(r)) {
 
  ![](/assets/Nginx filter_4.png)
 5. 下载云锁防护模块压缩包
-       # cd /root
+       # cd /root/
        # wget https://codeload.github.com/yunsuo-open/nginx-plugin/zip/master -O nginx-plugin-master.zip
 
  ![](/assets/Nginx filter_5.png)
@@ -57,7 +57,7 @@ if(ngx_http_yunsuo_post_in_handler(r)) {
 
  ![](/assets/Nginx filter_6.png)
 7. 获取当前云锁模块所在目录的全路径
-       # cd nginx-plugin-master
+       # cd nginx-plugin-master/
        # pwd
 
  ![](/assets/Nginx filter_7.png)
@@ -87,7 +87,7 @@ if(ngx_http_yunsuo_post_in_handler(r)) {
 
  2) 编译nginx路径，使云锁识别
          # cd /usr/local/yunsuo_agent/nginx/
-         # ./configure_compile_nginx /usr/local/nginx/
+         # ./configure_compile_nginx /usr/local/nginx
  
  ![](/assets/Nginx filter_11.png)
 
