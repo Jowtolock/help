@@ -15,6 +15,7 @@
 * [云锁自编译安装Nginx防护模块](Nginx filter/README.md)
     * [安装Nginx防护模块](Nginx filter/install.md)
     * [卸载Nginx防护模块](Nginx filter/uninstall.md)
+    * [FAQ](Nginx filter/FAQ.md)
 * [常见问题](FAQ/README.md)
     * [云锁支持的操作系统和Web中间件](FAQ/question_01.md)
     * [云锁Linux版本支持的面板](FAQ/question_02.md)
