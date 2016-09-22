@@ -1,4 +1,6 @@
 #### JspAgent使用说明
+**因在安装完成后需重启Web服务，所以线上业务尽量选取在用户访问量较少的时间段内安装。同时建议安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块。**
+
 
 JSPAgent主要防护功能
 
@@ -12,7 +14,5 @@ Windows：
 Linux：
 
 `/jspAgent/JSPAgent.jar、/jspAgent/libJSPAgent.so、/jspAgent/liblitexml_linux.so`
-
-**建议在安装防护插件前先重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块。**
 
 
