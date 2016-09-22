@@ -57,7 +57,7 @@ if(ngx_http_yunsuo_post_in_handler(r)) {
 
  ![](/assets/Nginx filter_6.png)
 7. 获取当前云锁模块所在目录的全路径
-       # nginx-plugin-master
+       # cd nginx-plugin-master
        # pwd
 
  ![](/assets/Nginx filter_7.png)
