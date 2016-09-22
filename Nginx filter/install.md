@@ -67,7 +67,7 @@ if(ngx_http_yunsuo_post_in_handler(r)) {
  ![](/assets/Nginx filter_8.png)
 9. 进入nginx源码目录，对nginx进行编译；编译时添加云锁防护模块参数，参数路径为第7步获取的云锁防护模块源码全路径“/root/nginx-plugin-master”
        # cd oneinstack/src/nginx-1.10.0/
-       # ./configure --prefix=/usr/local/nginx --user=www --group=www --with-http_stub_status_module --with-http_v2_module --with-http_ssl_module --with-ipv6 --with-http_gzip_static_module --with-http_realip_module --with-http_flv_module --with-pcre=../pcre-8.38 --with-pcre-jit --with-ld-opt='-ljemalloc' --add-module=/root/nginx-plugin-master
+       # ./configure --prefix=/usr/local/nginx --with... --add-module=/root/nginx-plugin-master
 
  ![](/assets/Nginx filter_9.1.png) 
 
