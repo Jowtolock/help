@@ -4,6 +4,6 @@
 1. 编译前先将已经安装的Nginx文件进行备份
         # cd /usr/local/nginx/sbin/
         # cp nginx nginx.bak
- ![](/Nginx filter install/Image/Nginx filter_1.png)
+![](/Nginx filter install/Nginx filter_1.png)
 
 2. 
