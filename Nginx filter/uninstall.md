@@ -1,13 +1,12 @@
 ##### 卸载Nginx防护模块
 1.  通过PC端卸载
     
- 将安装时备份的nginx.bak文件复制到云锁nginx目录的backup目录下，覆盖原有nginx.bak文件。这样就可以在云锁PC端直接卸载了。   
-   
- `# cd /usr/local/nginx/sbin/`
- 
- `# rm -rf /usr/local/yunsuo_agent/nginx/backup/nginx.bak`
- 
- `# cp nginx.bak /usr/local/yunsuo_agent/nginx/backup`
+ 将安装时备份的nginx.bak文件复制到云锁nginx目录的backup目录下，覆盖原有nginx.bak文件。这样就可以在云锁PC端直接卸载了。      
+ ```
+ # cd /usr/local/nginx/sbin/ 
+ # rm -rf /usr/local/yunsuo_agent/nginx/backup/nginx.bak 
+ # cp nginx.bak /usr/local/yunsuo_agent/nginx/backup
+ ```
 
 2. 删除文件
   
