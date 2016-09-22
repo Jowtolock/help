@@ -8,6 +8,7 @@
  # cp nginx.bak /usr/local/yunsuo_agent/nginx/backup
  ```
 
+ ![](/assets/Nginx filter_12.png)
 2. 删除文件
   
  手动删除或者重命名/usr/local/yunsuo_agent/nginx/目录下的 libnginx_plugin.so（此操作需要关闭云锁自保护功能）， 重启nginx服务即可`"service nginx restart"`。 
