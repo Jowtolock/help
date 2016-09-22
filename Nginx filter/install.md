@@ -11,7 +11,7 @@
 
  ![](/assets/Nginx filter_2.png)
 3. 解压nginx源码包
-       # tar zxvf nginx-1.11.4.tar.gz
+       # tar zxvf nginx-1.10.1.tar.gz
 
  ![](/assets/Nginx filter_3.png)
 4. 由于其不支持post过滤，所以需要修改nginx源码目录下ngx_http_upstream.c 文件，在static void ngx_http_upstream_init_request(ngx_http_request_t \*r);行上方添加：“intngx_http_yunsuo_post_in_handler(ngx_http_request_t *r);”和在ngx_http_upstream_init_request后，添加：
@@ -20,7 +20,7 @@ if(ngx_http_yunsuo_post_in_handler(r)) {
  return;
 
  }
-       # cd nginx-1.10.0/src/http/
+       # cd nginx-1.10.1/src/http/
        # vim ngx_http_upstream.c
        --------------------下面这段是添加的----------------
        int
@@ -66,7 +66,7 @@ if(ngx_http_yunsuo_post_in_handler(r)) {
 
  ![](/assets/Nginx filter_8.png)
 9. 进入nginx源码目录，对nginx进行编译；编译时添加云锁防护模块参数，参数路径为第7步获取的云锁防护模块源码全路径“/root/nginx-plugin-master”
-       # cd oneinstack/src/nginx-1.10.0/
+       # cd nginx-1.10.1/
        # ./configure --prefix=/usr/local/nginx --with... --add-module=/root/nginx-plugin-master
 
  ![](/assets/Nginx filter_9.1.png) 
