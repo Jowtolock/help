@@ -1,6 +1,7 @@
+##### Suse
 |OS|x86|x64|
 |-|
-|suse 12||3.12.28-4-default|
+|suse 12|----|3.12.28-4-default|
 |suse 11 sp3|3.0.76-0.11-pae|3.0.76-0.11-default|
 |suse 11 sp2|3.0.13-0.27-pae|3.0.13-0.27-default|
 |suse 11 sp1|2.6.32.12-0.7-pae|2.6.32.12-0.7-default|
