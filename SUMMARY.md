@@ -2,9 +2,9 @@
 
 * [简介](README.md)
 * [安装说明](Installation Instruction/README.md)
-    * [Windows服务器端安装说明](Installation Instruction/Windows_install.md)
-    * [Linux服务器端安装说明](Installation Instruction/Linux_install.md)
-    * [PC端安装说明](Installation Instruction/PC_install.md)
+    * [Windows服务器端](Installation Instruction/Windows_install.md)
+    * [Linux服务器端](Installation Instruction/Linux_install.md)
+    * [PC端](Installation Instruction/PC_install.md)
 * [JspAgent使用说明](JspAgent_install/README.md) 
     * [Tomcat/Tomee](JspAgent_install/Tomcat.md)
     * [Weblogic](JspAgent_install/Weblogic.md)
