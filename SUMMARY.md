@@ -12,7 +12,7 @@
     * [Glassfish](JspAgent_install/Glassfish.md)
     * [TongWeb](JspAgent_install/TongWeb.md)
     * [Jetty](JspAgent_install/Jetty.md)
-* [编译Nginx防护](Nginx filter/README.md)
+* [Nginx防护说明](Nginx filter/README.md)
     * [安装Nginx防护模块](Nginx filter/install.md)
     * [卸载Nginx防护模块](Nginx filter/uninstall.md)
     * [FAQ](Nginx filter/FAQ.md)
