@@ -54,3 +54,5 @@
     * [PC端显示服务器离线的原因及解决办法](FAQ/question_35.md)
 * [内核支持](Kernel_version/README.md)
     * [CentOS/Redhat Linux](Kernel_version/CentOS.md)
+    * [Ubuntu](Kernel_version/Ubuntu.md)
+    * [Suse](Kernel_version/Suse.md)
