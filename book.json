@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "disqus"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "评论",
+            "useIdentifier": false
+        }
+    }
+}
