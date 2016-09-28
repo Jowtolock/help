@@ -1,9 +1,4 @@
-body{
-    margin: 0 auto;
-    background: #000;
-    font-family: Georgia, Palatino, serif;
-    color: #EEE;
-    line-height: 1;
-    max-width: 960px;
-    padding: 30px;
+{
+
+
 }
