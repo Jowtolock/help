@@ -10,16 +10,15 @@
  不需要，云锁的nginx模块会判断防护模块是否安装，如果不安装则不生效。当然您也可以替换回之前的nginx
 3. 编译时可能出现的几种错误解决方法
 
-```
-1）遇如下错误信息 ： cc1: all warnings being treated as errors， 编译器把   警告信息作为错误处理了
-   解决： 修改 objs/Makefile
-   把CFLAGS = -pipe -O -W -Wall -Wpointer-arith -Wno-unused-parameter    -Werror -g修改为：CFLAGS = -pipe -O -W -Wall -Wpointer-arith -Wno-unused-parameter -g即去掉-Werror选项
-   重新 make， 注意是重新make 而不是重新 ./configure
+        1）遇如下错误信息 ： cc1: all warnings being treated as errors， 编译器把   警告信息作为错误处理了   
+           解决： 修改 objs/Makefile
+           把CFLAGS = -pipe -O -W -Wall -Wpointer-arith -Wno-unused-parameter    -Werror -g修改为：CFLAGS = -pipe -O -W -Wall -Wpointer-arith -Wno-unused-parameter -g即去掉-Werror选项
+           重新 make， 注意是重新make 而不是重新 ./configure
  
-2) 遇如下错误信息：undefined reference to `dlclose'，由于编译器版本过高，需要在链接时，加入-ldl 选项
-   解决： 修改 objs/Makefile
-   搜索 -lpthread，定位到该行结束，加入 -ldl   
-   形如 -lpthread -lcrypt 修改为 -lpthread -lcrypt -ldl
-   重新 make，注意是重新make而不是重新./configure
+        2) 遇如下错误信息：undefined reference to `dlclose'，由于编译器版本过高，需要在链接时，加入-ldl 选项
+           解决： 修改 objs/Makefile
+           搜索 -lpthread，定位到该行结束，加入 -ldl   
+           形如 -lpthread -lcrypt 修改为 -lpthread -lcrypt -ldl
+           重新 make，注意是重新make而不是重新./configure
 ```
 
