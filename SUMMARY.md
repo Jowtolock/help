@@ -37,7 +37,3 @@
     * [云锁Linux版本Nginx防护插件安装失败的问题](FAQ/question_33.md)
     * [云锁开启“抗CC攻击”后，网站访问一直跳转的问题](FAQ/question_34.md)
     * [PC端显示服务器离线的原因及解决办法](FAQ/question_35.md)
-* [内核支持](Kernel_version/README.md)
-    * [CentOS/Redhat Linux](Kernel_version/CentOS.md)
-    * [Ubuntu](Kernel_version/Ubuntu.md)
-    * [Suse](Kernel_version/Suse.md)
