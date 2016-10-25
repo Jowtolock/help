@@ -1,4 +1,8 @@
 #### Nginx安装云锁Linux版本防护插件失败的问题 
+Nginx参数中含有以内容时需编译安装插件
+
+--add-module、--with-file-aio、--with-http_xslt_module、--with-http_image_filter_module、--with-http_geoip_module、--with-http_perl_module、--with-perl_modules_path、--with-perl、--with-google_perftools_module、--add-dynamic-module、--with-stream=dynamic
+
 
 1. “checking nginx”提示“Not Found”
   ![](/assets/q_33_1.png)
