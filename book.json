@@ -1,12 +1,4 @@
 {
-    "plugins": [
-        "github"
-    ],
-    "pluginsConfig": {
-        "github": {
-            "url": "https://gitbug.com/your/repo"
-        }
-    },
     "links": {
         "sidebar": {
             "云锁官网": "http://www.yunsuo.com.cn"
