@@ -49,14 +49,22 @@ x64：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xvz
     /usr/local/yunsuo_agent/yunsuo_smart_tool.sh -u cloud_name –p cloud_passwd
     PS：cloud_name：云中心账户名；cloud_passwd：云中心登录密码
 
+![](/assets/f0105.png)
+
 6.安装完成后通过[PC端](http://help.yunsuo.com.cn/guide/PC_inst.html)进行管理。
 
-##### 查看云锁是否运行
-    ps -ef | grep yunsuo_agent
+>#### 查看云锁是否运行
+   
+     ps -ef | grep yunsuo_agent
+
 ![](/assets/Linux_install_3.png)
-##### 云锁服务相关命令 
-###### 云锁启动/停止/重启/状态
+>#### 云锁服务相关命令 
+
+##### 云锁启动/停止/重启/状态
+
     service yunsuo start/stop/restart/status
     /etc/init.d/yunsuo start/stop/restart/status
-##### 卸载云锁
+
+>#### 卸载云锁
+
     /usr/local/yunsuo_agent/uninstall
