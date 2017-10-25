@@ -5,7 +5,7 @@
 
 1) 检查selinux状态
     
-    # getenforce ##如果显示参数为enabled即为开启状态
+    # getenforce ##如果显示参数为disabled则为成功关闭
     
 2） 关闭selinux。修改/etc/sysconfig/selinux文件，将enforcing改为disabled，重启服务器。如已经是disabled则直接重启服务器。
     
