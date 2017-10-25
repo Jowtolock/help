@@ -49,7 +49,7 @@ x64：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xvz
     /usr/local/yunsuo_agent/yunsuo_smart_tool.sh -u cloud_name –p cloud_passwd
     PS：cloud_name：云中心账户名；cloud_passwd：云中心登录密码
 
-6.安装完成后通过[PC端](/PC_inst.md)进行管理。
+6.安装完成后通过[PC端](http://help.yunsuo.com.cn/guide/PC_inst.html)进行管理。
 
 ##### 查看云锁是否运行
     ps -ef | grep yunsuo_agent
