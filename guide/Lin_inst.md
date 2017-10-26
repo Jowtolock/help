@@ -25,33 +25,34 @@ x64：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xvz
 
 ##### 分步安装
 
-1.下载云锁安装包。
+1. 下载云锁安装包。
       
     x86：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_32bit.tar.gz
     x64：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz
 
-2.解压文件，得到安装包文件。
+2. 解压文件，得到安装包文件。
 
     x86：tar zxvf yunsuo_agent_32bit.tar.gz
     x64：tar zxvf yunsuo_agent_64bit.tar.gz
-3.给云锁安装文件赋予可执行权限。
+    
+3. 给云锁安装文件赋予可执行权限。
 
     chmod +x yunsuo_install/install
 
-4.执行安装，直到提示“Install Yunsuo Success.”安装完成。
+4. 执行安装，直到提示“Install Yunsuo Success.”安装完成。
     
     yunsuo_install/install
  
- ![](/assets/Linux_install_2.png)
+    ![](/assets/Linux_install_2.png)
  
-5.添加服务器到云中心。
+5. 添加服务器到云中心。
 
     /usr/local/yunsuo_agent/yunsuo_smart_tool.sh -u cloud_name –p cloud_passwd
     PS：cloud_name：云中心账户名；cloud_passwd：云中心登录密码
 
-![](/assets/f0105.png)
+    ![](/assets/f0105.png)
 
-6.安装完成后通过[PC端](http://help.yunsuo.com.cn/guide/PC_inst.html)进行管理。
+6. 安装完成后通过[PC端](http://help.yunsuo.com.cn/guide/PC_inst.html)进行管理。
 
 >#### 查看云锁是否运行
    
