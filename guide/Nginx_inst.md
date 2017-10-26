@@ -27,13 +27,13 @@
    # /usr/local/nginx/sbin/ -v
    ```
 
- ![](/assets/Nginx filter_2.1.png)
+   ![](/assets/Nginx filter_2.1.png)
 
-```
+   ```
    # wget http://nginx.org/download/nginx-1.10.1.tar.gz
-```
+   ```
 
- ![](/assets/Nginx filter_2.2.png)
+   ![](/assets/Nginx filter_2.2.png)
 
 3. 解压nginx源码包
 
