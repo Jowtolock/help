@@ -26,6 +26,7 @@
        # tar zxvf nginx-1.10.1.tar.gz
 
  ![](/assets/Nginx filter_3.png)
+ 
 4. 由于其默认不支持post过滤，所以需要修改Nginx文件。1.8.0 版本以下修改源码目录下ngx_http_upstream.c文件（Nginx 1.8.0 及以上版本和**Tengine**跳过该步骤）。在`static void ngx_http_upstream_init_request(ngx_http_request_t \*r);`行上方添加：`int ngx_http_yunsuo_post_in_handler(ngx_http_request_t *r);`和在`ngx_http_upstream_init_request`后，添加：
 
        if (ngx_http_yunsuo_post_in_handler(r)) {
@@ -37,7 +38,7 @@
        --------------------下面这段是添加的----------------
        int
        ngx_http_yunsuo_post_in_handler(ngx_http_request_t *r);
-       -----------------------------------------------
+       --------------------------------------------------
        static void
        ngx_http_upstream_init_request(ngx_http_request_t *r)
        {
@@ -53,12 +54,13 @@
        if (ngx_http_yunsuo_post_in_handler(r)) {
            return;
        }
-       ------------------------------------------------
+       --------------------------------------------------
        if (r->aio) {
            return;
        }
 
  ![](/assets/Nginx filter_4.png)
+ 
 5. 下载云锁防护模块压缩包
        # cd /root/
        # wget https://codeload.github.com/yunsuo-open/nginx-plugin/zip/master -O nginx-plugin-master.zip
@@ -83,7 +85,7 @@
 
  ![](/assets/Nginx filter_9.1.png) 
 
- 1.8.0 以上要支持post过滤，在objs/Makefile文件中的CFLAGS后追加宏定义 HIGHERTHAN8
+10.Nginx1.8.0 以上和 Tengine 2.1.2 以上要支持post过滤，需在objs/Makefile文件中的CFLAGS后追加宏定义 -DHIGHERTHAN8
         # vim objs/Makefile
         CFLAGS =  -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g -DHIGHERTHAN8
 
