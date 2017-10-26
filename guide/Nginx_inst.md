@@ -131,8 +131,7 @@
 
    ![](/assets/Nginx filter_9.2.png)
 
-11. configure完成后进行make  
-   （如原本无nginx，make后还需make install）
+11. configure完成后进行make（如原本无nginx，make后还需make install）
 
    ```
    # make
