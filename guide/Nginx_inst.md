@@ -85,32 +85,24 @@
 
  ![](/assets/Nginx filter_9.1.png) 
 
-10.Nginx1.8.0 以上和 Tengine 2.1.2 以上要支持post过滤，需在objs/Makefile文件中的CFLAGS后追加宏定义 -DHIGHERTHAN8
+10. Nginx1.8.0 以上和 Tengine 2.1.2 以上要支持post过滤，需在objs/Makefile文件中的CFLAGS后追加宏定义 -DHIGHERTHAN8
         # vim objs/Makefile
         CFLAGS =  -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g -DHIGHERTHAN8
 
  ![](/assets/Nginx filter_9.2.png)
 
- configure完成后进行make（如原本无nginx，make后还需make install）      
+11. configure完成后进行make（如原本无nginx，make后还需make install）      
         # make
 
  ![](/assets/Nginx filter_9.3.png)
-10. 将系统中原有的nginx用重新编译生成的nginx文件替换，替换后重启nginx使新编译nginx生效
+ 
+12. make完成后将系统中原有的nginx用重新编译生成的nginx文件替换，替换后重启nginx使新编译nginx生效
         # rm -rf /usr/local/nginx/sbin/nginx
         # cp objs/nginx /usr/local/nginx/sbin/
         # service nginx restart
 
  ![](/assets/Nginx filter_10.png)
-11.  让云锁识别新编译的nginx
 
- 1) 安装云锁，如已经安装则忽略此步骤。
-
- 2) 编译nginx路径，使云锁识别
-         # cd /usr/local/yunsuo_agent/nginx/
-         # ./configure_compile_nginx /usr/local/nginx
- 
- ![](/assets/Nginx filter_11.png)
-
-12. 到此通过PC端连接到服务器端，在PC端的界面上可以看到已识别nginx插件。
+13. 到此通过PC端连接到服务器端，在PC端的界面上可以看到已识别nginx插件。
 
  ![](/assets/Nginx filter_12.png)
