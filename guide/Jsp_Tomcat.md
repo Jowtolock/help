@@ -3,7 +3,6 @@
 
 >**Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
 
-[TOC]
 
 ## Windows 安装说明
 
