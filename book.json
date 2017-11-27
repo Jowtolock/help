@@ -8,6 +8,7 @@
          "anchor-navigation-ex@1.0.10"
         ],
      "anchor-navigation-ex": {
+            "showLevel": false,
             "isRewritePageTitle": false,
             "tocLevel1Icon": "fa fa-hand-o-right",
             "tocLevel2Icon": "fa fa-hand-o-right",
