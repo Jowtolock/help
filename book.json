@@ -3,6 +3,9 @@
         "sidebar": {
             "云锁官网": "http://www.yunsuo.com.cn"
         }
-    }
+    },
+    "plugins": [
+         "anchor-navigation-ex"
+               ]
     
 }

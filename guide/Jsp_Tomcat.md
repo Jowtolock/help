@@ -1,13 +1,13 @@
-#### Tomcat/Tomee
+# Tomcat/Tomee
 >**建议:安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块；同时将要修改的配置文件进行备份。**
 
 >**Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
 
- [TOC]
 
-##### Windows 安装说明
 
-**官网 Tomcat 版本**
+## Windows 安装说明
+
+### 官网 Tomcat 版本
 
 假设 tomcat 工作目录：`CATALINA_HOME =C:\Program Files\Apache Software Foundation\Tomcat 6.0`
 
