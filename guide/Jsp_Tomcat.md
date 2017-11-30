@@ -59,7 +59,7 @@
 
 ![](/assets/Windows_Tomcat_3.png)
 
-##### Linux 安装说明
+## Linux 安装说明
 
 假设tomcat的工作目录为：`CATALINA_HOME=/usr/local/tomcat/`
 
