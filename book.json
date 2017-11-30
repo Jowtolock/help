@@ -11,7 +11,7 @@
          "anchor-navigation-ex": {
             "showLevel": false,
             "mode": "pageTop",
-            "pageTop" {
+            "pageTop": {
                  "showLevelIcon": false,
                  "tocLevel1Icon": "fa fa-hand-o-right",
                  "tocLevel2Icon": "fa fa-hand-o-right",
