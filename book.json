@@ -9,7 +9,7 @@
         ],
      "pluginsConfig": {
          "anchor-navigation-ex": {
-            "showLevel": true
+            "showLevel": false,
             "isRewritePageTitle": false,
             "showLevelIcon": false,
             "tocLevel1Icon": "fa fa-hand-o-right",
