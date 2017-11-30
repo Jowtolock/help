@@ -7,11 +7,13 @@
     "plugins": [
          "anchor-navigation-ex"
         ],
-     "anchor-navigation-ex": {
+     "pluginsConfig": {
+         "anchor-navigation-ex": {
             "isRewritePageTitle": false,
             "showLevelIcon": false,
             "tocLevel1Icon": "fa fa-hand-o-right",
             "tocLevel2Icon": "fa fa-hand-o-right",
             "tocLevel3Icon": "fa fa-hand-o-right"
+            }
         }
 }
