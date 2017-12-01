@@ -18,7 +18,7 @@
 
 # 目录
 ## 入门指南
-* [1. 云锁安装说明](guide/inst_README.md)
+* [1. 云锁安装说明](/guide/inst_README.md)
    * [1.1 Windows服务器端](Win_inst.md)
    * [1.2 Linux服务器端](Lin_inst.md)
    * [1.3 PC端](PC_inst.md)
