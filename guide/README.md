@@ -19,4 +19,3 @@
    * [CentOS\/RedHat Linux](Ker_CentOS.md)
    * [Ubuntu](Ker_Ubuntu.md)
    * [Suse Linux](Ker_Suse.md)
-* [增值项说明](valueadded.md)
