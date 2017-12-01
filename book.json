@@ -7,7 +7,7 @@
     "plugins": [
          "anchor-navigation-ex"
         ],
-     "pluginsConfig": {
+    "pluginsConfig": {
          "anchor-navigation-ex": {
             "showLevel": false,
             "mode": "pageTop",
