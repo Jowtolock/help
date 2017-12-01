@@ -3,18 +3,5 @@
         "sidebar": {
             "云锁官网": "http://www.yunsuo.com.cn"
         }
-    },
-    "plugins": [
-         "anchor-navigation-ex"
-        ],
-    "pluginsConfig": {
-         "anchor-navigation-ex": {
-            "showLevel": false,
-            "mode": "pageTop",
-            "tocLevel1Icon": "fa fa-hand-o-right",
-            "tocLevel2Icon": "fa fa-hand-o-right",
-            "tocLevel3Icon": "fa fa-hand-o-right"
-                
-            }
-        }
+    }
 }
