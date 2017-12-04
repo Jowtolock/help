@@ -34,13 +34,13 @@
    * [3.1 安装Nginx\/Tengine防护模块](/guide/Nginx_inst.md)
    * [3.2 卸载Nginx\/Tengine防护模块](/guide/Nginx_uninst.md)
    * [3.3 FAQ](/guide/Nginx_FAQ.md)
-* [Linux支持内核版本](/guide/Ker_README.md)
-   * [CentOS\/RedHat Linux](/guide/Ker_CentOS.md)
-   * [Ubuntu](/guide/Ker_Ubuntu.md)
-   * [Suse Linux](/guide/Ker_Suse.md)
+* [4. Linux支持内核版本](/guide/Ker_README.md)
+   * [4.1 CentOS\/RedHat Linux](/guide/Ker_CentOS.md)
+   * [4.2 Ubuntu](/guide/Ker_Ubuntu.md)
+   * [4.3 Suse Linux](/guide/Ker_Suse.md)
 
 ## 操作手册
-* [1. “添加服务器”操作说明](f01.md)
+* [1. “添加服务器”操作说明](/faq/f01.md)
 * [2. “删除服务器”操作说明](f02.md)
 * [3. “PC端远程登录”操作说明](f03.md)
 * [4. “服务器和Web服务重启”功能操作](f04.md)
