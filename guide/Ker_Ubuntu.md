@@ -1,7 +1,7 @@
 #### Ubuntu
 |x86|x64|
 |-|
-|-|4.2.0-16-generic|
+|4.2.0-16-generic|4.2.0-16-generic|
 |3.19.0-74-generic|3.19.0-74-generic|
 |3.19.0-73-generic|3.19.0-73-generic|
 |3.19.0-15-generic|3.19.0-15-generic|
