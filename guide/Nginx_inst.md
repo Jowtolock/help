@@ -152,6 +152,10 @@
 13. 到此通过PC端连接到服务器端，在PC端的界面上可以看到已识别nginx插件。
 
     ![](/assets/Nginx filter_12.png)
+    
+ 宝塔Tengine编译教程：
+ https://ehlz.cn/jianzhan/6.html
+ 
 
 
 
