@@ -124,7 +124,7 @@
 
    ![](/assets/Nginx filter_9.1.png)
 
-10. Nginx1.8.0 以上和 Tengine 2.1.2 以上要支持post过滤，需在objs/Makefile文件中的CFLAGS后追加宏定义 -DHIGHERTHAN8
+10. Nginx1.8.0 以上和 Tengine 2.1.2 则需要修改objs/Makefile文件来支持post过滤，在Makefile文件中的`CFLAGS=...-Werror -g`后追加宏定义 `-DHIGHERTHAN8`
 
    ```
    # vi objs/Makefile
