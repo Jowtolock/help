@@ -53,7 +53,7 @@
    }
 
    # cd nginx-1.10.1/src/http/
-   # vim ngx_http_upstream.c
+   # vi ngx_http_upstream.c
    --------------------下面这段是添加的----------------
    int
    ngx_http_yunsuo_post_in_handler(ngx_http_request_t *r);
@@ -127,7 +127,7 @@
 10. Nginx1.8.0 以上和 Tengine 2.1.2 以上要支持post过滤，需在objs/Makefile文件中的CFLAGS后追加宏定义 -DHIGHERTHAN8
 
    ```
-   # vim objs/Makefile
+   # vi objs/Makefile
    CFLAGS =  -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g -DHIGHERTHAN8
    ```
 
