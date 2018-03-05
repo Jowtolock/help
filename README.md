@@ -24,12 +24,7 @@
    * [1.2 Linux服务器端](/guide/Lin_inst.md)
    * [1.3 PC端](/guide/PC_inst.md)
 * [2. JspAgent使用说明](/guide/Jsp_README.md) 
-   * [2.1 Tomcat\/Tomee](/guide/Jsp_Tomcat.md)
-   * [2.2 Weblogic](/guide/Jsp_Weblogic.md)
-   * [2.3 Jboss\/wildfly](/guide/Jsp_Jboss.md)
-   * [2.4 Glassfish](/guide/Jsp_Glassfish.md)
-   * [2.5 TongWeb](/guide/Jsp_TongWeb.md)
-   * [2.6 Jetty](/guide/Jsp_Jetty.md)
+   
 * [3. Nginx/Tengine自编译说明](/guide/Nginx_README.md)
    * [3.1 安装Nginx\/Tengine防护模块](/guide/Nginx_inst.md)
    * [3.2 卸载Nginx\/Tengine防护模块](/guide/Nginx_uninst.md)

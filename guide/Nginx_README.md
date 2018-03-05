@@ -3,3 +3,7 @@
 一般情况下，当用户安装云锁的时候，云锁会自动适配nginx版本，使用我们已经预编译好的包含云锁模块的nginx替换掉您当前系统中使用的nginx。卸载时，会将备份的系统原始nginx文件替换回来。因此，云锁可保护使用nginx搭建的网站，开创了这个领域的先河。
 
 但当nginx更新后，云锁未及时适配最新的nginx版本；或者用户的nginx加载（--add-moudel）了第三方模块，云锁安装时提示nginx防护安装失败。此时需要用户手工加载云锁的防护模块进行防护。
+
+* [安装Nginx\/Tengine防护模块](/guide/Nginx_inst.md)
+* [卸载Nginx\/Tengine防护模块](/guide/Nginx_uninst.md)
+* [FAQ](/guide/Nginx_FAQ.md)
