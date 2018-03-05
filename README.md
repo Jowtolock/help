@@ -30,9 +30,7 @@
    * [3.2 卸载Nginx\/Tengine防护模块](/guide/Nginx_uninst.md)
    * [3.3 FAQ](/guide/Nginx_FAQ.md)
 * [4. Linux支持内核版本](/guide/Ker_README.md)
-   * [4.1 CentOS\/RedHat Linux](/guide/Ker_CentOS.md)
-   * [4.2 Ubuntu](/guide/Ker_Ubuntu.md)
-   * [4.3 Suse Linux](/guide/Ker_Suse.md)
+
 
 ## 操作手册
 * [1. “添加服务器”操作说明](/manual/f01.md)
