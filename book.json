@@ -5,3 +5,9 @@
         }
     }
 }
+
+{
+    "theme-default": {
+        "showLevel": true
+    }
+}
