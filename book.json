@@ -6,8 +6,9 @@
     },
     "plugins": [
         "-lunr",
-        "-search"
-        
+        "-search",
+        "search-plus"
+        "tbfed-pagefooter"
         ],
     "pluginsConfig": {
         "theme-default": {
