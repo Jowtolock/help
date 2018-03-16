@@ -25,7 +25,7 @@
     * [Ubuntu](guide/Ker_Ubuntu.md)
     * [Suse Linux](guide/Ker_Suse.md)
 
-* [操作手册](manual/README.md)
+* [功能说明](manual/README.md)
  * [“添加服务器”操作说明](manual/f01.md)
  * [“删除服务器”操作说明](manual/f02.md)
  * [“PC端远程登录”操作说明](manual/f03.md)
