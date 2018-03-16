@@ -4,7 +4,7 @@
 
 * [简介](README.md)
 
-* [入门指南]()
+* [入门指南](guide/README.md)
  * [云锁安装说明](guide/inst_README.md)
   * [Windows服务器端安装说明](guide/Win_inst.md)
   * [Linux服务器端安装说明](guide/Lin_inst.md)
