@@ -1,4 +1,4 @@
-#### 卸载Nginx/Tengine防护模块
+# 卸载Nginx/Tengine防护模块
 1. 使用nginx.bak文件替换掉自编译的nginx文件，替换后重启Nginx
       
    ```

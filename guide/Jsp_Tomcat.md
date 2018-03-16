@@ -1,13 +1,11 @@
-#### Tomcat/Tomee
+# Tomcat/Tomee
 >**建议:安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块；同时将要修改的配置文件进行备份。**
 
 >**Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
 
-[Windows](# Windows 安装说明)
+## Windows 安装说明
 
-##### Windows 安装说明
-
-##### 官网 Tomcat 版本
+### 官网 Tomcat 版本
 
 假设 tomcat 工作目录：`CATALINA_HOME =C:\Program Files\Apache Software Foundation\Tomcat 6.0`
 
@@ -32,7 +30,7 @@
 
 3）重启 tomcat。
 
-**JTM 套件**
+### JTM 套件
 
 假定tomcat的工作目录：`CATALINA_HOME=C:\JTM\tomcat`
 
@@ -52,7 +50,7 @@
 
 3）重启 tomcat 。
 
-**其他版本**
+### 其他版本
 
 观察tomcat的启动脚本，如果最终调用了`%CATALINA_HOME%/bin/catalina.bat`，那么可以在这个文件中修改，定位到：`execCmd`，在其下追加一行：
 
@@ -60,7 +58,7 @@
 
 ![](/assets/Windows_Tomcat_3.png)
 
-##### Linux 安装说明
+## Linux 安装说明
 
 假设tomcat的工作目录为：`CATALINA_HOME=/usr/local/tomcat/`
 

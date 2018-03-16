@@ -1,9 +1,11 @@
+# Nginx/Tengine自编译
+
 除了采用内核加固技术来增强服务器自身对抗恶意代码和黑客攻击的策略外，云锁通过在web中间件部署安全模块的方式来对抗网络攻击，通过安全模块的fliter过滤功能,云锁能高效过滤恶意流量和黑客攻击，强力对抗CC、SQL注入、上传一句木马等网络攻击。
 
 一般情况下，当用户安装云锁的时候，云锁会自动适配nginx版本，使用我们已经预编译好的包含云锁模块的nginx替换掉您当前系统中使用的nginx。卸载时，会将备份的系统原始nginx文件替换回来。因此，云锁可保护使用nginx搭建的网站，开创了这个领域的先河。
 
 但当nginx更新后，云锁未及时适配最新的nginx版本；或者用户的nginx加载（--add-moudel）了第三方模块，云锁安装时提示nginx防护安装失败。此时需要用户手工加载云锁的防护模块进行防护。
 
-* [安装Nginx\/Tengine防护模块](/guide/Nginx_inst.md)
-* [卸载Nginx\/Tengine防护模块](/guide/Nginx_uninst.md)
+* [安装Nginx/Tengine防护模块](/guide/Nginx_inst.md)
+* [卸载Nginx/Tengine防护模块](/guide/Nginx_uninst.md)
 * [FAQ](/guide/Nginx_FAQ.md)
