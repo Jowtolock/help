@@ -1,7 +1,5 @@
 #### 安装Nginx/Tengine防护模块
 
-**宝塔面板tengine防护编译安装说明：**https://ehlz.cn/jianzhan/6.html
-
 > 云锁适配Nginx版本，是使用已经预编译好的包含云锁模块的Nginx替换掉您当前系统中使用的Nginx。但当您的Nginx含有以下参数时，需编译安装。
 >
 > `--add-module、--with-file-aio、--with-http_xslt_module、--with-http_image_filter_module、--with-http_geoip_module、--with-http_perl_module、--with-perl_modules_path、--with-perl、--with-google_perftools_module、--add-dynamic-module、--with-stream=dynamic`
