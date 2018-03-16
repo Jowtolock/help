@@ -1,6 +1,5 @@
 # Summary
 
-## 帮助中心
 
 * [简介](README.md)
 * [入门指南](guide/README.md)
