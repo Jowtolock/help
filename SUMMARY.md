@@ -6,9 +6,9 @@
 
 * [入门指南](guide/README.md)
  * [云锁安装说明](guide/inst_README.md)
-   * [Windows服务器端安装说明](guide/Win_inst.md)
-   * [Linux服务器端安装说明](guide/Lin_inst.md)
-   * [PC端安装说明](guide/PC_inst.md)
+    * [Windows服务器端安装说明](guide/Win_inst.md)
+    * [Linux服务器端安装说明](guide/Lin_inst.md)
+    * [PC端安装说明](guide/PC_inst.md)
  * [Nginx/Tengine自编译说明](guide/Nginx_README.md)
     * [安装Nginx/Tengine防护模块](guide/Nginx_inst.md)
     * [卸载Nginx/Tengine防护模块](guide/Nginx_uninst.md)
