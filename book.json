@@ -4,11 +4,6 @@
             "云锁官网": "http://www.yunsuo.com.cn"
         }
     },
-    "plugins": [
-        "-lunr",
-        "-search"
-        
-        ],
     "pluginsConfig": {
         "theme-default": {
             "showLevel": true
