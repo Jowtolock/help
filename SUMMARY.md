@@ -1,15 +1,14 @@
 # Summary
 
-
 * [简介](README.md)
 * [入门指南](guide/README.md)
   * [云锁安装说明](guide/inst_README.md)
-    * [Windows服务器端安装说明](guide/Win_inst.md)
-    * [Linux服务器端安装说明](guide/Lin_inst.md)
-    * [PC端安装说明](guide/PC_inst.md)
+    * [Windows 服务器端](guide/Win_inst.md)
+    * [Linux 服务器端](guide/Lin_inst.md)
+    * [PC 端](guide/PC_inst.md)
   * [Nginx/Tengine 自编译说明](guide/Nginx_README.md)
-    * [安装 Nginx/Tengine 防护模块](guide/Nginx_inst.md)
-    * [卸载 Nginx/Tengine 防护模块](guide/Nginx_uninst.md)
+    * [安装防护模块](guide/Nginx_inst.md)
+    * [卸载防护模块](guide/Nginx_uninst.md)
     * [FAQ](guide/Nginx_FAQ.md)
   * [RASP 使用说明](guide/Jsp_README.md)
     * [Tomcat/Tomee 安装](guide/Jsp_Tomcat.md)
