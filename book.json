@@ -4,13 +4,18 @@
             "云锁官网": "http://www.yunsuo.com.cn"
         }
     },
- "tbfed-pagefooter": {            
-            "modify_label": "该文件修订时间：",
-            "modify_format": "YYYY-MM-DD HH:mm:ss"
-        },   
-"pluginsConfig": {
+    "plugins": [
+        "-lunr",
+        "-search", 
+        "search-plus@^0.0.11"
+        ],
+    "pluginsConfig": {
         "theme-default": {
             "showLevel": true
-        }
+        },
+     "tbfed-pagefooter": {            
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        } 
     }
 }
