@@ -7,8 +7,7 @@
     "plugins": [
         "-lunr",
         "-search", 
-        "search-plus@^1.0.4",
-        "tbfed-pagefooter"
+        
         ],
     "pluginsConfig": {
         "theme-default": {
