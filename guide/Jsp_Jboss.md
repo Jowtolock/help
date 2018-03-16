@@ -1,7 +1,7 @@
-#### Jboss/wildfly 
+# Jboss/wildfly 安装
 >**建议:安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块；同时将要修改的配置文件进行备份。**
 
-##### Windows 安装说明
+## Windows 安装说明
 
 1）拷贝`jspAgent`目录到`%JBOSS_HOME%`下。
 
@@ -21,7 +21,7 @@
 
 3）重启Jboss。
 
-##### linux 安装说明
+## linux 安装说明
 
 假设Jboss工作目录：`JBOSS_HOME=/root/jboss-as-7.1.1.Final`
 

@@ -1,4 +1,4 @@
-# 安装Nginx/Tengine防护模块
+# 安装 Nginx/Tengine 防护模块
 
 > 云锁适配Nginx版本，是使用已经预编译好的包含云锁模块的Nginx替换掉您当前系统中使用的Nginx。但当您的Nginx含有以下参数时，需编译安装。
 >
