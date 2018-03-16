@@ -5,7 +5,8 @@
         }
     },
    
-    "theme-default": {
-        "showLevel": true
-    }
+"pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
 }
