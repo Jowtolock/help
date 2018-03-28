@@ -113,7 +113,7 @@
 
    ![](/assets/Nginx filter_8.png)
 
-9. 进入nginx源码目录，对nginx进行编译；编译时添加云锁防护模块参数，参数路径为第7步获取的云锁防护模块源码全路径“/root/nginx-plugin-master”
+9. 进入nginx源码目录，对nginx进行编译；编译时在第8步获取的nginx原有模块后添加云锁防护模块，模块路径为第7步获取的云锁防护模块源码全路径“/root/nginx-plugin-master”
 
    ```
    # cd nginx-1.10.1/
