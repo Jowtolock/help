@@ -15,17 +15,17 @@
 
 ![](/assets/Linux_install_1.png)
 
->#### 安装云锁
+## 安装云锁
 
 **注意：**如曾经下载过云锁安装包，则将旧的云锁安装包及安装目录删除**（rm -rf yunsuo_*）**后再安装。
 
-##### 快速安装
+### 快速安装
 
 x86：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_32bit.tar.gz && tar xvzf yunsuo_agent_32bit.tar.gz && chmod +x yunsuo_install/install && yunsuo_install/install
 
 x64：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xvzf yunsuo_agent_64bit.tar.gz && chmod +x yunsuo_install/install && yunsuo_install/install
 
-##### 分步安装
+### 分步安装
 
 1. 下载云锁安装包。
     
@@ -56,18 +56,18 @@ x64：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xvz
 
 6. 安装完成后通过[PC端](http://help.yunsuo.com.cn/guide/PC_inst.html)进行管理。
 
->#### 查看云锁是否运行
+## 查看云锁是否运行
    
      ps -ef | grep yunsuo_agent
 
 ![](/assets/Linux_install_3.png)
->#### 云锁服务相关命令 
+## 云锁服务相关命令 
 
-##### 云锁启动/停止/重启/状态
+**云锁启动/停止/重启/状态**
 
     service yunsuo start/stop/restart/status
     /etc/init.d/yunsuo start/stop/restart/status
 
->#### 卸载云锁
+## 卸载云锁
 
     /usr/local/yunsuo_agent/uninstall
