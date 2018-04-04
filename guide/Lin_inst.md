@@ -64,7 +64,7 @@ yunsuo_install/install
 ```
 /usr/local/yunsuo_agent/agnet_smart_tool.sh -u cloud_name -p cloud_passwd
 ```
-[info] 说明：cloud_name：云中心账户名；cloud_passwd：云中心登录密码
+**[info] 说明**cloud_name：云中心账户名；cloud_passwd：云中心登录密码
 
   ![](/assets/f0105.png)
 
