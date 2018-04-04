@@ -8,7 +8,8 @@
         "-lunr",
         "-search",
         "search-plus",
-        "tbfed-pagefooter"
+        "tbfed-pagefooter",
+         "alerts"
         ],
     "pluginsConfig": {
         "theme-default": {
