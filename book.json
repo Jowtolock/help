@@ -8,8 +8,7 @@
         "-lunr",
         "-search",
         "search-plus",
-        "tbfed-pagefooter",
-        "simple-page-toc"
+        "tbfed-pagefooter"
         ],
     "pluginsConfig": {
         "theme-default": {
@@ -18,10 +17,7 @@
     "tbfed-pagefooter": {
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
-        },
-    "simple-page-toc": {
-            "maxDepth": 3,
-            "skipFirstH1": true
         }
+    
     }
 }
