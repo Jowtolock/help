@@ -3,6 +3,11 @@
 
 >**Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
 
+- [Windows](#Windows安装说明)
+ - [Tomcat](#官网Tomcat版本)
+ - [JTM套件](#JTM套件)
+ - [其它版本](#其它版本)
+- [Linux](#Linux安装说明)
 ## Windows 安装说明
 
 ### 官网 Tomcat 版本
