@@ -6,7 +6,7 @@
     * [Windows 服务器端](guide/Win_inst.md)
     * [Linux 服务器端](guide/Lin_inst.md)
     * [PC 端](guide/PC_inst.md)
-  * [Nginx/Tengine 自编译说明](guide/Nginx_README.md)
+  * [Nginx/Tengine 自编译说明](guide/Nginx.md)
     * [安装防护模块](guide/Nginx_inst.md)
     * [卸载防护模块](guide/Nginx_uninst.md)
     * [FAQ](guide/Nginx_FAQ.md)
