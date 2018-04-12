@@ -15,7 +15,7 @@
 
 检查并关闭selinux，否则无法安装云锁；如已关闭则忽略此步骤。
 
-![](/assets/ins_lin01.png)
+![](/assets/installL01.png)
 
 1) 检查selinux状态
     
@@ -25,7 +25,7 @@
     
     # vim /etc/sysconfig/selinux
 
-![](/assets/ins_lin02.png)
+![](/assets/installL02.png)
 
 
 ## 安装云锁
@@ -58,7 +58,7 @@ chmod +x yunsuo_install/install`
 ```    
 yunsuo_install/install
 ``` 
-![](/assets/ins_lin03.png)
+![](/assets/installL03.png)
  
 5. 添加服务器到云中心。
 ```
@@ -73,7 +73,7 @@ yunsuo_install/install
    
      ps -ef | grep yunsuo_agent
 
-![](/assets/ins_lin04.png)
+![](/assets/installL04.png)
 ## 云锁服务相关命令 
 
 **云锁启动/停止/重启/状态**
