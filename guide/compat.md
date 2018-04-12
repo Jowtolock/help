@@ -1,14 +1,22 @@
-# 云锁支持的作系统和Web中间件
+# 云锁兼容性说明
 
-## 云锁服务器端支持的系统
+- [支持的操作系统](#云锁支持的系统)
+  - [服务器端](#服务器端)
+  - [PC控制端](#PC控制端)
+- [Web中间件](#云锁支持的Web中间件)
+- [Linux面板](#云锁Linux版本支持的面板)
 
-### Windows:
+## 云锁支持的系统
+
+### 服务器端
+
+**Windows:**
 
 ```
 Windows Server 2003 SP2（x86/x64）、Windows Server 2008（x86/x64）、Windows Server 2012
 ```
 
-### Linux:
+**Linux:**
 
 ```
 RedHat 5.0~RedHat 5.11（x86/x64）、RedHat 6.0~RedHat 6.7（x86/x64）、RedHat 7.0~RedHat 7.4
@@ -19,7 +27,7 @@ Suse 10~Suse 10 sp3（x86/x64）、Suse 11~Suse 11 sp3（x86/x64）、Suse 12
 
 [点击查看对应内核版本](http://help.yunsuo.com.cn/guide/Ker_README.html)
 
-## 云锁PC控制端支持的系统
+### PC控制端
 
 ```
 Windows XP SP3 及以上
@@ -34,6 +42,8 @@ Nginx 1.0.*、Nginx 1.2.*、Nginx 1.4.*、Nginx 1.6.*~Nginx 1.13.*
 kangle
 Tomcat、Weblogic、WebSphere、TongWeb、Jboss等
 ```
+### 云锁Linux版本支持的面板
 
+Wdcp/AMH/Cpanel/zpanel/virualmin/lumanager
 
 
