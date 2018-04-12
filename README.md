@@ -6,7 +6,7 @@
 
 ##### 基础功能
 
-![](/assets/q_03_1.png)
+![](/assets/intro.png)
 
 ##### 增值功能
 
