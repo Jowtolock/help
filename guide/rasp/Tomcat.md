@@ -32,7 +32,7 @@
     ------追加下面这一行---
     -javaagent:C:\Program Files\Apache Software Foundation\Tomcat 6.0\jspAgent\JSPAgent.jar
 
-![](/assets/Windows_Tomcat_1.png)
+![](/assets/TomcatW01.png)
 
 3）重启 tomcat。
 
@@ -52,7 +52,7 @@
 
 `"%EXECUTABLE%" //US//%SERVICE_NAME% ++JvmOptions "*-javaagent:%CATALINA_HOME%\jspAgent\JSPAgent.jar;*-Djava.io.tmpdir=%CATALINA_BASE%\temp;-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager;-Djava.util.logging.config.file=%CATALINA_BASE%\conf\logging.properties" --JvmMs 128 --JvmMx 512 --Startup=auto`
 
-![](/assets/Windows_Tomcat_2.png)
+![](/assets/TomcatW02.png)
 
 3）重启 tomcat 。
 
@@ -62,7 +62,7 @@
 
 `set JAVA_OPTS=-javaagent:%CATALINA_HOME%\jspAgent\JSPAgent.jar  %JAVA_OPTS%`
 
-![](/assets/Windows_Tomcat_3.png)
+![](/assets/TomcatW03.png)
 
 ## Linux 安装说明
 
@@ -70,10 +70,10 @@
 
 1）拷贝`jspAgent`目录到`${CATALINA_HOME}`下。
 
-![](/assets/Linux_Tomcat_1.png)
+![](/assets/TomcatL01.png)
 
 2）修改`${CATALINA_HOME}/bin/catalina.sh`中的JAVA启动参数，附加上`-javaagent`选项。过程如下：定位到`elif [ "$1" = "start" ]; then`，其下追加一行：`JAVA_OPTS="-javaagent:${CATALINA_HOME}/jspAgent/JSPAgent.jar ${JAVA_OPTS}"`
 
-![](/assets/Linux_Tomcat_2.png)
+![](/assets/TomcatL02.png)
 
 3）重启tomcat。

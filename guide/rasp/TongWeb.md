@@ -8,7 +8,7 @@
 
 2）登录控制台：`http://IP:9060/twns`， 服务器配置->启动参数，新增一项：`-javaagent:%TWNS_HOME%\jspAgent\JSPAgent.jar`或绝对路径的写法：`-javaagent:"C:\TongWeb5.0\jspAgent\JSPAgent.jar`
 
-![](/assets/Windows_Tongweb_1.png)
+![](/assets/TongwebW.png)
 
 3）重启TongWeb。
 
@@ -21,6 +21,6 @@
 2）登录控制台：`http://IP:9060/twns`， 服务器配置->启动参数，新增一项:
 `-javaagent:${TWNS_HOME}/jspAgent/JSPAgent.jar`
 
-![](/assets/Linux_Tongweb_1.png)
+![](/assets/TongwebL.png)
 
 3）重启TongWeb。
