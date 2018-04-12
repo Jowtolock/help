@@ -12,12 +12,12 @@ JSPAgent主要针对Struts2漏洞（远程执行和文件上传）、WebLogic对
 
 `/jspAgent/JSPAgent.jar、/jspAgent/libJSPAgent.so、/jspAgent/liblitexml_linux.so`
 
-* [Tomcat/Tomee 安装](/guide/Jsp_Tomcat.md)
-* [Weblogic 安装](/guide/Jsp_Weblogic.md)
-* [Jboss/wildfly 安装](/guide/Jsp_Jboss.md)
-* [Glassfish 安装](/guide/Jsp_Glassfish.md)
-* [TongWeb 安装](/guide/Jsp_TongWeb.md)
-* [Jetty 安装](/guide/Jsp_Jetty.md)
+* [Tomcat/Tomee 安装](/guide/rasp/Tomcat.md)
+* [Weblogic 安装](/guide/rasp/Weblogic.md)
+* [Jboss/wildfly 安装](/guide/rasp/Jboss.md)
+* [Glassfish 安装](/guide/rasp/Glassfish.md)
+* [TongWeb 安装](/guide/rasp/TongWeb.md)
+* [Jetty 安装](/guide/rasp/Jetty.md)
 
 ### 升级说明
 当JspAgent更新时，云锁会在更新公告中进行说明；除此外云锁安装后在JspAgent生成一个记录文件md5的文档，当更新后的文档中md5值与原文件中的md5值不一致时也表示JspAgent更新了。更新时需按照以下步骤进行：
