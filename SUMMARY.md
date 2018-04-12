@@ -2,6 +2,7 @@
 
 * [简介](README.md)
 * [入门指南](guide/README.md)
+  * [云锁兼容性说明](guide/compat.md)
   * [云锁安装说明](guide/install/README.md)
     * [Windows 服务器端](guide/install/Windows.md)
     * [Linux 服务器端](guide/install/Linux.md)
