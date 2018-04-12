@@ -1,7 +1,7 @@
-# Glassfish 安装
->**建议:安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块；同时将要修改的配置文件进行备份。**
+# Glassfish安装
+>**[info] 建议：安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块；同时将要修改的配置文件进行备份。**
 
-## Windows 安装说明
+## Windows安装说明
 假设Glassfish的工作目录：`GLASSFISH\_HOME=C:\glassfish4`
 
 1）拷贝`jspAgent`目录到`%GLASSFISH\_HOME%`下。
@@ -12,7 +12,7 @@
 
 3）重启 Glassfish。
 
-## Linux 安装说明
+## Linux安装说明
 
 假设`Glassfish`的工作目录：`GLASSFISH_HOME= /usr/local/glassfish/glassfish`
 
