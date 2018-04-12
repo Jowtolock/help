@@ -33,6 +33,7 @@
 **注意：**如曾经下载过云锁安装包，则将旧的云锁安装包及安装目录删除**（rm -rf yunsuo_*）**后再安装。
 
 ### 快速安装
+
 ```
 x86：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_32bit.tar.gz && tar xvzf yunsuo_agent_32bit.tar.gz && chmod +x yunsuo_install/install && yunsuo_install/install
 x64：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xvzf yunsuo_agent_64bit.tar.gz && chmod +x yunsuo_install/install && yunsuo_install/install
@@ -74,6 +75,7 @@ yunsuo_install/install
      ps -ef | grep yunsuo_agent
 
 ![](/assets/installL04.png)
+
 ## 云锁服务相关命令 
 
 **云锁启动/停止/重启/状态**

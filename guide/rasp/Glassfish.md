@@ -3,7 +3,13 @@
 >
 >安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块；同时将要修改的配置文件进行备份。
 
+**Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
+
+- [Windows](#Windows安装说明)
+- [Linux](#Linux安装说明)
+
 ## Windows安装说明
+
 假设Glassfish的工作目录：`GLASSFISH\_HOME=C:\glassfish4`
 
 1）拷贝`jspAgent`目录到`%GLASSFISH\_HOME%`下。

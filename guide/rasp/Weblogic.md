@@ -1,7 +1,12 @@
-# Weblogic 安装
->**建议:安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块；同时将要修改的配置文件进行备份。**
+# Weblogic安装
+>**[info] 建议
+>
+>安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块；同时将要修改的配置文件进行备份。
 
-## Windows 安装说明
+**Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
+
+## Windows安装说明
+
 1）拷贝`jspAgent`目录到`%DOMAIN_HOME%`下。
 
 2）修改`%DOMAIN_HOME%\bin\startWebLogic.cmd`， 定位到
@@ -11,14 +16,14 @@
 
 3）重启 WebLogic。
 
-## Linux 安装说明
+## Linux安装说明
 
 1）首先获取startWebLogic.sh位置：
-
+```
     # ps -elf | grep startWebLogic.sh
     /bin/sh ./root/wls12130/user_projects/domains/mydomain/startWebLogic.sh
     /bin/sh /root/wls12130/user_projects/domains/mydomain/bin/startWebLogic.sh
-
+```
 ![](/assets/WeblogicL01.png)
 
 由此确定工作目录为：`DOMAIN_HOME =/root/wls12130/user_projects/domains/mydomain`
