@@ -11,3 +11,5 @@
 
 ![](/assets/installPC04.png)
 
+![](/assets/installPC05.png)
+
