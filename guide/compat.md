@@ -25,7 +25,7 @@ Ubuntu（x86/x64）
 Suse 10~Suse 10 sp3（x86/x64）、Suse 11~Suse 11 sp3（x86/x64）、Suse 12
 ```
 
-[点击查看对应内核版本](http://help.yunsuo.com.cn/guide/Ker_README.html)
+[点击查看对应内核版本](guide/kernel/README.html)
 
 ### PC控制端
 
