@@ -139,8 +139,6 @@
 
    ```
    # vi objs/Makefile
-   ```
-   ```bash
    CFLAGS =  -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g -DHIGHERTHAN8
    ```
 
