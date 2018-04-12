@@ -5,7 +5,7 @@
 
 - [Windows](#Windows安装说明)
  - [官网Tomcat](#官网Tomcat)
- - [JTM套件](#JTM)
+ - [JTM套件](#JTM套件)
  - [其它版本](#其它版本)
 - [Linux](#Linux安装说明)
 
@@ -36,7 +36,7 @@
 
 3）重启 tomcat。
 
-### JTM 套件
+### JTM套件
 
 假定tomcat的工作目录：`CATALINA_HOME=C:\JTM\tomcat`
 
@@ -64,7 +64,7 @@
 
 ![](/assets/TomcatW03.png)
 
-## Linux 安装说明
+## Linux安装说明
 
 假设tomcat的工作目录为：`CATALINA_HOME=/usr/local/tomcat/`
 
