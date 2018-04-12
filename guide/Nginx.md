@@ -55,14 +55,16 @@
 
 4. 由于其默认不支持post过滤，所以需要修改Nginx文件。1.8.0 版本以下修改源码目录下ngx\_http\_upstream.c文件（Nginx 1.8.0 及以上版本和**Tengine**跳过该步骤）。在`static void ngx_http_upstream_init_request(ngx_http_request_t \*r);`行上方添加：`int ngx_http_yunsuo_post_in_handler(ngx_http_request_t *r);`和在`ngx_http_upstream_init_request`后，添加：
 
-   ```
+```bash
    if (ngx_http_yunsuo_post_in_handler(r)) {
        return;
    }
 ```
-```bash
+```
    # cd nginx-1.10.1/src/http/
    # vi ngx_http_upstream.c
+```
+```bash
    --------------------下面这段是添加的----------------
    int
    ngx_http_yunsuo_post_in_handler(ngx_http_request_t *r);
