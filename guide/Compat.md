@@ -44,6 +44,6 @@ Tomcat、Weblogic、WebSphere、TongWeb、Jboss等
 ```
 ### 云锁支持的面板
 
-Wdcp/AMH/Cpanel/zpanel/virualmin/lumanager
+Wdcp/BT/AMH/Cpanel/zpanel/virualmin/lumanager
 
 
