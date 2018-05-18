@@ -53,7 +53,7 @@ x64：tar zxvf yunsuo_agent_64bit.tar.gz
 ```   
 3. 给云锁安装文件赋予可执行权限。
 ```
-chmod +x yunsuo_install/install`
+chmod +x yunsuo_install/install
 ```
 4. 执行安装，直到提示“Install Yunsuo Success.”安装完成。
 ```    
