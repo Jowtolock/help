@@ -5,7 +5,10 @@
 
 **Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
 
-## Windows安装说明
+- [Windows安装说明](#Windows)
+- [Linux安装说明](#Linux)
+
+## Windows
 
 假定 TongWeb 的工作目录：`TWNS_HOME=C:\TongWeb5.0`
 
@@ -17,7 +20,7 @@
 
 3）重启TongWeb。
 
-## Linux安装说明
+## Linux
 
 假设TongWeb工作目录：`TWNS_HOME=/root/TongWeb5.0`
 

@@ -5,7 +5,10 @@
 
 **Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
 
-## Windows安装说明
+- [Windows安装说明](#Windows)
+- [Linux安装说明](#Linux)
+
+## Windows
 
 1）拷贝`jspAgent`目录到`%DOMAIN_HOME%`下。
 
@@ -16,7 +19,7 @@
 
 3）重启 WebLogic。
 
-## Linux安装说明
+## Linux
 
 1）首先获取startWebLogic.sh位置：
 ```
