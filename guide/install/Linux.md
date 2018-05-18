@@ -68,7 +68,7 @@ yunsuo_install/install
 ```
   ![](/assets/f0105.png)
 
-6. 安装完成后通过[PC端](/guide/PC.md)进行管理。
+6. 安装完成后通过[PC端](/guide/install/PC.md)进行管理。
 
 ## 查看云锁是否运行
    
