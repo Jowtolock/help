@@ -135,7 +135,8 @@
 
    ![](/assets/Nginx_13.png)
 
-10. Nginx1.8.0 以上和 Tengine 2.1.2 则需要修改objs/Makefile文件来支持post过滤，在Makefile文件中的`CFLAGS=...-Werror -g`后追加宏定义 `-DHIGHERTHAN8`
+10. Nginx1.8.0 以上和 Tengine 2.1.2 则需要修改objs/Makefile文件和objs/ngx_modules.c来支持post过滤和内容过滤。
+首先，在Makefile文件中的`CFLAGS=...-Werror -g`后追加宏定义 `-DHIGHERTHAN8`
 
    ```
    # vi objs/Makefile
@@ -143,7 +144,7 @@
    ```
 
    ![](/assets/Nginx_14.png)
-
+其次，将ngx_modules.c中的``
 11. configure完成后进行make（如原本无nginx，make后还需make install）
 
    ```
