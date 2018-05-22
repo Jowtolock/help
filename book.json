@@ -22,7 +22,7 @@
             "multipleH1": false,
             "mode": "float",
                 "float": {
-                    "showLevelIcon": true,
+                    "showLevelIcon": false,
                     "level1Icon": "fa fa-hand-o-right",
                     "level2Icon": "fa fa-hand-o-right",
                     "level3Icon": "fa fa-hand-o-right"
