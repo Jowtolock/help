@@ -31,7 +31,7 @@
 
    ![](/assets/Nginx_04.png)
 
-2. 过步骤1查看的路径跟-v参数查看当前Nginx版本，如有源码包则忽略此步骤。无源码包则到[Nginx官网](http://nginx.org/en/download.html)下载Nginx源码包，源码包需与自己的当前Nginx版本匹配（假设当前Nginx版本为1.10）。宝塔面板Nginx源码路径：/www/server/nginx/src/。
+2. 过步骤1查看的路径跟-v参数查看当前Nginx版本，如有源码包则忽略此步骤。无源码包则到[Nginx官网](http://nginx.org/en/download.html)下载Nginx源码包，源码包需与自己的当前Nginx版本匹配（假设当前Nginx版本为1.10）。宝塔面板Nginx源码路径：/www/server/nginx/src/；Oneinstack的Nginx源码路径在oneinstack目录下：oneinstack/src/。
   
    ```
    # /usr/local/nginx/sbin/nginx -v
@@ -136,7 +136,8 @@
    ![](/assets/Nginx_13.png)
 
 10. Nginx1.8.0 以上和 Tengine 2.1.2 则需要修改objs/Makefile文件和objs/ngx_modules.c来支持post过滤和内容过滤。
-首先，在Makefile文件中的`CFLAGS=...-Werror -g`后追加宏定义 `-DHIGHERTHAN8`
+
+   首先，在Makefile文件中的`CFLAGS=...-Werror -g`后追加宏定义 `-DHIGHERTHAN8`
 
    ```
    # vi objs/Makefile
@@ -144,7 +145,13 @@
    ```
 
    ![](/assets/Nginx_14.png)
-其次，将ngx_modules.c中的``
+
+   其次，将ngx_modules.c中的`&ngx_http_yunsuo_module,`向下移动到`ngx_http_userid_filter_module`和`ngx_http_headers_filter_module`之间。(已在此之间的则可忽略)
+   
+   ```
+   # vi objs/ngx_modules.c
+   ```
+   
 11. configure完成后进行make（如原本无nginx，make后还需make install）
 
    ```
