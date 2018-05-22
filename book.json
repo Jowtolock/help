@@ -8,16 +8,19 @@
         "-lunr",
         "-search",
         "search-plus",
-        "simple-page-toc",
+        "anchor-navigation-ex",
         "alerts"
         ],
     "pluginsConfig": {
         "theme-default": {
             "showLevel": true
         },
-        "simple-page-toc": {
-            "maxDepth": 3,
-            "skipFirstH1": true
-        }
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": true,
+            "isShowTocTitleIcon": true,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        }  
     }
 }
