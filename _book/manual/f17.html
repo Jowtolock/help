@@ -1,0 +1,1552 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>“登录防护”功能说明 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="f18.html" />
+    
+    
+    <link rel="prev" href="f30.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://www.yunsuo.com.cn" target="_blank" class="custom-link">云锁官网</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.</b>
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="../guide/">
+            
+                <a href="../guide/">
+            
+                    
+                        <b>2.</b>
+                    
+                    入门指南
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="../guide/Compat.html">
+            
+                <a href="../guide/Compat.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    云锁兼容性说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../guide/install/">
+            
+                <a href="../guide/install/">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    云锁安装说明
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../guide/install/Windows.html">
+            
+                <a href="../guide/install/Windows.html">
+            
+                    
+                        <b>2.2.1.</b>
+                    
+                    Windows 服务器端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../guide/install/Linux.html">
+            
+                <a href="../guide/install/Linux.html">
+            
+                    
+                        <b>2.2.2.</b>
+                    
+                    Linux 服务器端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../guide/install/PC.html">
+            
+                <a href="../guide/install/PC.html">
+            
+                    
+                        <b>2.2.3.</b>
+                    
+                    PC 端
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../guide/Nginx.html">
+            
+                <a href="../guide/Nginx.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    Nginx/Tengine 自编译说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../guide/rasp/">
+            
+                <a href="../guide/rasp/">
+            
+                    
+                        <b>2.4.</b>
+                    
+                    RASP 使用说明
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="../guide/rasp/Tomcat.html">
+            
+                <a href="../guide/rasp/Tomcat.html">
+            
+                    
+                        <b>2.4.1.</b>
+                    
+                    Tomcat/Tomee 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="../guide/rasp/Weblogic.html">
+            
+                <a href="../guide/rasp/Weblogic.html">
+            
+                    
+                        <b>2.4.2.</b>
+                    
+                    Weblogic 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="../guide/rasp/Jboss.html">
+            
+                <a href="../guide/rasp/Jboss.html">
+            
+                    
+                        <b>2.4.3.</b>
+                    
+                    Jboss/wildfly 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.4" data-path="../guide/rasp/Glassfish.html">
+            
+                <a href="../guide/rasp/Glassfish.html">
+            
+                    
+                        <b>2.4.4.</b>
+                    
+                    Glassfish 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.5" data-path="../guide/rasp/TongWeb.html">
+            
+                <a href="../guide/rasp/TongWeb.html">
+            
+                    
+                        <b>2.4.5.</b>
+                    
+                    TongWeb 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.6" data-path="../guide/rasp/Jetty.html">
+            
+                <a href="../guide/rasp/Jetty.html">
+            
+                    
+                        <b>2.4.6.</b>
+                    
+                    Jetty 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../guide/kernel/">
+            
+                <a href="../guide/kernel/">
+            
+                    
+                        <b>2.5.</b>
+                    
+                    Linux 支持内核版本
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../guide/kernel/CentOS.html">
+            
+                <a href="../guide/kernel/CentOS.html">
+            
+                    
+                        <b>2.5.1.</b>
+                    
+                    CentOS/RedHat Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="../guide/kernel/Ubuntu.html">
+            
+                <a href="../guide/kernel/Ubuntu.html">
+            
+                    
+                        <b>2.5.2.</b>
+                    
+                    Ubuntu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" data-path="../guide/kernel/Suse.html">
+            
+                <a href="../guide/kernel/Suse.html">
+            
+                    
+                        <b>2.5.3.</b>
+                    
+                    Suse Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                        <b>3.</b>
+                    
+                    功能说明
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="f01.html">
+            
+                <a href="f01.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    “添加服务器”操作说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="f02.html">
+            
+                <a href="f02.html">
+            
+                    
+                        <b>3.2.</b>
+                    
+                    “删除服务器”操作说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="f03.html">
+            
+                <a href="f03.html">
+            
+                    
+                        <b>3.3.</b>
+                    
+                    “PC 端远程登录”操作说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="f04.html">
+            
+                <a href="f04.html">
+            
+                    
+                        <b>3.4.</b>
+                    
+                    “服务器和 Web 服务重启”功能操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="f05.html">
+            
+                <a href="f05.html">
+            
+                    
+                        <b>3.5.</b>
+                    
+                    “实时监控”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="f06.html">
+            
+                <a href="f06.html">
+            
+                    
+                        <b>3.6.</b>
+                    
+                    “一键巡检”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="f07.html">
+            
+                <a href="f07.html">
+            
+                    
+                        <b>3.7.</b>
+                    
+                    “网站漏洞防护”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="f08.html">
+            
+                <a href="f08.html">
+            
+                    
+                        <b>3.8.</b>
+                    
+                    “网站后台防护”功能设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="f09.html">
+            
+                <a href="f09.html">
+            
+                    
+                        <b>3.9.</b>
+                    
+                    “抗 CC 攻击”功能设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="f10.html">
+            
+                <a href="f10.html">
+            
+                    
+                        <b>3.10.</b>
+                    
+                    “敏感词过滤”功能设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="f11.html">
+            
+                <a href="f11.html">
+            
+                    
+                        <b>3.11.</b>
+                    
+                    “网站防盗链”功能设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="f12.html">
+            
+                <a href="f12.html">
+            
+                    
+                        <b>3.12.</b>
+                    
+                    "防多线程下载"功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="f13.html">
+            
+                <a href="f13.html">
+            
+                    
+                        <b>3.13.</b>
+                    
+                    “HTTP 响应内容保护”功能设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="f14.html">
+            
+                <a href="f14.html">
+            
+                    
+                        <b>3.14.</b>
+                    
+                    "HTTP 请求头防护"功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="f15.html">
+            
+                <a href="f15.html">
+            
+                    
+                        <b>3.15.</b>
+                    
+                    “自定义 CDN ”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="f16.html">
+            
+                <a href="f16.html">
+            
+                    
+                        <b>3.16.</b>
+                    
+                    “高级防护”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.17" data-path="f30.html">
+            
+                <a href="f30.html">
+            
+                    
+                        <b>3.17.</b>
+                    
+                    "域名恶意解析防护"说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.18" data-path="f17.html">
+            
+                <a href="f17.html">
+            
+                    
+                        <b>3.18.</b>
+                    
+                    “登录防护”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.19" data-path="f18.html">
+            
+                <a href="f18.html">
+            
+                    
+                        <b>3.19.</b>
+                    
+                    “防暴力破解”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.20" data-path="f19.html">
+            
+                <a href="f19.html">
+            
+                    
+                        <b>3.20.</b>
+                    
+                    “文件上传防护”功能设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.21" data-path="f20.html">
+            
+                <a href="f20.html">
+            
+                    
+                        <b>3.21.</b>
+                    
+                    “文件防篡改”功能设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.22" data-path="f21.html">
+            
+                <a href="f21.html">
+            
+                    
+                        <b>3.22.</b>
+                    
+                    “服务器优化”功能设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.23" data-path="f22.html">
+            
+                <a href="f22.html">
+            
+                    
+                        <b>3.23.</b>
+                    
+                    “服务器漏洞修复”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.24" data-path="f23.html">
+            
+                <a href="f23.html">
+            
+                    
+                        <b>3.24.</b>
+                    
+                    “IP 黑白名单”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.25" data-path="f24.html">
+            
+                <a href="f24.html">
+            
+                    
+                        <b>3.25.</b>
+                    
+                    “防端口扫描”功能防护
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.26" data-path="f25.html">
+            
+                <a href="f25.html">
+            
+                    
+                        <b>3.26.</b>
+                    
+                    “系统资源监控”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.27" data-path="f26.html">
+            
+                <a href="f26.html">
+            
+                    
+                        <b>3.27.</b>
+                    
+                    “网站性能监控”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.28" data-path="f27.html">
+            
+                <a href="f27.html">
+            
+                    
+                        <b>3.28.</b>
+                    
+                    “备份与还原”功能设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.29" data-path="f28.html">
+            
+                <a href="f28.html">
+            
+                    
+                        <b>3.29.</b>
+                    
+                    “边界管理”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.30" data-path="f29.html">
+            
+                <a href="f29.html">
+            
+                    
+                        <b>3.30.</b>
+                    
+                    “事件管理”功能说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="../faq/">
+            
+                <a href="../faq/">
+            
+                    
+                        <b>4.</b>
+                    
+                    常见问题
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="../faq/q01.html">
+            
+                <a href="../faq/q01.html">
+            
+                    
+                        <b>4.1.</b>
+                    
+                    什么是云锁的服务端和客户端？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../faq/q02.html">
+            
+                <a href="../faq/q02.html">
+            
+                    
+                        <b>4.2.</b>
+                    
+                    安装云锁时被杀毒软件误报的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../faq/q03.html">
+            
+                <a href="../faq/q03.html">
+            
+                    
+                        <b>4.3.</b>
+                    
+                    云锁会否拦截蜘蛛和CDN？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../faq/q04.html">
+            
+                <a href="../faq/q04.html">
+            
+                    
+                        <b>4.4.</b>
+                    
+                    CC基本设置的含义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../faq/q05.html">
+            
+                <a href="../faq/q05.html">
+            
+                    
+                        <b>4.5.</b>
+                    
+                    云锁安装失败，无法再次安装或卸载时的解决方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="../faq/q06.html">
+            
+                <a href="../faq/q06.html">
+            
+                    
+                        <b>4.6.</b>
+                    
+                    云锁升级相关的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="../faq/q07.html">
+            
+                <a href="../faq/q07.html">
+            
+                    
+                        <b>4.7.</b>
+                    
+                    PC端提示“服务器端连接失败”可能导致的原因
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="../faq/q08.html">
+            
+                <a href="../faq/q08.html">
+            
+                    
+                        <b>4.8.</b>
+                    
+                    云锁安装后会影响服务器、网站性能吗？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="../faq/q09.html">
+            
+                <a href="../faq/q09.html">
+            
+                    
+                        <b>4.9.</b>
+                    
+                    VPS共享IP为什么登录服务器端失败？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="../faq/q10.html">
+            
+                <a href="../faq/q10.html">
+            
+                    
+                        <b>4.10.</b>
+                    
+                    云锁PC端关闭后，服务器端还会继续运行吗？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="../faq/q11.html">
+            
+                <a href="../faq/q11.html">
+            
+                    
+                        <b>4.11.</b>
+                    
+                    云锁支持虚拟空间吗？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="../faq/q12.html">
+            
+                <a href="../faq/q12.html">
+            
+                    
+                        <b>4.12.</b>
+                    
+                    云锁可以管理多个服务器吗？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.13" data-path="../faq/q13.html">
+            
+                <a href="../faq/q13.html">
+            
+                    
+                        <b>4.13.</b>
+                    
+                    PC端提示“请求被过滤”的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.14" data-path="../faq/q14.html">
+            
+                <a href="../faq/q14.html">
+            
+                    
+                        <b>4.14.</b>
+                    
+                    卸载云锁网站无法访问的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.15" data-path="../faq/q15.html">
+            
+                <a href="../faq/q15.html">
+            
+                    
+                        <b>4.15.</b>
+                    
+                    云锁安装后部分功能未生效的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.16" data-path="../faq/q16.html">
+            
+                <a href="../faq/q16.html">
+            
+                    
+                        <b>4.16.</b>
+                    
+                    “敏感词过滤”出现不生效的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.17" data-path="../faq/q17.html">
+            
+                <a href="../faq/q17.html">
+            
+                    
+                        <b>4.17.</b>
+                    
+                    WDCP卸载云锁后，后台登录失败的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.18" data-path="../faq/q18.html">
+            
+                <a href="../faq/q18.html">
+            
+                    
+                        <b>4.18.</b>
+                    
+                    云锁忘记九宫格密码怎么办？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.19" data-path="../faq/q19.html">
+            
+                <a href="../faq/q19.html">
+            
+                    
+                        <b>4.19.</b>
+                    
+                    Linux安装云锁提示“Detected SElinux opening,close and then install”的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.20" data-path="../faq/q20.html">
+            
+                <a href="../faq/q20.html">
+            
+                    
+                        <b>4.20.</b>
+                    
+                    将云锁的端口添加到防火墙的方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.21" data-path="../faq/q21.html">
+            
+                <a href="../faq/q21.html">
+            
+                    
+                        <b>4.21.</b>
+                    
+                    怎样修改Linux服务器端的端口号？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.22" data-path="../faq/q22.html">
+            
+                <a href="../faq/q22.html">
+            
+                    
+                        <b>4.22.</b>
+                    
+                    网站性能监控下为什么多了其它的域名？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.23" data-path="../faq/q23.html">
+            
+                <a href="../faq/q23.html">
+            
+                    
+                        <b>4.23.</b>
+                    
+                    Linux密钥登录怎样登录云锁PC端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.24" data-path="../faq/q24.md">
+            
+                <span>
+            
+                    
+                        <b>4.24.</b>
+                    
+                    Linux驱动未加载的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.25" data-path="../faq/q25.html">
+            
+                <a href="../faq/q25.html">
+            
+                    
+                        <b>4.25.</b>
+                    
+                    CC攻击设置高级首次访问验证通过后，以后访问还需要输入验证吗？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.26" data-path="../faq/q26.html">
+            
+                <a href="../faq/q26.html">
+            
+                    
+                        <b>4.26.</b>
+                    
+                    Nginx安装云锁Linux版本防护插件失败的问题 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.27" data-path="../faq/q27.html">
+            
+                <a href="../faq/q27.html">
+            
+                    
+                        <b>4.27.</b>
+                    
+                    云锁开启“抗CC攻击”后，网站访问一直跳转的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.28" data-path="../faq/q28.html">
+            
+                <a href="../faq/q28.html">
+            
+                    
+                        <b>4.28.</b>
+                    
+                    PC端显示服务器离线的原因及解决办法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.29" data-path="../faq/q29.html">
+            
+                <a href="../faq/q29.html">
+            
+                    
+                        <b>4.29.</b>
+                    
+                    页面提示“您所提交的请求含有不合法参数”的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.30" data-path="../faq/q30.html">
+            
+                <a href="../faq/q30.html">
+            
+                    
+                        <b>4.30.</b>
+                    
+                    云锁安装后为什么功能不全？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.31" data-path="../faq/q31.html">
+            
+                <a href="../faq/q31.html">
+            
+                    
+                        <b>4.31.</b>
+                    
+                    为什么云中心的风险评分与巡检的分数不一致？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.32" data-path="../faq/q32.html">
+            
+                <a href="../faq/q32.html">
+            
+                    
+                        <b>4.32.</b>
+                    
+                    怎样清除卸载密码？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.33" data-path="../faq/q33.html">
+            
+                <a href="../faq/q33.html">
+            
+                    
+                        <b>4.33.</b>
+                    
+                    云锁服务器端进程停了，防护还生效么？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >“登录防护”功能说明</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon fa fa-hand-o-right"></span><a href="#&#x767B;&#x5F55;&#x9632;&#x62A4;&#x529F;&#x80FD;&#x8BF4;&#x660E;"><b></b>&#x201C;&#x767B;&#x5F55;&#x9632;&#x62A4;&#x201D;&#x529F;&#x80FD;&#x8BF4;&#x660E;</a></li></ul></div><a href="#&#x767B;&#x5F55;&#x9632;&#x62A4;&#x529F;&#x80FD;&#x8BF4;&#x660E;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x767B;&#x5F55;&#x9632;&#x62A4;&#x529F;&#x80FD;&#x8BF4;&#x660E;"><a name="&#x767B;&#x5F55;&#x9632;&#x62A4;&#x529F;&#x80FD;&#x8BF4;&#x660E;" class="anchor-navigation-ex-anchor" href="#&#x767B;&#x5F55;&#x9632;&#x62A4;&#x529F;&#x80FD;&#x8BF4;&#x660E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x201C;&#x767B;&#x5F55;&#x9632;&#x62A4;&#x201D;&#x529F;&#x80FD;&#x8BF4;&#x660E;</h1>
+<p>&#x201C;&#x767B;&#x5F55;&#x9632;&#x62A4;&#x201D;&#x529F;&#x80FD;&#x901A;&#x8FC7;&#x589E;&#x5F3A;Windows&#x8FDC;&#x7A0B;&#x767B;&#x5F55;&#x7684;&#x8BA4;&#x8BC1;&#x65B9;&#x5F0F;&#x5B9E;&#x65F6;&#x3001;&#x4E3B;&#x52A8;&#x5730;&#x5BF9;&#x7528;&#x6237;&#x8FDC;&#x7A0B;&#x684C;&#x9762;&#x63D0;&#x4F9B;&#x4FDD;&#x62A4;&#xFF0C;&#x9632;&#x6B62;&#x975E;&#x6CD5;&#x7528;&#x6237;&#x5165;&#x4FB5;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x83B7;&#x53D6;&#x670D;&#x52A1;&#x5668;&#x5185;&#x654F;&#x611F;&#x4FE1;&#x606F;&#x3002;</p>
+<p>&#x4E91;&#x9501;&#x901A;&#x8FC7;&#x5BF9;&#x767B;&#x5F55;&#x7528;&#x6237;&#x3001;IP&#x6BB5;&#x3001;&#x65F6;&#x95F4;&#x6BB5;&#x3001;&#x8BA1;&#x7B97;&#x673A;&#x540D;&#x4EE5;&#x53CA;&#x4FEE;&#x6539;&#x8FDC;&#x7A0B;&#x767B;&#x5F55;&#xFF08;ssh&#xFF09;&#x7AEF;&#x53E3;&#x7B49;&#x591A;&#x91CD;&#x9650;&#x5236;&#x5BF9;&#x8FDC;&#x7A0B;&#x767B;&#x5F55;&#x670D;&#x52A1;&#x5668;&#x8FDB;&#x884C;&#x4FDD;&#x62A4;&#xFF0C;&#x5E76;&#x4E14;&#x53EF;&#x4EE5;&#x5728;&#x4E00;&#x6761;&#x89C4;&#x5219;&#x5185;&#x8BBE;&#x7F6E;&#x591A;&#x4E2A;&#x9650;&#x5236;&#x6761;&#x4EF6;&#xFF1B;&#x540C;&#x65F6;&#x5BF9;&#x4E8E;&#x767B;&#x5F55;&#x670D;&#x52A1;&#x5668;&#x7684;&#x884C;&#x4E3A;&#x8FDB;&#x884C;&#x8BB0;&#x5F55;&#x3002;</p>
+<p>&#x5F00;&#x542F;&#x201C;&#x5E94;&#x7528;&#x9632;&#x62A4;&#x201D;&#x4E2D;&#x7684;&#x7CFB;&#x7EDF;&#x767B;&#x5F55;&#x9632;&#x62A4;&#x540E;&#xFF0C;&#x901A;&#x8FC7;&#x8BBE;&#x7F6E;&#x6253;&#x5F00;&#x767B;&#x5F55;&#x9632;&#x62A4;&#x89C4;&#x5219;&#x914D;&#x7F6E;&#x754C;&#x9762;&#xFF0C;&#x5BF9;&#x670D;&#x52A1;&#x5668;&#x767B;&#x5F55;&#x89C4;&#x5219;&#x8FDB;&#x884C;&#x8BBE;&#x7F6E;&#x3002;</p>
+<p><img src="../assets/f1701.png" alt=""></p>
+<p><img src="../assets/f1702.png" alt=""></p>
+<p>&#x8BE5;&#x529F;&#x80FD;&#x5BF9;&#x7528;&#x6237;&#x767B;&#x5F55;&#x6709;2&#x79CD;&#x5904;&#x7406;&#x65B9;&#x5F0F;&#xFF0C;&#x5206;&#x522B;&#x4E3A;&#x5141;&#x8BB8;&#x767B;&#x5F55;&#x548C;&#x7981;&#x6B62;&#x767B;&#x5F55;&#x3002;&#x5F53;&#x8BBE;&#x7F6E;&#x4E3A;&#x5141;&#x8BB8;&#x767B;&#x5F55;&#x65F6;&#xFF0C;&#x5219;&#x53EA;&#x6709;&#x7B26;&#x5408;&#x8BBE;&#x7F6E;&#x6761;&#x4EF6;&#x624D;&#x53EF;&#x4EE5;&#x767B;&#x5F55;&#x670D;&#x52A1;&#x5668;&#xFF1B;&#x800C;&#x8BBE;&#x7F6E;&#x4E3A;&#x7981;&#x6B62;&#x767B;&#x5F55;&#x65F6;&#xFF0C;&#x5219;&#x7B26;&#x5408;&#x8BBE;&#x7F6E;&#x6761;&#x4EF6;&#x7684;&#x90FD;&#x4E0D;&#x5141;&#x8BB8;&#x767B;&#x5F55;&#x670D;&#x52A1;&#x5668;&#x3002;&#x5F53;&#x591A;&#x4E2A;&#x6761;&#x4EF6;&#x5141;&#x8BB8;&#x767B;&#x5F55;&#x65F6;&#xFF0C;&#x5219;&#x9700;&#x6240;&#x6709;&#x6761;&#x4EF6;&#x90FD;&#x7B26;&#x5408;&#x624D;&#x53EF;&#x767B;&#x5F55;&#xFF1B;&#x591A;&#x4E2A;&#x6761;&#x4EF6;&#x9650;&#x5236;&#x767B;&#x5F55;&#x65F6;&#xFF0C;&#x6709;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x7B26;&#x5408;&#x5219;&#x7981;&#x6B62;&#x767B;&#x5F55;&#x3002;</p>
+<p>&#x4EE5;Windows&#x7CFB;&#x7EDF;&#x4E3A;&#x4F8B;&#xFF0C;&#x5BF9;&#x8BE5;&#x529F;&#x80FD;&#x8FDB;&#x884C;&#x8BF4;&#x660E;&#x3002;&#x4E3A;&#x4E86;&#x66F4;&#x76F4;&#x89C2;&#x7684;&#x4F53;&#x73B0;&#x8BE5;&#x529F;&#x80FD;&#xFF0C;&#x4EE5;&#x4E0B;&#x8BBE;&#x7F6E;&#x90FD;&#x4E3A;&#x7981;&#x6B62;&#x767B;&#x5F55;&#x3002;&#x8BBE;&#x7F6E;&#x7981;&#x6B62;IP&#x6BB5;&#x767B;&#x5F55;&#x3002;</p>
+<p><img src="../assets/f1703.png" alt=""></p>
+<p>&#x4F7F;&#x7528;&#x7981;&#x6B62;&#x767B;&#x5F55;IP&#x6BB5;&#x5185;&#x7684;IP&#x8FDB;&#x884C;&#x767B;&#x5F55;&#x3002;</p>
+<p><img src="../assets/f1704.png" alt=""></p>
+<p>&#x5728;&#x9632;&#x62A4;&#x65E5;&#x5FD7;&#x7684;&#x767B;&#x5F55;&#x65E5;&#x5FD7;&#x4E2D;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x62E6;&#x622A;&#x65E5;&#x5FD7;&#x3002;</p>
+<p><img src="../assets/f1705.png" alt=""></p>
+<p>&#x8BBE;&#x7F6E;&#x65F6;&#x95F4;&#x6BB5;&#x548C;&#x8BA1;&#x7B97;&#x673A;&#x540D;&#xFF08;Linux&#x4E0D;&#x652F;&#x6301;&#x8BBE;&#x7F6E;&#x8BA1;&#x7B97;&#x673A;&#x540D;&#xFF09;&#x4E5F;&#x4E0E;IP&#x6BB5;&#x4E00;&#x6837;&#x3002;&#x7981;&#x6B62;&#x767B;&#x5F55;&#x65F6;&#x4F1A;&#x5728;&#x767B;&#x5F55;&#x9875;&#x9762;&#x63D0;&#x793A;&#xFF0C;&#x540C;&#x65F6;&#x8BB0;&#x5F55;&#x65E5;&#x5FD7;&#x3002;</p>
+<p><img src="../assets/f1706.png" alt=""></p>
+<p><img src="../assets/f1707.png" alt=""></p>
+<p><img src="../assets/f1708.png" alt=""></p>
+<p>&#x9664;&#x4E86;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x5355;&#x6761;&#x89C4;&#x5219;&#x5916;&#xFF0C;&#x6BCF;&#x4E2A;&#x9650;&#x5236;&#x6761;&#x4EF6;&#x8FD8;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x591A;&#x4E2A;&#x89C4;&#x5219;&#x3002;&#x540C;&#x65F6;&#x8FD8;&#x53EF;&#x4EE5;&#x5BF9;&#x767B;&#x5F55;&#x7528;&#x6237;&#x8FDB;&#x884C;&#x9650;&#x5236;&#xFF0C;&#x800C;&#x672A;&#x8BBE;&#x7F6E;&#x89C4;&#x5219;&#x7684;&#x7528;&#x6237;&#x5219;&#x4E0D;&#x53D7;&#x89C4;&#x5219;&#x5F71;&#x54CD;&#xFF0C;&#x53EF;&#x4EE5;&#x6B63;&#x5E38;&#x8FDC;&#x7A0B;&#x684C;&#x9762;&#x767B;&#x5F55;&#x670D;&#x52A1;&#x5668;&#x7CFB;&#x7EDF;&#x3002;</p>
+<p><img src="../assets/f1709.png" alt=""></p>
+<p>&#x4E91;&#x9501;&#x4E0D;&#x4EC5;&#x8BB0;&#x5F55;&#x4E86;&#x8FDD;&#x89C4;&#x7684;&#x767B;&#x5F55;&#x65E5;&#x5FD7;&#xFF0C;&#x767B;&#x5F55;&#x6210;&#x529F;&#x4E5F;&#x4F1A;&#x8FDB;&#x884C;&#x8BB0;&#x5F55;&#xFF0C;&#x53EF;&#x4EE5;&#x4E86;&#x89E3;&#x6BCF;&#x4E2A;&#x7528;&#x6237;&#x7684;&#x767B;&#x5F55;&#x60C5;&#x51B5;&#x3002;</p>
+<p><img src="../assets/f1710.png" alt=""></p>
+<p>&#x4E3A;&#x4E86;&#x8BA9;&#x767B;&#x5F55;&#x66F4;&#x5B89;&#x5168;&#x53CA;&#x4F7F;&#x7528;&#x7684;&#x65B9;&#x4FBF;&#x6027;&#xFF0C;&#x4E91;&#x9501;&#x8FD8;&#x652F;&#x6301;&#x4FEE;&#x6539;&#x8FDC;&#x7A0B;&#xFF08;ssh&#xFF09;&#x767B;&#x5F55;&#x7AEF;&#x53E3;&#x3002;</p>
+<p><img src="../assets/f1711.png" alt=""></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="f30.html" class="navigation navigation-prev " aria-label="Previous page: "域名恶意解析防护"说明">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="f18.html" class="navigation navigation-next " aria-label="Next page: “防暴力破解”功能说明">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"“登录防护”功能说明","level":"3.18","depth":1,"next":{"title":"“防暴力破解”功能说明","level":"3.19","depth":1,"path":"manual/f18.md","ref":"manual/f18.md","articles":[]},"previous":{"title":"\"域名恶意解析防护\"说明","level":"3.17","depth":1,"path":"manual/f30.md","ref":"manual/f30.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-plus","anchor-navigation-ex","alerts","simple-page-toc","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":false,"mode":"float","printLog":false,"multipleH1":false,"float":{"showLevelIcon":true,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"alerts":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"search-plus":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"links":{"sidebar":{"云锁官网":"http://www.yunsuo.com.cn"}},"gitbook":"*"},"file":{"path":"manual/f17.md","mtime":"2018-03-21T06:25:05.842Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-22T11:16:53.519Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
