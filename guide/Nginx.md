@@ -150,37 +150,32 @@
    
    ```
    # vi objs/ngx_modules.c
-   &ngx_http_upstream_hash_module,
-   &ngx_http_upstream_ip_hash_module,
-   &ngx_http_upstream_least_conn_module,
-   &ngx_http_upstream_keepalive_module,
-   &ngx_http_upstream_zone_module,
+   ```
+   ```bash
+   ngx_module_t *ngx_modules[] = {
+       &ngx_core_module,
+       .....
+       &ngx_http_upstream_keepalive_module,
+       &ngx_http_upstream_zone_module,
  -----------下面这行向下移动----------------   
-   &ngx_http_yunsuo_module,
+       &ngx_http_yunsuo_module,
  ------------------------------------------     
-   &ngx_http_stub_status_module,
-   &ngx_http_write_filter_module,
-   &ngx_http_header_filter_module,
-   &ngx_http_chunked_filter_module,
-   &ngx_http_v2_filter_module,
-   &ngx_http_range_header_filter_module,
-   &ngx_http_gzip_filter_module,
-   &ngx_http_postpone_filter_module,
-   &ngx_http_ssi_filter_module,
-   &ngx_http_charset_filter_module, 
-   &ngx_http_userid_filter_module,
-   &ngx_http_headers_filter_module,
+       &ngx_http_stub_status_module,
+       .....
+       &ngx_http_headers_filter_module,
  ---------------移动到该位置-----------------  
-   &ngx_http_yunsuo_module,
+       &ngx_http_yunsuo_module,
  -------------------------------------------
-   &ngx_http_copy_filter_module,
-   &ngx_http_range_body_filter_module,
-   &ngx_http_not_modified_filter_module,
-   NULL
-};
+       &ngx_http_copy_filter_module,
+       &ngx_http_range_body_filter_module,
+       &ngx_http_not_modified_filter_module,
+       NULL
+   };
 
    char *ngx_module_names[] = {
-   "objs/ngx_modules.c" 186L, 6441C
+       "objs/ngx_modules.c" 186L, 6441C
+       ......
+   };
    ```
    
    ![](/assets/Nginx_15.png)
