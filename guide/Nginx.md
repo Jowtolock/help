@@ -157,7 +157,7 @@
    &ngx_http_upstream_zone_module,
  -----------下面这行向下移动----------------   
    &ngx_http_yunsuo_module,
- -----------------------------------------      
+ ------------------------------------------     
    &ngx_http_stub_status_module,
    &ngx_http_write_filter_module,
    &ngx_http_header_filter_module,
@@ -170,7 +170,9 @@
    &ngx_http_charset_filter_module, 
    &ngx_http_userid_filter_module,
    &ngx_http_headers_filter_module,
+ ---------------移动到该位置-----------------  
    &ngx_http_yunsuo_module,
+ -------------------------------------------
    &ngx_http_copy_filter_module,
    &ngx_http_range_body_filter_module,
    &ngx_http_not_modified_filter_module,
