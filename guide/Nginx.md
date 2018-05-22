@@ -154,14 +154,14 @@
    ```bash
    ngx_module_t *ngx_modules[] = {
        &ngx_core_module,
-       .....
+       ......
        &ngx_http_upstream_keepalive_module,
        &ngx_http_upstream_zone_module,
  -----------下面这行向下移动----------------   
        &ngx_http_yunsuo_module,
  ------------------------------------------     
        &ngx_http_stub_status_module,
-       .....
+       ......
        &ngx_http_headers_filter_module,
  ---------------移动到该位置-----------------  
        &ngx_http_yunsuo_module,
