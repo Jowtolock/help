@@ -217,6 +217,7 @@
    手动删除或者重命名`/usr/local/yunsuo_agent/nginx/`目录下的 `libnginx_plugin.so`（此操作需要关闭云锁自保护功能）， 重启nginx服务即可`"service nginx restart"`。 
    
 ## FAQ
+
 1. 什么情况下需要自己编译云锁的nginx模块？
 
  1） 当您的nginx使用了第三方或者自己开发的模块的时候，需要编译云锁的nginx模块。您可以通过nginx -V命令查看输出的信息里是否包含了--add-module=的字样 (例如：--add-module=../ngx_cache_purge-1.3说明使用了ngx_cache_purge-1.3第三方模块)

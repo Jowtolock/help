@@ -5,10 +5,10 @@
 
 **Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
 
-- [Windows](#Windows安装说明)
-- [Linux](#Linux安装说明)
+- [Windows安装说明](#Windows)
+- [Linux安装说明](#Linux)
 
-## Windows安装说明
+## Windows
 
 1）拷贝`jspAgent`目录到`%JBOSS_HOME%`下。
 
@@ -28,7 +28,7 @@
 
 3）重启Jboss。
 
-## linux安装说明
+## Linux
 
 假设Jboss工作目录：`JBOSS_HOME=/root/jboss-as-7.1.1.Final`
 

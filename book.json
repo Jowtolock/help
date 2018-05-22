@@ -9,7 +9,7 @@
         "-search",
         "search-plus",
         "tbfed-pagefooter",
-         "alerts"
+        "alerts"
         ],
     "pluginsConfig": {
         "theme-default": {

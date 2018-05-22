@@ -5,10 +5,10 @@
 
 **Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
 
-- [Windows](#Windows安装说明)
-- [Linux](#Linux安装说明)
+- [Windows安装说明](#Windows)
+- [Linux安装说明](#Linux)
 
-## Windows安装说明
+## Windows
 
 假定Jetty的工作目录：`JETTY_HOME= C:/Program Files (x86)/jetty-distribution-8.1.17/jetty-distribution-8.1.17.v20150415`
 
@@ -16,7 +16,7 @@
 
 2） 启动命令修改：`java -jar %JETTY_HOME%\start.jar`修改为`java -javaagent:%JETTY_HOME%\jspAgent\JSPAgent.jar -jar %JETTY_HOME%\start.jar`
 
-## Linux安装说明
+## Linux
 
 假设Jetty的工作目录：`JETTY_HOME=/usr/local/jetty`
 

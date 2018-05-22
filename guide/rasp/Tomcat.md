@@ -5,13 +5,13 @@
 
 **Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
 
-- [Windows](#Windows安装说明)
- - [官网Tomcat](#官网Tomcat)
- - [JTM套件](#JTM套件)
- - [其它版本](#其它版本)
-- [Linux](#Linux安装说明)
+- [Windows安装说明](#Windows)
+  - [官网Tomcat](#官网Tomcat)
+  - [JTM套件](#JTM套件)
+  - [其它版本](#其它版本)
+- [Linux安装说明](#Linux)
 
-## Windows安装说明
+## Windows
 
 ### 官网Tomcat
 
@@ -66,7 +66,7 @@
 
 ![](/assets/TomcatW03.png)
 
-## Linux安装说明
+## Linux
 
 假设tomcat的工作目录为：`CATALINA_HOME=/usr/local/tomcat/`
 

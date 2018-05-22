@@ -5,10 +5,10 @@
 
 **Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
 
-- [Windows](#Windows安装说明)
-- [Linux](#Linux安装说明)
+- [Windows安装说明](#Windows)
+- [Linux安装说明](#Linux)
 
-## Windows安装说明
+## Windows
 
 假设Glassfish的工作目录：`GLASSFISH\_HOME=C:\glassfish4`
 
@@ -20,7 +20,7 @@
 
 3）重启 Glassfish。
 
-## Linux安装说明
+## Linux
 
 假设`Glassfish`的工作目录：`GLASSFISH_HOME= /usr/local/glassfish/glassfish`
 
