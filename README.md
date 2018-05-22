@@ -4,11 +4,13 @@
 
 云锁作为一款SAAS化的服务器安全软件，即提供免费的基础功能，也为企业级客户提供边界管理、攻击溯源等增值计费功能。
 
-##### 基础功能
+<extoc></extoc>
+
+## 基础功能
 
 ![](/assets/intro.png)
 
-##### 增值功能
+## 增值功能
 
 | 增值功能 | 费用 |
 | --- | --- |
@@ -18,6 +20,3 @@
 | [网站性能监控](http://help.yunsuo.com.cn/manual/f26.html) | 3.00 元 / 月 / 账户 |
 | [边界管理](http://help.yunsuo.com.cn/manual/f28.html) | 1000.00 元 / 月 / 账户 |
 | [事件管理](http://help.yunsuo.com.cn/manual/f29.html) | 150.00 元 / 月 / 账户 |
-
-
-
