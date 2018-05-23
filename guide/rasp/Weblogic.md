@@ -5,8 +5,8 @@
 
 **Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
 
-- [Windows安装说明](#Windows)
-- [Linux安装说明](#Linux)
+- [Windows安装说明](#windows)
+- [Linux安装说明](#linux)
 
 ## Windows
 
