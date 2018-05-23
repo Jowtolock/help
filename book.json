@@ -9,18 +9,13 @@
         "-search",
         "search-plus",
         "anchor-navigation-ex",
-        "alerts",
-        "simple-page-toc"
+        "alerts"
         ],
     "pluginsConfig": {
         "theme-default": {
             "showLevel": true
         },
-        "simple-page-toc": {
-            "maxDepth": 3,
-            "skipFirstH1": true
-        },
-         "anchor-navigation-ex": {
+        "anchor-navigation-ex": {
             "showLevel": false,
             "associatedWithSummary": false,
             "printLog": false,
