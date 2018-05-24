@@ -1,6 +1,7 @@
 # Summary
 
 * [简介](README.md)
+
 * [入门指南](guide/README.md)
   * [云锁兼容性说明](guide/Compat.md)
   * [云锁安装说明](guide/install/README.md)
@@ -19,6 +20,7 @@
     * [CentOS/RedHat Linux](guide/kernel/CentOS.md)
     * [Ubuntu](guide/kernel/Ubuntu.md)
     * [Suse Linux](guide/kernel/Suse.md)
+
 * [功能说明](manual/README.md)
   * [“添加服务器”操作说明](manual/f01.md)
   * [“删除服务器”操作说明](manual/f02.md)
@@ -50,6 +52,7 @@
   * [“备份与还原”功能设置](manual/f27.md)
   * [“边界管理”功能说明](manual/f28.md)
   * [“事件管理”功能说明](manual/f29.md)
+
 * [常见问题](faq/README.md)
   * [什么是云锁的服务端和客户端？](faq/q01.md)
   * [安装云锁时被杀毒软件误报的问题](faq/q02.md)
@@ -74,7 +77,6 @@
   * [怎样修改Linux服务器端的端口号？](faq/q21.md)
   * [网站性能监控下为什么多了其它的域名？](faq/q22.md)
   * [Linux密钥登录怎样登录云锁PC端](faq/q23.md)
-  * [Linux驱动未加载的问题](faq/q24.md)
   * [CC攻击设置高级首次访问验证通过后，以后访问还需要输入验证吗？](faq/q25.md)
   * [云锁开启“抗CC攻击”后，网站访问一直跳转的问题](faq/q26.md)
   * [PC端显示服务器离线的原因及解决办法](faq/q27.md)
