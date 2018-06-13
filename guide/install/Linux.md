@@ -10,10 +10,11 @@
 - [查看云锁是否运行](#查看云锁是否运行)
 - [云锁相关命令](#云锁服务相关命令)
 - [卸载](#卸载云锁)
+- [常见问题](#faq)
 
 ## 环境检查
 
-检查并关闭selinux，否则无法安装云锁；如已关闭则忽略此步骤。
+检查并关闭selinux，否则无法安装云锁（如下图所示）；如已关闭则忽略此步骤。
 
 ![](/assets/installL01.png)
 
@@ -82,7 +83,18 @@ yunsuo_install/install
 
     service yunsuo start/stop/restart/status
     /etc/init.d/yunsuo start/stop/restart/status
+    
 
 ## 卸载云锁
 
     /usr/local/yunsuo_agent/uninstall
+    
+## FAQ
+
+除了教程开头Selinux开启会使Linux服务器端安装失败，以下情况也会导致安装失败。
+
+1. 下载的安装包与系统的位数不匹配；例如系统是32位，下载了64位的安装包进行安装。
+
+    ![](/assets/installL05.png)
+
+ 此时，下载与系统对应安装包进行安装即可。
