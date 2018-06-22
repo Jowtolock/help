@@ -6,6 +6,8 @@
 **Web容器使用的Java（jdk或jre）的版本需 1.6 及以上。**
 
 - [Windows安装说明](#windows)
+ - [非集群方式说明](#非集群方式)
+ - [集群方式说明](#集群方式)
 - [Linux安装说明](#linux)
 
 ## Windows
@@ -20,6 +22,8 @@
 3）重启 WebLogic。
 
 ## Linux
+
+### 非集群方式
 
 1）首先获取startWebLogic.sh位置：
 ```
@@ -38,4 +42,14 @@
 ![](/assets/WeblogicL02.png)
 
 4）重启weblogic。
+
+### 集群方式
+
+1）拷贝 jspAgent 目录到 /opt 下
+
+2）访问console ：形如：
+`http://192.168.8.145:7001/console/console.portal`
+
+3）“环境”->“服务器”， 找到要安装的 webserver（本例为Server-wssb）
+
 
