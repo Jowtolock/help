@@ -38,7 +38,6 @@
 ![](/assets/WebSphereW06.png)
 
 8）重启`Server`：建议从服务端手动重启，以便当时查看是否出错，通常是
-
 ```
 stopServer.bat Server
 start Server.bat Server
