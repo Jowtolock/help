@@ -16,6 +16,7 @@
     * [Glassfish 安装](guide/rasp/Glassfish.md)
     * [TongWeb 安装](guide/rasp/TongWeb.md)
     * [Jetty 安装](guide/rasp/Jetty.md)
+    * [WebSphere安装](guide/rasp/WebSphere.md)
   * [Linux 支持内核版本](guide/kernel/README.md)
     * [CentOS/RedHat Linux](guide/kernel/CentOS.md)
     * [Ubuntu](guide/kernel/Ubuntu.md)
