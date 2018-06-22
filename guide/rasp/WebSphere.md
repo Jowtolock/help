@@ -44,3 +44,35 @@ start Server.bat Server
 ```
 
 ![](/assets/WebSphereW07.png)
+
+## Linux
+
+1）拷贝`jspAgent`目录到`/opt`下。
+
+2）`console`端：`http://192.168.8.122:9060/ibm/console/unsecureLogon.jsp`
+
+3）“服务器”->“所有服务器”，找到要安装的`webserver`（本例为：`server1`）
+
+![](/assets/WebSphereL01.png)
+
+4）点击`server1`进入设置：“`Java`和进程管理”->“进程定义”
+
+![](/assets/WebSphereL02.png)
+
+5）进入 “进程定义”页面 
+
+![](/assets/WebSphereL03.png)
+
+6）点击“`JAVA`虚拟机”：配置 “通用`JVM`参数”框填写:`-javaagent:/opt/jspAgent/JSPAgent.jar`，点击“应用”保存
+
+![](/assets/WebSphereL04.png)
+
+![](/assets/WebSphereL05.png)
+
+7）保存到主配置
+
+![](/assets/WebSphereL06.png)
+
+8）重启`webserver`
+
+![](/assets/WebSphereL07.png)
