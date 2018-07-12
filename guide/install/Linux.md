@@ -91,10 +91,8 @@ yunsuo_install/install
     
 ## FAQ
 
-除了教程开头Selinux开启会使Linux服务器端安装失败，以下情况也会导致安装失败。
+1. 提示“Error：Installation package and system version mismatch，please config package”的问题
 
-1. 下载的安装包与系统的位数不匹配；例如系统是32位，下载了64位的安装包进行安装。
+ ![](/assets/installL05.png)
 
-    ![](/assets/installL05.png)
-
- 此时，下载与系统对应安装包进行安装即可。
+ 提示这个错误是因为当前安装的云锁与系统的位数不相符，如32位的系统安装了64位的安装包；此时再下载32位的安装包进行安装即可。
