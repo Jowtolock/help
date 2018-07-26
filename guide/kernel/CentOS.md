@@ -1,9 +1,13 @@
 # CentOS/RedHat Linux 内核版本
 
-- [CentOS 7/RedHat Linux 7](#centos7/)
+>**[info] 说明**
+>
+>CentOS 与 RedHat Linux的内核版本是一样的，因此以下内核版本CentOS与RedHat Linux是通用的
+
+- [CentOS 7/RedHat Linux 7](#centos7)
 - [CentOS 6/RedHat Linux 6](#centos6)
 - [CentOS 5/RedHat Linux 5](#centos5)
-- [CentOS 5_Xen/RedHat Linux 5_Xen](#centos5_xen)
+- [CentOS 5_Xen/RedHat Linux 5_Xen](#centos5xen)
 
 ## CentOS7
 
@@ -59,7 +63,7 @@
 | 2.6.18-53.el5-i686 | 2.6.18-53.el5-x86\_64 | 2.6.18-53.el5PAE-i686 |
 | 2.6.18-8.el5-i686 | 2.6.18-8.el5-x86\_64 | 2.6.18-8.el5PAE-i686 |
 
-## CentOS5_Xen
+## CentOS5Xen
 
 | x86 | x64 |
 | --- | --- |
