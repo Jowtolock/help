@@ -1,11 +1,8 @@
 # Summary
 
-## 帮助中心
 
 * [简介](README.md)
-
-## 入门指南
-
+* [入门指南](guide/README.md)
   * [云锁兼容性说明](guide/Compat.md)
   * [云锁安装说明](guide/install/README.md)
     * [Windows 服务器端](guide/install/Windows.md)
@@ -24,9 +21,7 @@
     * [CentOS/RedHat Linux](guide/kernel/CentOS.md)
     * [Ubuntu](guide/kernel/Ubuntu.md)
     * [Suse Linux](guide/kernel/Suse.md)
-
-## 功能说明
-
+* [功能说明](manual/README.md)
   * [“添加服务器”操作说明](manual/f01.md)
   * [“删除服务器”操作说明](manual/f02.md)
   * [“PC 端远程登录”操作说明](manual/f03.md)
@@ -57,9 +52,7 @@
   * [“备份与还原”功能设置](manual/f27.md)
   * [“微隔离”功能说明](manual/f28.md)
   * [“事件管理”功能说明](manual/f29.md)
-
-## 常见问题
-
+* [常见问题](faq/README.md)
   * [什么是云锁的服务端和客户端？](faq/q01.md)
   * [安装云锁时被杀毒软件误报的问题](faq/q02.md)
   * [云锁会否拦截蜘蛛和CDN？](faq/q03.md)
