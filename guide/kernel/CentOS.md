@@ -3,7 +3,7 @@
 - [CentOS 7/RedHat Linux 7](#centos7/redhat-linux7)
 - [CentOS 6/RedHat Linux 6](#centos6/redhat-linux6)
 - [CentOS 5/RedHat Linux 5](#centos5/redhat-linux5)
-- [CentOS 5-Xen/RedHat Linux 5-Xen](#centos5_xen/redhat-linux5_xen)
+- [CentOS 5_Xen/RedHat Linux 5_Xen](#centos5_xen/redhat-linux5_xen)
 
 ## CentOS7/RedHat-Linux7
 
