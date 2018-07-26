@@ -62,7 +62,7 @@
 
 观察tomcat的启动脚本，如果最终调用了`%CATALINA_HOME%/bin/catalina.bat`，那么可以在这个文件中修改，定位到：`execCmd`，在其下追加一行：
 
-`set JAVA_OPTS=-javaagent:%CATALINA_HOME%\jspAgent\JSPAgent.jar  %JAVA_OPTS%`
+`set JAVA_OPTS=-javaagent:"%CATALINA_HOME%\jspAgent\JSPAgent.jar"  %JAVA_OPTS%`
 
 ![](/assets/TomcatW03.png)
 
