@@ -1,18 +1,18 @@
 # CentOS/RedHat Linux 内核版本
 
-- [CentOS 7/RedHat Linux 7](#centos 7/redhat linux 7)
-- [CentOS 6/RedHat Linux 6](#centos 6/redhat linux 6)
-- [CentOS 5/RedHat Linux 5](#centos 5/redhat linux 5)
-- [CentOS 5-Xen/RedHat Linux 5-Xen](#centos 5-xen/redhat linux 5-xen)
+- [CentOS 7/RedHat Linux 7](#centos7/redhat-linux7)
+- [CentOS 6/RedHat Linux 6](#centos6/redhat-linux6)
+- [CentOS 5/RedHat Linux 5](#centos5/redhat-linux5)
+- [CentOS 5-Xen/RedHat Linux 5-Xen](#centos5_xen/redhat-linux5_xen)
 
-## CentOS 7/RedHat Linux 7
+## CentOS7/RedHat-Linux7
 
 | - | - | - |
 | --- | --- | --- |
 | 3.10.0-862.el7.x86_64 |3.10.0-693.el7.x86_64|3.10.0-514.2.2.el7.x86_64|
 | 3.10.0-327.el7.x86\_64 | 3.10.0-229.el7.x86\_64 | 3.10.0-123.el7.x86\_64 |
 
-## CentOS 6/RedHat Linux 6
+## CentOS6/RedHat-Linux6
 
 | x86 | x64 |
 | --- | --- |
@@ -28,7 +28,7 @@
 | 2.6.32-131.el6.i686 | 2.6.32-131.el6.x86\_64 |
 | 2.6.32-71.el6.i686 | 2.6.32-71.el6.x86\_64 |
 
-## CentOS 5/RedHat Linux 5
+## CentOS5/RedHat-Linux5
 
 | x86 | x64 | x86\_pae |
 | --- | --- | --- |
@@ -59,7 +59,7 @@
 | 2.6.18-53.el5-i686 | 2.6.18-53.el5-x86\_64 | 2.6.18-53.el5PAE-i686 |
 | 2.6.18-8.el5-i686 | 2.6.18-8.el5-x86\_64 | 2.6.18-8.el5PAE-i686 |
 
-## CentOS 5-Xen/RedHat Linux 5-Xen
+## CentOS5_Xen/RedHat-Linux5_Xen
 
 | x86 | x64 |
 | --- | --- |
