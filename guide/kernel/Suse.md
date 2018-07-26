@@ -1,4 +1,5 @@
-#### Suse Linux
+# Suse Linux内核版本
+
 |OS|x86|x64|
 |-|
 |suse 12|----|3.12.28-4-default|
