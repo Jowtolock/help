@@ -2,7 +2,7 @@
 
 >**[info] 说明**
 >
->CentOS 与 RedHat Linux的内核版本是一样的，因此以下内核版本CentOS与RedHat Linux是通用的
+>CentOS 与 RedHat Linux的内核版本是一样的，因此下面的内核版本CentOS和RedHat Linux是通用的。
 
 - [CentOS 7/RedHat Linux 7](#centos7)
 - [CentOS 6/RedHat Linux 6](#centos6)
