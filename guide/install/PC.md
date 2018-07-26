@@ -10,7 +10,10 @@
 
 ![](/assets/installPC03.png)
 
+在批量管理界面双击单台服务器
 ![](/assets/installPC04.png)
+
+在批量管理界面双击单台服务器，即可进入单机管理。
 
 ![](/assets/installPC05.png)
 
