@@ -8,9 +8,9 @@
         "-lunr",
         "-search",
         "search-plus",
-        "anchor-navigation-ex",
         "alerts",
         "simple-page-toc",
+        "anchor-navigation-ex",
         "baidu-tongji"
         ],
     "pluginsConfig": {
