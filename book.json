@@ -10,7 +10,8 @@
         "search-plus",
         "anchor-navigation-ex",
         "alerts",
-        "simple-page-toc"
+        "simple-page-toc",
+        "baidu-tongji"
         ],
     "pluginsConfig": {
         "theme-default": {
@@ -38,6 +39,9 @@
                     "level2Icon": "fa fa-hand-o-right",
                     "level3Icon": "fa fa-hand-o-right"
                 }
+        },
+        "baidu-tongji": {
+            "token": "11726954cc8f5c8aa8c0571803e20849"
         }
     }
 }
