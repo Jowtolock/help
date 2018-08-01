@@ -164,10 +164,11 @@
  ------------------------------------------     
        &ngx_http_stub_status_module,
        ......
-       &ngx_http_headers_filter_module,
+       &ngx_http_userid_filter_module,
  ---------------移动到该位置-----------------  
        &ngx_http_yunsuo_module,
  -------------------------------------------
+       &ngx_http_headers_filter_module,
        &ngx_http_copy_filter_module,
        &ngx_http_range_body_filter_module,
        &ngx_http_not_modified_filter_module,
@@ -205,7 +206,7 @@
     ![](/assets/Nginx_18.png)
     
 ## 卸载
-1. 使用nginx.bak文件替换掉自编译的nginx文件，替换后重启Nginx
+方法一：使用nginx.bak文件替换掉自编译的nginx文件，替换后重启Nginx
       
    ```
    # cd /usr/local/nginx/sbin/ 
@@ -214,7 +215,7 @@
    # service nginx restart
    ```
    
-2. 删除文件
+方法二：删除文件
  
    手动删除或者重命名`/usr/local/yunsuo_agent/nginx/`目录下的 `libnginx_plugin.so`（此操作需要关闭云锁自保护功能）， 重启nginx服务即可`"service nginx restart"`。 
    
