@@ -206,7 +206,7 @@
     ![](/assets/Nginx_18.png)
     
 ## 卸载
-方法一：使用nginx.bak文件替换掉自编译的nginx文件，替换后重启Nginx。以下nginx路径与上述安装路径一致，实际以自身nginx路径为准。
+使用nginx.bak文件替换掉自编译的nginx文件，替换后重启Nginx。以下nginx路径与上述安装路径一致，实际以自身nginx路径为准。
       
    ```
    # cd /usr/local/nginx/sbin/ 
@@ -214,10 +214,6 @@
    # mv nginx.bak nginx
    # service nginx restart
    ```
-   
-方法二：删除文件
- 
-   手动删除或者重命名`/usr/local/yunsuo_agent/nginx/`目录下的 `libnginx_plugin.so`（此操作需要关闭云锁自保护功能）， 重启nginx服务即可`"service nginx restart"`。 
    
 ## FAQ
 1. 什么情况下需要自己编译云锁的nginx模块？
