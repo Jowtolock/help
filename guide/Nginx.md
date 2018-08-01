@@ -206,7 +206,7 @@
     ![](/assets/Nginx_18.png)
     
 ## 卸载
-方法一：使用nginx.bak文件替换掉自编译的nginx文件，替换后重启Nginx
+方法一：使用nginx.bak文件替换掉自编译的nginx文件，替换后重启Nginx。以下nginx路径与上述安装路径一致，实际以自身nginx路径为准。
       
    ```
    # cd /usr/local/nginx/sbin/ 
