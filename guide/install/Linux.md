@@ -31,31 +31,33 @@
 
 ## 安装云锁
 
-**注意：**如曾经下载过云锁安装包，则将旧的云锁安装包及安装目录删除**（rm -rf yunsuo_*）**后再安装。
+>**[warning] 注意 **
+>
+>如曾经下载过云锁安装包，则将旧的云锁安装包及安装目录删除**（rm -rf yunsuo_*）**后再安装。
 
 ### 快速安装
 
-```
-x86：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_32bit.tar.gz && tar xvzf yunsuo_agent_32bit.tar.gz && chmod +x yunsuo_install/install && yunsuo_install/install
-x64：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xvzf yunsuo_agent_64bit.tar.gz && chmod +x yunsuo_install/install && yunsuo_install/install
-```
+x86：`wget http://download.yunsuo.com.cn/v3/yunsuo_agent_32bit.tar.gz && tar xvzf yunsuo_agent_32bit.tar.gz && chmod +x yunsuo_install/install && yunsuo_install/install`
+
+x64：`wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xvzf yunsuo_agent_64bit.tar.gz && chmod +x yunsuo_install/install && yunsuo_install/install`
+
 
 ### 分步安装
 
 1. 下载云锁安装包。
-```    
-x86：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_32bit.tar.gz`
-x64：wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz
-```
+   
+ x86：`wget http://download.yunsuo.com.cn/v3/yunsuo_agent_32bit.tar.gz`
+ x64：`wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz`
+
 2. 解压文件，得到安装包文件。
-```
-x86：tar zxvf yunsuo_agent_32bit.tar.gz     
-x64：tar zxvf yunsuo_agent_64bit.tar.gz
-```   
+
+ x86：`tar zxvf yunsuo_agent_32bit.tar.gz`     
+ x64：`tar zxvf yunsuo_agent_64bit.tar.gz`
+
 3. 给云锁安装文件赋予可执行权限。
-```
-chmod +x yunsuo_install/install
-```
+
+ `chmod +x yunsuo_install/install`
+
 4. 执行安装，直到提示“Install Yunsuo Success.”安装完成。
 ```    
 yunsuo_install/install
