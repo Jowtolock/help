@@ -3,7 +3,6 @@
 >
 >安装前需要保证服务器端与云锁云中心的443端口通信保持畅通，可以通过命令`telnet apiv3.yunsuo.com.cn 443`检查是否连通，连通则按照下面步骤进行安装；如不通则检查防火墙规则或云主机安全策略，将入站的443端口放开。PS：提示telnet未安装可通过百度查询安装方法。
 
-- [环境检查](#环境检查)
 - [安装](#安装云锁)
     - [快速安装](#快速安装)
     - [分步安装](#分步安装)
@@ -12,26 +11,9 @@
 - [卸载](#卸载云锁)
 - [常见问题](#faq)
 
-## 环境检查
-
-检查并关闭selinux，否则无法安装云锁（如下图所示）；如已关闭则忽略此步骤。
-
-![](/assets/installL01.png)
-
-1) 检查selinux状态
-    
-    # getenforce ##如果显示参数为disabled则为成功关闭
-    
-2） 关闭selinux。修改/etc/sysconfig/selinux文件，将enforcing改为disabled，重启服务器。如已经是disabled则直接重启服务器。
-    
-    # vim /etc/sysconfig/selinux
-
-![](/assets/installL02.png)
-
-
 ## 安装云锁
 
->**[warning] 注意 **
+>**[info] 提示 **
 >
 >如曾经下载过云锁安装包，则将旧的云锁安装包及安装目录删除**（rm -rf yunsuo_*）**后再安装。
 
@@ -71,7 +53,8 @@ yunsuo_install/install
 ```
 /usr/local/yunsuo_agent/agnet_smart_tool.sh -u cloud_name -p cloud_passwd
 ```
- **PS:**cloud_name：云中心账户名；cloud_passwd：云中心登录密码
+ **PS:**`cloud_name：云中心账户名；cloud_passwd：云中心登录密码`
+  
   ![](/assets/f0105.png)
 
 6. 安装完成后通过[PC端](/guide/install/PC.md)进行管理。
@@ -101,3 +84,15 @@ yunsuo_install/install
  ![](/assets/installL05.png)
 
  提示这个错误是因为当前安装的云锁与系统的位数不相符，如32位的系统安装了64位的安装包；此时再下载32位的安装包进行安装即可。
+ 
+2. 提示“Error：Detected SELinux opening，close and then install.”的问题
+
+ ![](/assets/installL01.png)
+
+ 是因为SELinux未关闭导致的，修改/etc/sysconfig/selinux文件，将enforcing改为disabled，重启服务器即可。如已经是disabled则直接重启服务器。
+    
+       # vi /etc/sysconfig/selinux
+
+ ![](/assets/installL02.png)
+
+
