@@ -13,7 +13,8 @@
         "anchor-navigation-ex",
         "baidu-tongji",
         "copy-code-button",
-        "splitter"
+        "splitter",
+        "expandable-chapters-small"
         ],
     "pluginsConfig": {
         "theme-default": {
