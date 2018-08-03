@@ -11,7 +11,8 @@
         "alerts",
         "simple-page-toc",
         "anchor-navigation-ex",
-        "baidu-tongji"
+        "baidu-tongji",
+        "copy-code-button"
         ],
     "pluginsConfig": {
         "theme-default": {
