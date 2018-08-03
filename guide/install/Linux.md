@@ -46,25 +46,15 @@ wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xvzf yuns
 
 1. 下载云锁安装包。
    
- x86：
- ```
- wget http://download.yunsuo.com.cn/v3/yunsuo_agent_32bit.tar.gz
- ```
- x64：
- ```
- wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz
- ```
+ x86：` wget http://download.yunsuo.com.cn/v3/yunsuo_agent_32bit.tar.gz`
+ 
+ x64：`wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz`
 
 2. 解压文件，得到安装包文件。
 
- x86：
- ```
- tar zxvf yunsuo_agent_32bit.tar.gz
- ```
- x64：
- ```
- tar zxvf yunsuo_agent_64bit.tar.gz
- ```
+ x86：`tar zxvf yunsuo_agent_32bit.tar.gz`
+ 
+ x64：`tar zxvf yunsuo_agent_64bit.tar.gz`
 
 3. 给云锁安装文件赋予可执行权限。
 ```
