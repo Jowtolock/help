@@ -12,7 +12,8 @@
         "simple-page-toc",
         "anchor-navigation-ex",
         "baidu-tongji",
-        "copy-code-button"
+        "copy-code-button",
+        "splitter"
         ],
     "pluginsConfig": {
         "theme-default": {
