@@ -240,4 +240,3 @@
            搜索 -lpthread，定位到该行结束，加入 -ldl   
            形如 -lpthread -lcrypt 修改为 -lpthread -lcrypt -ldl
            重新 make，注意是重新make而不是重新./configure
-```
