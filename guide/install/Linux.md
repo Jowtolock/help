@@ -51,7 +51,7 @@ yunsuo_install/install
  
 5. 添加服务器到云中心。
 ```
-/usr/local/yunsuo_agent/agnet_smart_tool.sh -u cloud_name -p cloud_passwd
+/usr/local/yunsuo_agent/agent_smart_tool.sh -u cloud_name -p cloud_passwd
 ```
  **PS:**`cloud_name：云中心账户名；cloud_passwd：云中心登录密码`
   
