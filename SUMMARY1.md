@@ -35,8 +35,6 @@
   * [“敏感词过滤”功能设置](manual/f10.md)
   * [“网站防盗链”功能设置](manual/f11.md)
   * ["防多线程下载"功能说明](manual/f12.md)
-  * [“HTTP 响应内容保护”功能设置](manual/f13.md)
-  * ["HTTP 请求头防护"功能说明](manual/f14.md)
   * [“自定义 CDN ”功能说明](manual/f15.md)
   * [“高级防护”功能说明](manual/f16.md)
   * ["域名恶意解析防护"说明](manual/f30.md)
