@@ -24,6 +24,7 @@
     * [CentOS/RedHat Linux](guide/kernel/CentOS.md)
     * [Ubuntu](guide/kernel/Ubuntu.md)
     * [Suse Linux](guide/kernel/Suse.md)
+    * [Other](guide/kernel/Other.md)
 
 ## 功能说明
 
