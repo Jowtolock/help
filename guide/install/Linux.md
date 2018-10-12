@@ -43,9 +43,8 @@ chmod +x yunsuo_install/install
 ```
 
 4. 执行安装，直到提示“Install Yunsuo Success.”安装完成。
-CentOS：```    
-yunsuo_install/install
-```
+ 
+ CentOS：`yunsuo_install/install`
  
  ![](/assets/installL03.png)
  
