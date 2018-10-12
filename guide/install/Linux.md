@@ -21,8 +21,7 @@
 
 x86：`wget http://download.yunsuo.com.cn/v3/yunsuo_agent_32bit.tar.gz && tar xvzf yunsuo_agent_32bit.tar.gz && chmod +x yunsuo_install/install && yunsuo_install/install`
 
-x64：`
-wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xvzf yunsuo_agent_64bit.tar.gz && chmod +x yunsuo_install/install && yunsuo_install/install`
+x64：`wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xvzf yunsuo_agent_64bit.tar.gz && chmod +x yunsuo_install/install && yunsuo_install/install`
 
 ### 分步安装
 
@@ -44,11 +43,13 @@ chmod +x yunsuo_install/install
 ```
 
 4. 执行安装，直到提示“Install Yunsuo Success.”安装完成。
-```    
+CentOS：```    
 yunsuo_install/install
-``` 
-![](/assets/installL03.png)
+```
  
+ ![](/assets/installL03.png)
+ 
+ Ubuntu：`sudo yunsuo_install/install`
 5. 添加服务器到云中心。
 ```
 /usr/local/yunsuo_agent/agent_smart_tool.sh -u cloud_name -p cloud_passwd
