@@ -1,4 +1,4 @@
-# 云锁兼容性说明
+4# 云锁兼容性说明
 
 - [支持的操作系统](#云锁支持的系统)
   - [服务器端](#服务器端)
@@ -38,7 +38,7 @@ Windows XP SP3 及以上
 ```
 IIS 6/IIS 7/IIS 7.5/IIS 8
 Apache 2.2/Apache 2.4（x86、x64）
-Nginx 1.0.*、Nginx 1.2.*、Nginx 1.4.*、Nginx 1.6.*~Nginx 1.14.*
+Nginx 1.0.*、Nginx 1.2.*、Nginx 1.4.*、Nginx 1.6.*~Nginx 1.17.*
 kangle
 Tomcat、Weblogic、WebSphere、TongWeb、Jboss（使用的jdk或jre的版本需 1.6 及以上）等
 ```
