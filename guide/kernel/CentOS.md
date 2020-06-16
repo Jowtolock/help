@@ -4,6 +4,7 @@
 >
 >CentOS 与 RedHat Linux的内核版本是一样的，因此下面的内核版本CentOS和RedHat Linux是通用的。
 
+- [CentOS 8/RedHat Linux 8](#centos8)
 - [CentOS 7/RedHat Linux 7](#centos7)
 - [CentOS 6/RedHat Linux 6](#centos6)
 - [CentOS 5/RedHat Linux 5](#centos5)
@@ -13,8 +14,9 @@
 
 | - | - | - |
 | --- | --- | --- |
+| 3.10.0-1127.el7.x86_64 |3.10.0-1062.el7.x86_64|3.10.0-957.el7.x86_64|
 | 3.10.0-862.el7.x86_64 |3.10.0-693.el7.x86_64|3.10.0-514.2.2.el7.x86_64|
-| 3.10.0-327.el7.x86\_64 | 3.10.0-229.el7.x86\_64 | 3.10.0-123.el7.x86\_64 |
+| 3.10.0-327.el7.x86_64 | 3.10.0-229.el7.x86_64 | 3.10.0-123.el7.x86_64 |
 
 ## CentOS6
 
