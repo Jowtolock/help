@@ -10,6 +10,13 @@
 - [CentOS 5/RedHat Linux 5](#centos5)
 - [CentOS 5_Xen/RedHat Linux 5_Xen](#centos5xen)
 
+## CentOS8
+
+| - | - | - |
+| --- | --- | --- |
+| 4.18.0-193.el8.x86_64 | 4.18.0-177.el8.x86_64 | 4.18.0-168.el8.x86_64 |
+| 4.18.0-151.el8.x86_64 | 4.18.0-147.el8.x86_64 | 4.18.0-80.el8.x86_64 |
+
 ## CentOS7
 
 | - | - | - |
