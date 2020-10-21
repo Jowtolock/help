@@ -63,7 +63,7 @@
    }
 ```
 ```
-   # cd nginx-1.10.1/src/http/
+   # cd nginx-1.8.1/src/http/
    # vi ngx_http_upstream.c
 ```
 ```bash
