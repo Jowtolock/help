@@ -2,29 +2,29 @@
 
 | x86 | x64 | x86 | x64 |
 | :--- | :--- | :--- | :--- |
-|  |  |  | 5.4.0-52-generic |
-|  | 5.4.0-48-generic |  | 5.4.0-47-generic |
-|  | 5.4.0-45-generic |  | 5.4.0-42-generic |
-|  | 5.4.0-31-generic |  | 5.4.0-26-generic |
-|  | 5.0.0-23-generic |  | 4.18.0-20-generic |
-|  | 4.18.0-18-generic |  | 4.18.0-15-generic |
-|  | 4.15.0-107-generic |  | 4.15.0-106-generic |
-|  | 4.15.0-99-generic |  | 4.15.0-74-generic |
-|  | 4.15.0-70-generic |  | 4.15.0-55-generic |
-|  | 4.15.0-38-generic |  | 4.15.0-36-generic |
-|  | 4.15.0-34-generic |  | 4.15.0-20-generic |
-|  | 4.13.0-36-041316-generic |  | 4.13.0-36-generic |
+| --- | --- | --- | 5.4.0-52-generic |
+| --- | 5.4.0-48-generic | --- | 5.4.0-47-generic |
+| --- | 5.4.0-45-generic | --- | 5.4.0-42-generic |
+| --- | 5.4.0-31-generic | --- | 5.4.0-26-generic |
+| --- | 5.0.0-23-generic | --- | 4.18.0-20-generic |
+| --- | 4.18.0-18-generic | --- | 4.18.0-15-generic |
+| --- | 4.15.0-107-generic | --- | 4.15.0-106-generic |
+| --- | 4.15.0-99-generic | --- | 4.15.0-74-generic |
+| --- | 4.15.0-70-generic | --- | 4.15.0-55-generic |
+| --- | 4.15.0-38-generic | --- | 4.15.0-36-generic |
+| --- | 4.15.0-34-generic | --- | 4.15.0-20-generic |
+| --- | 4.13.0-36-041316-generic | --- | 4.13.0-36-generic |
 | 4.13.0-15-generic | 4.13.0-15-generic | 4.10.0-37-generic | 4.10.0-37-generic |
 | 4.10.0-20-generic | 4.10.0-20-generic | 4.10.0-19-generic | 4.10.0-19-generic |
 | 4.8.0-59-generic | 4.8.0-59-generic | 4.8.0-58-generic | 4.8.0-58-generic |
 | 4.8.0-39-generic | 4.8.0-39-generic | 4.8.0-22-generic | 4.8.0-22-generic |
-|  |  |  | 4.4.0-189-generic |
-|  | 4.4.0-170-generic |  | 4.4.0-169-generic |
-|  | 4.4.0-157-generic |  | 4.4.0-151-generic |
-|  | 4.4.0-148-generic |  | 4.4.0-146-generic |
-|  | 4.4.0-143-generic |  | 4.4.0-142-generic |
-|  | 4.4.0-139-generic |  | 4.4.0-131-generic |
-|  | 4.4.0-116-generic | 4.4.0-101-generic | 4.4.0-101-generic |
+| --- | --- | --- | 4.4.0-189-generic |
+| --- | 4.4.0-170-generic | --- | 4.4.0-169-generic |
+| --- | 4.4.0-157-generic | --- | 4.4.0-151-generic |
+| --- | 4.4.0-148-generic | --- | 4.4.0-146-generic |
+| --- | 4.4.0-143-generic | --- | 4.4.0-142-generic |
+| --- | 4.4.0-139-generic | --- | 4.4.0-131-generic |
+| --- | 4.4.0-116-generic | 4.4.0-101-generic | 4.4.0-101-generic |
 | 4.4.0-97-generic | 4.4.0-97-generic | 4.4.0-96-generic | 4.4.0-96-generic |
 | 4.4.0-93-generic | 4.4.0-93-generic | 4.4.0-92-generic | 4.4.0-92-generic |
 | 4.4.0-91-generic | 4.4.0-91-generic | 4.4.0-89-generic | 4.4.0-89-generic |
