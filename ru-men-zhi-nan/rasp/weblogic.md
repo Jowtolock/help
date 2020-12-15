@@ -7,8 +7,8 @@
 **Web容器使用的Java（jdk或jre）的版本需 1.6 及以上，暂不支持“敏感词过滤”和“防多线程下载”功能。**
 
 * [Windows安装说明](weblogic.md#windows)
-  * [非集群方式说明](weblogic.md#非集群方式)
-  * [集群方式说明](weblogic.md#集群方式)
+  * [非集群方式说明](weblogic.md#fei-ji-qun-fang-shi)
+  * [集群方式说明](weblogic.md#ji-qun-fang-shi)
 * [Linux安装说明](weblogic.md#linux)
 
 ## Windows
