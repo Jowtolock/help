@@ -3,6 +3,8 @@
 ## 
 
 * [Default](suse.md#default)
+* [PAE](suse.md#pae)
+* [SMP](suse.md#smp)
 
 ## Default
 
