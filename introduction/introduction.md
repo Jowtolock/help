@@ -4,12 +4,12 @@
 
 云锁作为一款SAAS化的服务器安全软件，即提供免费的基础功能，也为企业级客户提供边界管理、攻击溯源等增值计费功能。
 
-* [基础功能](readme.md#基础功能)
-* [增值功能](readme.md#增值功能)
+* [基础功能](introduction.md#基础功能)
+* [增值功能](introduction.md#增值功能)
 
 ## 基础功能
 
-![](../.gitbook/assets/intro.png)
+![](../.gitbook/assets/intro%20%281%29.png)
 
 ## 增值功能
 

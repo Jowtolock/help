@@ -105,7 +105,7 @@ service yunsuo start/stop/restart/status
 
 2. 提示“Error：Detected SELinux opening，close and then install.”的问题
 
-   ![](../../.gitbook/assets/installL01.png)
+   ![](../../.gitbook/assets/q1901%20%281%29.png)
 
    是因为SELinux未关闭导致的，修改/etc/sysconfig/selinux文件，将enforcing改为disabled，重启服务器即可。如已经是disabled则直接重启服务器。
 
@@ -113,5 +113,5 @@ service yunsuo start/stop/restart/status
    # vi /etc/sysconfig/selinux
    ```
 
-   ![](../../.gitbook/assets/installL02.png)
+   ![](../../.gitbook/assets/q1902%20%281%29.png)
 
