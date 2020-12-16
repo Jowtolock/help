@@ -11,7 +11,7 @@
   * [Windows 服务器端](guide/install/windows.md)
   * [Linux 服务器端](guide/install/linux.md)
   * [PC 端](guide/install/pc.md)
-* [Nginx/Tengine 自编译说明](guide/nginx.md)
+* [Nginx/Tengine 自编译说明](guide/Nginx.md)
 * [RASP 使用说明](guide/rasp/README.md)
   * [Tomcat/Tomee 安装](guide/rasp/tomcat.md)
   * [Weblogic 安装](guide/rasp/weblogic.md)
