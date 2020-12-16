@@ -1,4 +1,6 @@
+# Table of contents
 
+* [简介](README.md)
 
 ## 帮助中心 <a id="introduction"></a>
 
@@ -6,25 +8,25 @@
 
 ## 入门指南 <a id="guide"></a>
 
-* [云锁兼容性说明](guide/Compat.md)
+* [云锁兼容性说明](guide/compat.md)
 * [云锁安装说明](guide/install/README.md)
-  * [Windows 服务器端](guide/install/Windows.md)
-  * [Linux 服务器端](guide/install/Linux.md)
-  * [PC 端](guide/install/PC.md)
-* [Nginx/Tengine 自编译说明](guide/Nginx.md)
+  * [Windows 服务器端](guide/install/windows.md)
+  * [Linux 服务器端](guide/install/linux.md)
+  * [PC 端](guide/install/pc.md)
+* [Nginx/Tengine 自编译说明](guide/nginx.md)
 * [RASP 使用说明](guide/rasp/README.md)
-  * [Tomcat/Tomee 安装](guide/rasp/Tomcat.md)
-  * [Weblogic 安装](guide/rasp/Weblogic.md)
-  * [Jboss/wildfly 安装](guide/rasp/Jboss.md)
-  * [Glassfish 安装](guide/rasp/Glassfish.md)
-  * [TongWeb 安装](guide/rasp/Tongweb.md)
-  * [Jetty 安装](guide/rasp/Jetty.md)
-  * [WebSphere安装](guide/rasp/Websphere.md)
+  * [Tomcat/Tomee 安装](guide/rasp/tomcat.md)
+  * [Weblogic 安装](guide/rasp/weblogic.md)
+  * [Jboss/wildfly 安装](guide/rasp/jboss.md)
+  * [Glassfish 安装](guide/rasp/glassfish.md)
+  * [TongWeb 安装](guide/rasp/tongweb.md)
+  * [Jetty 安装](guide/rasp/jetty.md)
+  * [WebSphere安装](guide/rasp/websphere.md)
 * [Linux 支持内核版本](guide/kernel/README.md)
-  * [CentOS/RedHat Linux](guide/kernel/Centos.md)
-  * [Ubuntu](guide/kernel/Ubuntu.md)
-  * [Suse Linux](guide/kernel/Suse.md)
-  * [Other](guide/kernel/Other.md)
+  * [CentOS/RedHat Linux](guide/kernel/centos.md)
+  * [Ubuntu](guide/kernel/ubuntu.md)
+  * [Suse Linux](guide/kernel/suse.md)
+  * [Other](guide/kernel/other.md)
 
 ## 功能说明 <a id="manual"></a>
 
