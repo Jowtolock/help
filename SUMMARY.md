@@ -1,10 +1,10 @@
-# Summary
 
-## 帮助中心
 
-* [简介](README.md)
+## 帮助中心 <a id="introduction"></a>
 
-## 入门指南
+* [简介](introduction/readme.md)
+
+## 入门指南 <a id="guide"></a>
 
 * [云锁兼容性说明](guide/Compat.md)
 * [云锁安装说明](guide/install/README.md)
@@ -17,16 +17,16 @@
   * [Weblogic 安装](guide/rasp/Weblogic.md)
   * [Jboss/wildfly 安装](guide/rasp/Jboss.md)
   * [Glassfish 安装](guide/rasp/Glassfish.md)
-  * [TongWeb 安装](guide/rasp/TongWeb.md)
+  * [TongWeb 安装](guide/rasp/Tongweb.md)
   * [Jetty 安装](guide/rasp/Jetty.md)
-  * [WebSphere安装](guide/rasp/WebSphere.md)
+  * [WebSphere安装](guide/rasp/Websphere.md)
 * [Linux 支持内核版本](guide/kernel/README.md)
-  * [CentOS/RedHat Linux](guide/kernel/CentOS.md)
+  * [CentOS/RedHat Linux](guide/kernel/Centos.md)
   * [Ubuntu](guide/kernel/Ubuntu.md)
   * [Suse Linux](guide/kernel/Suse.md)
   * [Other](guide/kernel/Other.md)
 
-## 功能说明
+## 功能说明 <a id="manual"></a>
 
 * [“添加服务器”操作说明](manual/f01.md)
 * [“删除服务器”操作说明](manual/f02.md)
@@ -57,7 +57,7 @@
 * [“微隔离”功能说明](manual/f28.md)
 * [“事件管理”功能说明](manual/f29.md)
 
-## 常见问题
+## 常见问题 <a id="faq"></a>
 
 * [什么是云锁的服务端和客户端？](faq/q01.md)
 * [安装云锁时被杀毒软件误报的问题](faq/q02.md)
@@ -89,5 +89,4 @@
 * [页面提示“您所提交的请求含有不合法参数”的问题](faq/q28.md)
 * [云锁安装后为什么功能不全？](faq/q29.md)
 * [为什么云中心的风险评分与巡检的分数不一致？](faq/q30.md)
-
 
