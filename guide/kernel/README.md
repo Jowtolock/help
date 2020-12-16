@@ -7,4 +7,5 @@
 * [CentOS/RedHat 内核版本](centos.md)
 * [SUSE 内核版本](suse.md)
 * [Ubuntu 内核版本](ubuntu.md)
+* [Other](other.md) 
 
