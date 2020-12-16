@@ -1,6 +1,4 @@
-# Table of contents
 
-* [简介](README.md)
 
 ## 帮助中心 <a id="introduction"></a>
 
@@ -8,7 +6,7 @@
 
 ## 入门指南 <a id="guide"></a>
 
-* [云锁兼容性说明](guide/compat.md)
+* [云锁兼容性说明](guide/Compat.md)
 * [云锁安装说明](guide/install/README.md)
   * [Windows 服务器端](guide/install/windows.md)
   * [Linux 服务器端](guide/install/linux.md)
