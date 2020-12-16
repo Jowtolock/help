@@ -1,6 +1,4 @@
-# Table of contents
 
-* [Introduction](README.md)
 
 ## 帮助中心 <a id="introduction"></a>
 
