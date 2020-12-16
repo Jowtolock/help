@@ -6,27 +6,27 @@
 
 * [简介](bang-zhu-zhong-xin/readme.md)
 
-## 入门指南
+## 入门指南 <a id="guide"></a>
 
-* [云锁兼容性说明](ru-men-zhi-nan/compat.md)
-* [云锁安装说明](ru-men-zhi-nan/install/README.md)
-  * [Windows 服务器端](ru-men-zhi-nan/install/windows.md)
-  * [Linux 服务器端](ru-men-zhi-nan/install/linux.md)
-  * [PC 端](ru-men-zhi-nan/install/pc.md)
-* [Nginx/Tengine 自编译说明](ru-men-zhi-nan/nginx.md)
-* [RASP 使用说明](ru-men-zhi-nan/rasp/README.md)
-  * [Tomcat/Tomee 安装](ru-men-zhi-nan/rasp/tomcat.md)
-  * [Weblogic 安装](ru-men-zhi-nan/rasp/weblogic.md)
-  * [Jboss/wildfly 安装](ru-men-zhi-nan/rasp/jboss.md)
-  * [Glassfish 安装](ru-men-zhi-nan/rasp/glassfish.md)
-  * [TongWeb 安装](ru-men-zhi-nan/rasp/tongweb.md)
-  * [Jetty 安装](ru-men-zhi-nan/rasp/jetty.md)
-  * [WebSphere安装](ru-men-zhi-nan/rasp/websphere.md)
-* [Linux 支持内核版本](ru-men-zhi-nan/kernel/README.md)
-  * [CentOS/RedHat Linux](ru-men-zhi-nan/kernel/centos.md)
-  * [Ubuntu](ru-men-zhi-nan/kernel/ubuntu.md)
-  * [Suse Linux](ru-men-zhi-nan/kernel/suse.md)
-  * [Other](ru-men-zhi-nan/kernel/other.md)
+* [云锁兼容性说明](guide/compat.md)
+* [云锁安装说明](guide/install/README.md)
+  * [Windows 服务器端](guide/install/windows.md)
+  * [Linux 服务器端](guide/install/linux.md)
+  * [PC 端](guide/install/pc.md)
+* [Nginx/Tengine 自编译说明](guide/nginx.md)
+* [RASP 使用说明](guide/rasp/README.md)
+  * [Tomcat/Tomee 安装](guide/rasp/tomcat.md)
+  * [Weblogic 安装](guide/rasp/weblogic.md)
+  * [Jboss/wildfly 安装](guide/rasp/jboss.md)
+  * [Glassfish 安装](guide/rasp/glassfish.md)
+  * [TongWeb 安装](guide/rasp/tongweb.md)
+  * [Jetty 安装](guide/rasp/jetty.md)
+  * [WebSphere安装](guide/rasp/websphere.md)
+* [Linux 支持内核版本](guide/kernel/README.md)
+  * [CentOS/RedHat Linux](guide/kernel/centos.md)
+  * [Ubuntu](guide/kernel/ubuntu.md)
+  * [Suse Linux](guide/kernel/suse.md)
+  * [Other](guide/kernel/other.md)
 
 ## 功能说明
 
