@@ -7,9 +7,9 @@
 **Web容器使用的Java（jdk或jre）的版本需 1.6 及以上，暂不支持“敏感词过滤”和“防多线程下载”功能。**
 
 * [Windows安装说明](tomcat.md#windows)
-  * [官网Tomcat](tomcat.md#guan-wang-tomcat)
-  * [JTM套件](tomcat.md#jtm-tao-jian)
-  * [其它版本](tomcat.md#qi-ta-ban-ben)
+  * [官网Tomcat](tomcat.md#官网tomcat)
+  * [JTM套件](tomcat.md#jtm套件)
+  * [其它版本](tomcat.md#其他版本)
 * [Linux安装说明](tomcat.md#linux)
 
 ## Windows
