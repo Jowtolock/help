@@ -19,8 +19,8 @@ Windows Server 2003 SP2（x86/x64）、Windows Server 2008（x86/x64）、Window
 **Linux:**
 
 ```text
-RedHat 5.0~RedHat 5.11（x86/x64）、RedHat 6.0~RedHat 6.10（x86/x64）、RedHat 7.0~RedHat 7.8、RedHat 8.0~RedHat 8.2
-CentOS 5.0~CentOS 5.11（x86/x64）、CentOS 6.0~CentOS 6.10（x86/x64）、CentOS 7.0~CentOS 7.8、CentOS 8.0~CentOS 8.2
+RedHat 5.0~RedHat 5.11（x86/x64）、RedHat 6.0~RedHat 6.10（x86/x64）、RedHat 7.0~RedHat 7.8、RedHat 8.0~RedHat 8.3
+CentOS 5.0~CentOS 5.11（x86/x64）、CentOS 6.0~CentOS 6.10（x86/x64）、CentOS 7.0~CentOS 7.8、CentOS 8.0~CentOS 8.3
 Ubuntu（x86/x64）
 Suse 10~Suse 10 sp3（x86/x64）、Suse 11~Suse 11 sp3（x86/x64）、Suse 12
 ```
