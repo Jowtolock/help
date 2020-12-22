@@ -4,7 +4,7 @@
 
 以下表格中为当前云锁支持的Linux系统内核版本，安装时请进行参考。
 
-* [CentOS/RedHat 内核版本](./centos.md)
+* [CentOS/RedHat 内核版本](centos.md)
 * [SUSE 内核版本](suse.md)
 * [Ubuntu 内核版本](ubuntu.md)
 * [其他系统 内核版本](other.md)
