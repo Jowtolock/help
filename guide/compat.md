@@ -37,7 +37,10 @@ Suse 10~Suse 10 sp3（x86/x64）、Suse 11~Suse 11 sp3（x86/x64）、Suse 12、
 [点击查看对应内核版本](kernel/suse.md)
 
 ```
-其他系统：红旗Linux、
+其他系统：红旗Linux、Oracle Linux、麒麟Linux（具体支持版本请查看对应内核）
+```
+
+[点击查看对应内核版本](kernel/other.md)
 
 ### 控制端
 
