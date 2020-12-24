@@ -31,10 +31,13 @@ Ubuntu（x86/x64）
 [点击查看对应内核版本](kernel/ubuntu.md)
 
 ```
-Suse 10~Suse 10 sp3（x86/x64）、Suse 11~Suse 11 sp3（x86/x64）、Suse 12
+Suse 10~Suse 10 sp3（x86/x64）、Suse 11~Suse 11 sp3（x86/x64）、Suse 12、Suse 15
 ```
 
 [点击查看对应内核版本](kernel/suse.md)
+
+```
+其他系统：红旗Linux、
 
 ### 控制端
 
