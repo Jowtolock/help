@@ -17,7 +17,7 @@
 
 2）登录Glassfish控制台：`https://IP:4848`，Configurations-&gt;server-config-&gt;JVM\]Settings-&gt; JVM Options-&gt;Add JVM Option，新增一项：`-javaagent: C:\glassfish4\jspAgent\JSPAgent.jar`
 
-![](../../.gitbook/assets/GlassfishW.png)
+![](/assets/GlassfishW.png)
 
 3）重启 Glassfish。
 
@@ -29,7 +29,7 @@
 
 2）登录Glassfish控制台`https://IP:4848`,Configurations-&gt; server-config-&gt;JVM Settings-&gt;JVM Options-&gt;Add JVM Option,新增一项：`-javaagent:/usr/local/glassfish/glassfish/jspAgent/JSPAgent.jar`
 
-![](../../.gitbook/assets/GlassfishL.png)
+![](/assets/GlassfishL.png)
 
 3）重启Glassfish。
 

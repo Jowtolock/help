@@ -40,7 +40,7 @@ x64:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2
 -javaagent:C:\Program Files\Apache Software Foundation\Tomcat 6.0\jspAgent\JSPAgent.jar
 ```
 
-![](../../.gitbook/assets/TomcatW01.png)
+![](/assets/TomcatW01.png)
 
 3）重启 tomcat。
 
@@ -60,7 +60,7 @@ x64:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2
 
 `"%EXECUTABLE%" //US//%SERVICE_NAME% ++JvmOptions "*-javaagent:%CATALINA_HOME%\jspAgent\JSPAgent.jar;*-Djava.io.tmpdir=%CATALINA_BASE%\temp;-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager;-Djava.util.logging.config.file=%CATALINA_BASE%\conf\logging.properties" --JvmMs 128 --JvmMx 512 --Startup=auto`
 
-![](../../.gitbook/assets/TomcatW02.png)
+![](/assets/TomcatW02.png)
 
 3）重启 tomcat 。
 
@@ -70,7 +70,7 @@ x64:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2
 
 `set JAVA_OPTS=-javaagent:"%CATALINA_HOME%\jspAgent\JSPAgent.jar" %JAVA_OPTS%`
 
-![](../../.gitbook/assets/TomcatW03.png)
+![](/assets/TomcatW03.png)
 
 ## Linux
 
@@ -78,11 +78,11 @@ x64:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2
 
 1）拷贝`jspAgent`目录到`${CATALINA_HOME}`下。
 
-![](../../.gitbook/assets/TomcatL01.png)
+![](/assets/TomcatL01.png)
 
 2）修改`${CATALINA_HOME}/bin/catalina.sh`中的JAVA启动参数，附加上`-javaagent`选项。过程如下：定位到`elif [ "$1" = "start" ]; then`，其下追加一行：`JAVA_OPTS="-javaagent:${CATALINA_HOME}/jspAgent/JSPAgent.jar ${JAVA_OPTS}"`
 
-![](../../.gitbook/assets/TomcatL02.png)
+![](/assets/TomcatL02.png)
 
 3）重启tomcat。
 

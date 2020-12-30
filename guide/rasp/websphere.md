@@ -15,27 +15,27 @@
 
 2） 打开`dmgr`控制台，服务器-&gt;服务器类型-&gt;`WebSphere Application Server`
 
-![](../../.gitbook/assets/WebSphereW01.png)
+![](/assets/WebSphereW01.png)
 
 3）点进你要配置`javaagent`的`Server`
 
-![](../../.gitbook/assets/WebSphereW02.png)
+![](/assets/WebSphereW02.png)
 
 4）配置-&gt;服务器基础结构-&gt;`Java`和进程管理-&gt;进程定义
 
-![](../../.gitbook/assets/WebSphereW03.png)
+![](/assets/WebSphereW03.png)
 
 5）其他属性-&gt;`Java`虚拟机
 
-![](../../.gitbook/assets/WebSphereW04.png)
+![](/assets/WebSphereW04.png)
 
 6）通用`JVM`参数：配置`javaagent`
 
-![](../../.gitbook/assets/WebSphereW05.png)
+![](/assets/WebSphereW05.png)
 
 7）保存到主配置
 
-![](../../.gitbook/assets/WebSphereW06.png)
+![](/assets/WebSphereW06.png)
 
 8）重启`Server`：建议从服务端手动重启，以便当时查看是否出错，通常是
 
@@ -44,7 +44,7 @@ stopServer.bat Server
 start Server.bat Server
 ```
 
-![](../../.gitbook/assets/WebSphereW07.png)
+![](/assets/WebSphereW07.png)
 
 ## Linux
 
@@ -54,27 +54,27 @@ start Server.bat Server
 
 3）“服务器”-&gt;“所有服务器”，找到要安装的`webserver`（本例为：`server1`）
 
-![](../../.gitbook/assets/WebSphereL01.png)
+![](/assets/WebSphereL01.png)
 
 4）点击`server1`进入设置：“`Java`和进程管理”-&gt;“进程定义”
 
-![](../../.gitbook/assets/WebSphereL02.png)
+![](/assets/WebSphereL02.png)
 
 5）进入 “进程定义”页面
 
-![](../../.gitbook/assets/WebSphereL03.png)
+![](/assets/WebSphereL03.png)
 
 6）点击“`JAVA`虚拟机”：配置 “通用`JVM`参数”框填写:`-javaagent:/opt/jspAgent/JSPAgent.jar`，点击“应用”保存
 
-![](../../.gitbook/assets/WebSphereL04.png)
+![](/assets/WebSphereL04.png)
 
-![](../../.gitbook/assets/WebSphereL05.png)
+![](/assets/WebSphereL05.png)
 
 7）保存到主配置
 
-![](../../.gitbook/assets/WebSphereL06.png)
+![](/assets/WebSphereL06.png)
 
 8）重启`webserver`
 
-![](../../.gitbook/assets/WebSphereL07.png)
+![](/assets/WebSphereL07.png)
 
