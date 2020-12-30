@@ -94,7 +94,7 @@
    }
    ```
 
-   ![](../.gitbook/assets/Nginx_08.png)
+   ![](/assets/Nginx_08.png)
 
 5. 下载云锁防护模块压缩包
 
