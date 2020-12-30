@@ -13,7 +13,7 @@
 **Windows:**
 
 ```text
-Windows Server 2003 SP2（x86/x64）、Windows Server 2008（x86/x64）、Windows Server 2012
+Windows Server 2003 SP2（x86/x64）、Windows Server 2008（x86/x64）、Windows Server 2012、Windows Server 2016、Windows Server 2019
 ```
 
 **Linux:**
