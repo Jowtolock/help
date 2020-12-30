@@ -56,7 +56,7 @@ x64：`wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xv
 
    CentOS：`yunsuo_install/install`
 
-   ![](../../.gitbook/assets/installL03.png)
+   ![](/assets/installL03.png)
 
    Ubuntu：`sudo yunsuo_install/install`
 
@@ -68,7 +68,7 @@ x64：`wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xv
 
    **PS:**`cloud_name：云中心账户名；cloud_passwd：云中心登录密码`
 
-   ![](../../.gitbook/assets/f0105.png)
+   ![](/assets/f0105.png)
 
 6. 安装完成后通过[PC端](pc.md)进行管理。
 
@@ -78,7 +78,7 @@ x64：`wget http://download.yunsuo.com.cn/v3/yunsuo_agent_64bit.tar.gz && tar xv
  ps -ef | grep yunsuo_agent
 ```
 
-![](../../.gitbook/assets/installL04.png)
+![](/assets/installL04.png)
 
 ## 云锁服务相关命令
 
@@ -99,13 +99,13 @@ service yunsuo start/stop/restart/status
 
 1. 提示“Error：Installation package and system version mismatch，please config package”的问题
 
-   ![](../../.gitbook/assets/installL05.png)
+   ![](/assets/installL05.png)
 
    提示这个错误是因为当前安装的云锁与系统的位数不相符，如32位的系统安装了64位的安装包；此时再下载32位的安装包进行安装即可。
 
 2. 提示“Error：Detected SELinux opening，close and then install.”的问题
 
-   ![](../../.gitbook/assets/q1901%20%281%29.png)
+   ![](/assets/q1901.png)
 
    是因为SELinux未关闭导致的，修改/etc/sysconfig/selinux文件，将enforcing改为disabled，重启服务器即可。如已经是disabled则直接重启服务器。
 
@@ -113,5 +113,5 @@ service yunsuo start/stop/restart/status
    # vi /etc/sysconfig/selinux
    ```
 
-   ![](../../.gitbook/assets/q1902%20%281%29.png)
+   ![](/assets/q1902.png)
 
