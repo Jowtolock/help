@@ -9,7 +9,7 @@
 
 ## 基础功能
 
-![](.gitbook/assets/intro.png)
+![](/assets/intro.png)
 
 ## 增值功能
 
