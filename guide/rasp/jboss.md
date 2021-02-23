@@ -17,11 +17,11 @@
 
 如`:RESTART`下`"%JAVA%" %JAVA_OPTS%`，则添加`set "JAVA_OPTS=-javaagent:C:\jspAgent\JSPAgent.jar %JAVA_OPTS%"`
 
-![](/assets/JbossW01.png)
+![](../../.gitbook/assets/JbossW01.png)
 
 如`:RESTART`下`"%JAVA%" %PROCESS_CONTROLLER_JAVA_OPTS%`，则添加`set "PROCESS_CONTROLLER_JAVA_OPTS=-javaagent:C:\jspAgent\JSPAgent.jar %PROCESS_CONTROLLER_JAVA_OPTS%"`
 
-![](/assets/JbossW02.png)
+![](../../.gitbook/assets/JbossW02.png)
 
 **注意：`"%JAVA%"`后的参数不是固定的，配置文件中`"%JAVA%"`跟着是什么参数，在添加的时候`set`后面就跟着什么参数。**
 
@@ -35,7 +35,7 @@
 
 2）根据你自己的使用模式，修改`$JBOSS_HOME/bin/standalone.sh`或者 `$JBOSS_HOME/bin/domain.sh`中JAVA启动参数，定位字符串`# Display our environment`，在其上追加一行：`JAVA_OPTS="-javaagent:$JBOSS_HOME/jspAgent/JSPAgent.jar $JAVA_OPTS"`
 
-![](/assets/JbossL.png)
+![](../../.gitbook/assets/JbossL.png)
 
 3）重启Jboss。
 

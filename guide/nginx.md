@@ -4,9 +4,9 @@
 
 当nginx更新或用户的nginx添加（--add-moudel）了第三方模块时需要用户手工加载云锁的防护模块进行防护。通常在安装时云锁会提示存在第三方模块，且PC端也会有显示需要编译。
 
-![](/assets/Nginx_01.png)
+![](../.gitbook/assets/Nginx_01.png)
 
-![](/assets/Nginx_02.png)
+![](../.gitbook/assets/Nginx_02.png)
 
 * [安装防护模块](nginx.md#安装)
 * [卸载防护模块](nginx.md#卸载)
@@ -24,14 +24,14 @@
    # ps -elf | grep nginx
    ```
 
-   ![](/assets/Nginx_03.png)
+   ![](../.gitbook/assets/Nginx_03.png)
 
    ```text
    # cd /usr/local/nginx/sbin/
    # cp nginx nginx.bak
    ```
 
-   ![](/assets/Nginx_04.png)
+   ![](../.gitbook/assets/Nginx_04.png)
 
 2. 过步骤1查看的路径跟-v参数查看当前Nginx版本，如有源码包则忽略此步骤。无源码包则到[Nginx官网](http://nginx.org/en/download.html)下载Nginx源码包，源码包需与自己的当前Nginx版本匹配（假设当前Nginx版本为1.10）。宝塔面板Nginx源码路径：/www/server/nginx/src/；Oneinstack的Nginx源码路径在oneinstack目录下：oneinstack/src/。
 
@@ -39,13 +39,13 @@
    # /usr/local/nginx/sbin/nginx -v
    ```
 
-   ![](/assets/Nginx_05.png)
+   ![](../.gitbook/assets/Nginx_05.png)
 
    ```text
    # wget http://nginx.org/download/nginx-1.10.1.tar.gz
    ```
 
-   ![](/assets/Nginx_06.png)
+   ![](../.gitbook/assets/Nginx_06.png)
 
 3. 解压nginx源码包
 
@@ -53,7 +53,7 @@
    # tar zxvf nginx-1.10.1.tar.gz
    ```
 
-   ![](/assets/Nginx_07.png)
+   ![](../.gitbook/assets/Nginx_07.png)
 
 4. 由于其默认不支持post过滤，所以需要修改Nginx文件。1.8.0 版本以下修改源码目录下ngx\_http\_upstream.c文件（Nginx 1.8.0 及以上版本和**Tengine**跳过该步骤）。在`static void ngx_http_upstream_init_request(ngx_http_request_t \*r);`行上方添加：`int ngx_http_yunsuo_post_in_handler(ngx_http_request_t *r);`和在`ngx_http_upstream_init_request`后，添加：
 
@@ -94,7 +94,7 @@
    }
    ```
 
-   ![](/assets/Nginx_08.png)
+   ![](../.gitbook/assets/Nginx_08.png)
 
 5. 下载云锁防护模块压缩包
 
@@ -103,7 +103,7 @@
    # wget https://codeload.github.com/yunsuo-open/nginx-plugin/zip/master -O nginx-plugin-master.zip
    ```
 
-   ![](/assets/Nginx_09.png)
+   ![](../.gitbook/assets/Nginx_09.png)
 
 6. 解压云锁防护模块压缩包nginx-plugin-master.zip
 
@@ -111,7 +111,7 @@
    # unzip nginx-plugin-master.zip
    ```
 
-   ![](/assets/Nginx_10.png)
+   ![](../.gitbook/assets/Nginx_10.png)
 
 7. 获取当前云锁模块所在目录的全路径
 
@@ -120,7 +120,7 @@
    # pwd
    ```
 
-   ![](/assets/Nginx_11.png)
+   ![](../.gitbook/assets/Nginx_11.png)
 
 8. 查看当前nginx加载的模块，在编译加载云锁防护模块的时候仍需加载这些模块
 
@@ -128,7 +128,7 @@
    # /usr/local/nginx/sbin/nginx –V
    ```
 
-   ![](/assets/Nginx_12.png)
+   ![](../.gitbook/assets/Nginx_12.png)
 
 9. 进入nginx源码目录，对nginx进行编译；编译时在第8步获取的nginx原有模块后添加云锁防护模块，模块路径为第7步获取的云锁防护模块源码全路径“/root/nginx-plugin-master”
 
@@ -137,7 +137,7 @@
    # ./configure --prefix=/usr/local/nginx --with... --add-module=/root/nginx-plugin-master
    ```
 
-   ![](/assets/Nginx_13.png)
+   ![](../.gitbook/assets/Nginx_13.png)
 
 10. Nginx1.8.0 以上和 Tengine 2.2.0 则需要修改objs/Makefile文件和objs/ngx\_modules.c来支持post过滤和内容过滤。
 
@@ -148,7 +148,7 @@
     CFLAGS =  -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g -DHIGHERTHAN8
     ```
 
-    ![](/assets/Nginx_14.png)
+    ![](../.gitbook/assets/Nginx_14.png)
 
     其次，将ngx\_modules.c中的`&ngx_http_yunsuo_module,`向下移动到`ngx_http_userid_filter_module`和`ngx_http_headers_filter_module`之间。\(已在此之间的则可忽略\)
 
@@ -184,7 +184,7 @@
     };
     ```
 
-    ![](/assets/Nginx_15.png)
+    ![](../.gitbook/assets/Nginx_15.png)
 
 11. configure完成后进行make（如原本无nginx，make后还需make install）
 
@@ -192,7 +192,7 @@
     # make
     ```
 
-    ![](/assets/Nginx_16.png)
+    ![](../.gitbook/assets/Nginx_16.png)
 
 12. make完成后将系统中原有的nginx用重新编译生成的nginx文件替换，替换后重启nginx使新编译nginx生效
 
@@ -202,11 +202,11 @@
     # service nginx restart
     ```
 
-    ![](/assets/Nginx_17.png)
+    ![](../.gitbook/assets/Nginx_17.png)
 
 13. 到此通过PC端连接到服务器端，在PC端的界面上可以看到已识别nginx插件。
 
-    ![](/assets/Nginx_18.png)
+    ![](../.gitbook/assets/Nginx_18.png)
 
 ## 卸载
 

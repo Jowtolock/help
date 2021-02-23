@@ -19,7 +19,7 @@
 
 2）修改`%DOMAIN_HOME%\bin\startWebLogic.cmd`， 定位到 `set JAVA_OPTIONS=%SAVE_JAVA_OPTIONS%`， 在其下追加一行：`set JAVA_OPTIONS=-javaagent:%DOMAIN_HOME%\jspAgent\JSPAgent.jar %JAVA_OPTIONS%`
 
-![](/assets/WeblogicW01.png)
+![](../../.gitbook/assets/WeblogicW01.png)
 
 3）重启 WebLogic。
 
@@ -33,15 +33,15 @@
 
 3）“环境”-&gt;“服务器”， 找到要安装的`webserver`（本例为`Server-wssb`）
 
-![](/assets/WeblogicW02.png)
+![](../../.gitbook/assets/WeblogicW02.png)
 
 4）点击进入`Server-wssb`，点选“服务器启动”，在参数框中，填入 `-javaagent:/opt/jspAgent/JSPAgent.jar`, 保存退出
 
-![](/assets/WeblogicW03.png)
+![](../../.gitbook/assets/WeblogicW03.png)
 
 5）重启`webserver:Server-wssb`
 
-![](/assets/WeblogicW04.png)
+![](../../.gitbook/assets/WeblogicW04.png)
 
 ## Linux
 
@@ -53,7 +53,7 @@
     /bin/sh /root/wls12130/user_projects/domains/mydomain/bin/startWebLogic.sh
 ```
 
-![](/assets/WeblogicL01.png)
+![](../../.gitbook/assets/WeblogicL01.png)
 
 由此确定工作目录为：`DOMAIN_HOME =/root/wls12130/user_projects/domains/mydomain`
 
@@ -61,7 +61,7 @@
 
 3）修改`${DOMAIN_HOME}/bin/startWebLogic.sh`中JAVA启动参数，定位到 `JAVA_OPTIONS="${SAVE_JAVA_OPTIONS}`，其下追加一行：`JAVA_OPTIONS="-javaagent:${DOMAIN_HOME}/jspAgent/JSPAgent.jar ${JAVA_OPTIONS}"`
 
-![](/assets/WeblogicL02.png)
+![](../../.gitbook/assets/WeblogicL02.png)
 
 4）重启weblogic。
 
