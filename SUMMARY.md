@@ -1,6 +1,6 @@
-# Table of contents
+## 帮助中心
 
-* [帮助中心简介](README.md)
+* [简介](README.md)
 
 ## 入门指南 <a id="guide"></a>
 
