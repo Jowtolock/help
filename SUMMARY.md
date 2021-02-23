@@ -1,10 +1,6 @@
 # Table of contents
 
-* [简介](README.md)
-
-## 帮助中心 <a id="introduction"></a>
-
-* [简介](introduction/jian-jie.md)
+* [帮助中心简介](README.md)
 
 ## 入门指南 <a id="guide"></a>
 
