@@ -12,13 +12,13 @@
 
 **Windows:**
 
-```text
+```
 Windows Server 2003 SP2（x86/x64）、Windows Server 2008（x86/x64）、Windows Server 2012
 ```
 
 **Linux:**
 
-```text
+```
 RedHat 5.0~RedHat 5.11（x86/x64）、RedHat 6.0~RedHat 6.10（x86/x64）、RedHat 7.0~RedHat 7.8、RedHat 8.0~RedHat 8.3
 CentOS 5.0~CentOS 5.11（x86/x64）、CentOS 6.0~CentOS 6.10（x86/x64）、CentOS 7.0~CentOS 7.8、CentOS 8.0~CentOS 8.3
 Ubuntu（x86/x64）
@@ -29,13 +29,13 @@ Suse 10~Suse 10 sp3（x86/x64）、Suse 11~Suse 11 sp3（x86/x64）、Suse 12
 
 ### 控制端
 
-```text
+```
 Windows XP SP3 及以上
 ```
 
 ## 云锁支持的中间件
 
-```text
+```
 IIS 6/IIS 7/IIS 7.5/IIS 8
 Apache 2.2/Apache 2.4（x86、x64）
 Nginx 1.0.*、Nginx 1.2.*、Nginx 1.4.*、Nginx 1.6.*~Nginx 1.17.*
@@ -45,4 +45,3 @@ Tomcat、Weblogic、WebSphere、TongWeb、Jboss（使用的jdk或jre的版本需
 ### 云锁支持的面板
 
 Wdcp/BT/AMH/Cpanel/zpanel/virualmin/lumanager
-

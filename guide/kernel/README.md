@@ -12,4 +12,3 @@
 * [SUSE 内核版本](suse.md)
 * [Ubuntu 内核版本](ubuntu.md)
 * [其他系统 内核版本](other.md)
-

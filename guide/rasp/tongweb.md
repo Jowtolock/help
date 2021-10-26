@@ -1,6 +1,6 @@
 # TongWeb 安装
 
-> **\[info\] 建议**
+> **\[info] 建议**
 >
 > 安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块；同时将要修改的配置文件进行备份。
 
@@ -15,7 +15,7 @@
 
 1）拷贝`jspAgent`目录到`%TWNS_HOME%`下。
 
-2）登录控制台：`http://IP:9060/twns`， 服务器配置-&gt;启动参数，新增一项：`-javaagent:%TWNS_HOME%\jspAgent\JSPAgent.jar`或绝对路径的写法：`-javaagent:"C:\TongWeb5.0\jspAgent\JSPAgent.jar`
+2）登录控制台：`http://IP:9060/twns`， 服务器配置->启动参数，新增一项：`-javaagent:%TWNS_HOME%\jspAgent\JSPAgent.jar`或绝对路径的写法：`-javaagent:"C:\TongWeb5.0\jspAgent\JSPAgent.jar`
 
 ![](../../.gitbook/assets/TongwebW.png)
 
@@ -27,9 +27,8 @@
 
 1）拷贝`jspAgent`目录到`${TWNS_HOME}`下。
 
-2）登录控制台：`http://IP:9060/twns`， 服务器配置-&gt;启动参数，新增一项: `-javaagent:${TWNS_HOME}/jspAgent/JSPAgent.jar`
+2）登录控制台：`http://IP:9060/twns`， 服务器配置->启动参数，新增一项: `-javaagent:${TWNS_HOME}/jspAgent/JSPAgent.jar`
 
 ![](../../.gitbook/assets/TongwebL.png)
 
 3）重启TongWeb。
-

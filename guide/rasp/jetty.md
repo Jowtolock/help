@@ -1,6 +1,6 @@
 # Jetty 安装
 
-> **\[info\] 建议**
+> **\[info] 建议**
 >
 > 安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块；同时将要修改的配置文件进行备份。
 
@@ -24,4 +24,3 @@
 1）拷贝`jspAgent`目录到`$JETTY_HOME`下。
 
 2）启动命令修改：`java -jar $JETTY_HOME/start.jar`修改为`java -javaagent:$JETTY_HOME/jspAgent/JSPAgent.jar -jar $JETTY_HOME/start.jar`
-

@@ -1,6 +1,6 @@
 # Tomcat/Tomee 安装
 
-> **\[info\] 建议**
+> **\[info] 建议**
 >
 > 安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块；同时将要修改的配置文件进行备份。
 
@@ -22,14 +22,14 @@
 
 2）修改JAVA启动参数：注册表中Options的值
 
-```text
+```
 x86:HKEY_LOCAL_MACHINE\SOFTWARE\Apache Software Foundation\Procrun 2.0\tomcat6\Parameters\Java
 x64:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2.0\tomcat6\Parameters\Java
 ```
 
 修改如下
 
-```text
+```
 -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 6.0
 -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 6.0
 -Djava.endorsed.dirs=C:\Program Files\Apache Software Foundation\Tomcat 6.0\endorsed
@@ -85,4 +85,3 @@ x64:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Apache Software Foundation\Procrun 2
 ![](../../.gitbook/assets/TomcatL02.png)
 
 3）重启tomcat。
-

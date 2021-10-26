@@ -1,6 +1,6 @@
 # Weblogic 安装
 
-> **\[info\] 建议**
+> **\[info] 建议**
 >
 > 安装前重启一次Web的服务，确保业务重启后可以正常运行，然后再安装云锁防护模块；同时将要修改的配置文件进行备份。
 
@@ -31,7 +31,7 @@
 
 2）访问`console`，形如： `http://192.168.8.145:7001/console/console.portal`
 
-3）“环境”-&gt;“服务器”， 找到要安装的`webserver`（本例为`Server-wssb`）
+3）“环境”->“服务器”， 找到要安装的`webserver`（本例为`Server-wssb`）
 
 ![](../../.gitbook/assets/WeblogicW02.png)
 
@@ -47,7 +47,7 @@
 
 1）首先获取startWebLogic.sh位置：
 
-```text
+```
     # ps -elf | grep startWebLogic.sh
     /bin/sh ./root/wls12130/user_projects/domains/mydomain/startWebLogic.sh
     /bin/sh /root/wls12130/user_projects/domains/mydomain/bin/startWebLogic.sh
@@ -64,4 +64,3 @@
 ![](../../.gitbook/assets/WeblogicL02.png)
 
 4）重启weblogic。
-
