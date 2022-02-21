@@ -1,6 +1,6 @@
 # Other
 
-* [elrepo](other.md#undefined)
+* [#elrepo](other.md#elrepo "mention")
 
 支持的其它内核版本，包含一些国产Linux操作系统（如红旗、麒麟）及一些其它操作系统。
 
