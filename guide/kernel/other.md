@@ -2,7 +2,7 @@
 
 * [红旗 Linux](other.md#hong-qi-linux)
 * [麒麟](other.md#qi-lin)
-* [凝思](other.md#undefined)
+* [凝思](other.md#ning-si)
 * [elrepo](other.md#elrepo)
 
 
@@ -44,4 +44,3 @@
 | 4.4.217-1.el7.elrepo.x86\_64 | 4.4.210-1.el7.elrepo.x86\_64 | 4.4.194-1.el7.elrepo.x86\_64  |
 | 4.4.180-2.el7.elrepo.x86\_64 | 4.4.169-1.el7.elrepo.x86\_64 | 3.10.104-1.el6.elrepo.x86\_64 |
 
-##
