@@ -1,8 +1,8 @@
 # Other
 
 * [红旗 Linux](other.md#hong-qi-linux)
-* 麒麟
-* 凝思
+* [麒麟](other.md#qi-lin)
+* [凝思](other.md#undefined)
 * [elrepo](other.md#elrepo)
 
 
