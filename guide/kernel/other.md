@@ -1,13 +1,13 @@
 # Other
 
+支持的其它内核版本，包含一些国产Linux操作系统（如红旗、麒麟）及一些其它操作系统。
+
 * [红旗 Linux](other.md#hong-qi-linux)
 * [麒麟](other.md#qi-lin)
 * [凝思](other.md#ning-si)
 * UOS
 * [elrepo](other.md#elrepo)
 * Oracle Linux
-
-支持的其它内核版本，包含一些国产Linux操作系统（如红旗、麒麟）及一些其它操作系统。
 
 ## 红旗
 
